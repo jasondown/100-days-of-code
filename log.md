@@ -44,7 +44,7 @@
 
 **Details**:
 
- - Looking at the [XML Type Provider](http://fsharp.github.io/FSharp.Data/library/XmlProvider.html) to get compile time safety for XML data (this may be useful for our translations stuff).
+ - Looking at the [XML Type Provider](http://fsharp.github.io/FSharp.Data/library/XmlProvider.html) to get compile time safety for XML data.
  -  I created a sample RSS reader to print N number of recent article summaries.
  - Also played with [partial function application](https://fsharpforfunandprofit.com/posts/partial-application/)... just because.
  - Making the example async would be interesting (might do that tomorrow). Also thinking about looking into actual unit testing (f# interactive is great for proof of concept and prototyping... which is also why I'm using fsharp script files instead of fsharp code files with proper modules/namespaces etc.).
