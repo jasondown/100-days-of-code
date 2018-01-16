@@ -126,4 +126,24 @@
  - [Charting Code](https://github.com/jasondown/FunWithFSharpData/blob/master/FunWithFSharpData/GolfMajors.fsx) 
 
 ----------
+### Day 7: January 8, 2018
+
+**Today's Focus**: I joined the F# open source community tonight via the [FsProjects/Mechanic](https://github.com/fsprojects/Mechanic) project on GitHub. 
+
+This project is aimed at getting some new comers to the F# OSS community with mentoring and guidance from some very talented developers like [Steffen Forkmann](https://github.com/forki) (creator of [Paket](https://fsprojects.github.io/Paket/)) and [Krzysztof Cieślak](https://github.com/Krzysztof-Cieslak) (creator of the [Ionide](http://ionide.io/) plugin for f# cross-platform development in Visual Studio Code).
+
+**Details**: I'll be learning the following tool chain to go along with F#:
+
+ - [Paket](https://fsprojects.github.io/Paket/index.html) - Dependency management.
+ - [Fake](https://fake.build/) (F# Make) - An F# DSL for build tasks and more.
+ - [DotNet CLI](https://github.com/dotnet/cli/) - Command line tools for .Net Core.
+ - [GitVersion](https://github.com/GitTools/GitVersion) - Easy semantic versioning for projects using GitHub.
+ - [FsCheck](https://fscheck.github.io/FsCheck/) - Property based testing (based on Haskell Quickcheck).
+ - [Expecto](https://github.com/haf/expecto) - A testing library for F#.
+
+I spent most of my time on getting the repository forked and built and then exploring the project. I even made my first pull request, which was accepted. **Woo!** It was just fixing a link in the readme, but you gotta start somewhere.
+
+![Giphy - Jedi Training](https://github.com/jasondown/100-days-of-code/blob/master/images/day7.gif)
+
+----------
 
