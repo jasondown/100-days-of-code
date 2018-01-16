@@ -103,4 +103,27 @@
  - [Charting Code](https://github.com/jasondown/FunWithFSharpData/blob/master/FunWithFSharpData/GolfMajors.fsx)
 
 ----------
+### Day 6: January 7, 2018
+
+**Today's Focus**: Continue learning [FSharp.Charting](https://fslab.org/FSharp.Charting/index.html) and refactoring the golf major championship charting code.
+
+**Details**:
+
+ - Discovered the [FSharp.Charting.RangeColumn](https://fslab.org/FSharp.Charting/reference/fsharp-charting-chart.html) (and Range) chart. I had to find it in the main API page since they didn't have a link and example to it like some of the other chart types.
+ - Updated the golf major championship winners script to use the RangeColumn chart, which simplified the code  over the original BoxPlot chart I used yesterday.
+ - Refactored the code to more easily adjust the parameters and charts dynamically. 
+ - Discovered you can use stuff like Label = ["#VALY, #VALY2"](https://msdn.microsoft.com/en-us/library/dd456687.aspx) to label values based on the data for each record. Unfortunately you can't do expressions on them (like "#VALY2" - "#VALY" to get the total years between the end and beginning date).
+
+**Examples**: Here are the updated charts:
+
+![Day 6 Example - Total Wins](https://github.com/jasondown/100-days-of-code/blob/master/images/day6_total_wins.png)
+
+![Day 6 Example - Winning Span](https://github.com/jasondown/100-days-of-code/blob/master/images/day6_winning_span.png)
+
+**Links to work**:
+
+ - [Main repository](https://github.com/jasondown/FunWithFSharpData)
+ - [Charting Code](https://github.com/jasondown/FunWithFSharpData/blob/master/FunWithFSharpData/GolfMajors.fsx) 
+
+----------
 
