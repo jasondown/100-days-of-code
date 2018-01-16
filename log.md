@@ -24,7 +24,7 @@
 
 **Details**:
 
- - Refactored some of the Vikings episode Wikipedia scraper code. I figured out how to pass the [Html Type Provider](http://fsharp.github.io/FSharp.Data/library/HtmlProvider.html) as a parameter in a function so I could make some code reuse. Instead of instantiating one per season directly, I wrapped the type, providing the season 1 table as sample data. Then I used the *Load* function to create each season. Changes can be seen [here](https://github.com/jasondown/FunWithFSharpData/commit/0e79445abaa236e128384db03ff4080d425d7198) (*Note: There was a bug in the refactored code where all episodes were being reported as season 1. This has been fixed*).
+ - Refactored some of the Vikings episode Wikipedia scraper code. I figured out how to pass the [Html Type Provider](http://fsharp.github.io/FSharp.Data/library/HtmlProvider.html) as a parameter in a function so I could make some code reuse. Instead of instantiating one per season directly, I wrapped the type, providing the season 1 table as sample data. Then I used the *Load* function to create each season. Changes can be seen [here](https://github.com/jasondown/FunWithFSharpData/commit/0e79445abaa236e128384db03ff4080d425d7198). *NOTE: There was a bug in the refactored code where all episodes were being reported as season 1. This has been fixed*.
  - Created another example using the [JSON Type Provider](http://fsharp.github.io/FSharp.Data/library/JsonProvider.html) and the free [IEX Trading API](https://iextrading.com/developer/docs/#getting-started) to grab a bunch of *tech giant* stock quote information and display the current trading price. Again, you get Intellisense from the JSON returned from the API.
 
 **Examples**: Here is an animated GIF showing the stock quote code in use with F# Interactive:
@@ -58,6 +58,49 @@
  - [Main repository](https://github.com/jasondown/FunWithFSharpData)
  - [RSS example](https://github.com/jasondown/FunWithFSharpData/blob/master/FunWithFSharpData/RssExample.fsx)
 
+----------
+### Day 4: January 5, 2018
+
+**Today's Focus**: Continue learning [FSharp.Data](http://fsharp.github.io/FSharp.Data/) library. Also look into async programming in F#.
+
+**Details**:
+
+ - Explored the [async workflow](https://docs.microsoft.com/en-us/dotnet/fsharp/language-reference/asynchronous-workflows) in F#.
+ - There are two ways to use Async, via an *asyc { ... }* block or using *Async.Methods*. I opted for the latter this time around.
+ - Updated the [JSON Type Provider](http://fsharp.github.io/FSharp.Data/library/JsonProvider.html) (using the free [IEX Trading API](https://iextrading.com/developer/docs/#getting-started) to grab a bunch of tech giant stock quote information and display the current trading price) to load each stock quote asynchronously and then display them all at the end. I could try displaying them as they come back, but then I couldn't sort them by price descending.
+ - I also discovered the *#time* timer in F# interactive. I used it to compare the sync vs async versions of my code. I looped the stock quotes 10 times (twice for each type) and it was consistently faster with the async version.
+ - Lost internet for about two hours last night :angry:
+
+**Examples**: This animated GIF shows comparing the two approaches:
+
+![Day 4 Example](https://github.com/jasondown/100-days-of-code/blob/master/images/day4_rssexample_async.gif)
+
+**Links to work**:
+
+- [Main repository](https://github.com/jasondown/FunWithFSharpData)
+- [Rss example with sync/async loading](https://github.com/jasondown/FunWithFSharpData/blob/master/FunWithFSharpData/JsonProviderExample_StockQuotes.fsx)
+
+----------
+### Day 5: January 6, 2018
+
+**Today's Focus**: Begin learning [FSharp.Charting](https://fslab.org/FSharp.Charting/index.html) and combine it with [FSharp.Data](http://fsharp.github.io/FSharp.Data/) library. 
+
+**Details**:
+
+ - Used the [HTML Type Provider](http://fsharp.github.io/FSharp.Data/library/HtmlProvider.html) to scrape Wikipedia for [PGA Tour Major winners](https://en.wikipedia.org/wiki/List_of_men%27s_major_championships_winning_golfers#By_golfer)  (Name, total wins and winning span (first to last major win year)).
+ - Used the [FSharp.Charting Bar Chart](https://fslab.org/FSharp.Charting/BarAndColumnCharts.html) to display total major wins (you pass in the minimum wins to be included to keep the number of golfers down so the chart doesn't have way too many people on one axis). *NOTE: The bar chart documentation was a bit messed up, so it took some playing around to figure things out.*
+ - ***Abused*** the [FSharp.Charting.BoxPlot Chart](https://fslab.org/FSharp.Charting/BoxPlotCharts.html) which is normally used for statistics (six statistics with lower whisker, upper whisker, lower box, upper box, average and median). I just like that it looked like a range chart, so manipulated the golfer major winning span years to work with the chart. It worked out pretty well!
+
+**Examples**: Here are the two charts in action:
+
+![Day 5 Example - Total Wins](https://github.com/jasondown/100-days-of-code/blob/master/images/day5_total_wins.png)
+
+![Day 5 Example - Winning Span](https://github.com/jasondown/100-days-of-code/blob/master/images/day5_winning_span.png)
+
+**Links to work**:
+
+ - [Main repository](https://github.com/jasondown/FunWithFSharpData)
+ - [Charting Code](https://github.com/jasondown/FunWithFSharpData/blob/master/FunWithFSharpData/GolfMajors.fsx)
 
 ----------
 
