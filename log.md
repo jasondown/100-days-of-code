@@ -1,7 +1,7 @@
 
 # 100 Days Of Code - Log
-
-### Table of Contents <a name="toc"></a>
+<a name="toc"></a>
+### Table of Contents 
 - [Day 1](#day-1) - **January 2, 2018** 
 	- Focus: FSharp.Data
 - [Day 2](#day-2) - **January 3, 2018**
@@ -18,7 +18,8 @@
 	- Focus: FsProjects/Mechanic open source project (F#)
 
 ----------
-### Day 1: January 2, 2018 <a name="day-1"></a>
+<a name="day-1"></a>
+### Day 1: January 2, 2018 
 
 **Today's Focus**: Begin learning [FSharp.Data](http://fsharp.github.io/FSharp.Data/) library.
 
@@ -37,7 +38,8 @@
 [Table of Contents](#toc)
 
 ----------
-### Day 2: January 3, 2018 <a name="day-2"></a>
+ <a name="day-2"></a>
+### Day 2: January 3, 2018
 
 **Today's Focus**: Continue learning [FSharp.Data](http://fsharp.github.io/FSharp.Data/) library.
 
@@ -60,7 +62,8 @@
 [Table of Contents](#toc)
 
 ----------
-### Day 3: January 4, 2018 <a name="day-3"></a>
+ <a name="day-3"></a>
+### Day 3: January 4, 2018
 
 **Today's Focus**: Continue learning [FSharp.Data](http://fsharp.github.io/FSharp.Data/) library.
 
@@ -83,7 +86,8 @@
 [Table of Contents](#toc)
 
 ----------
-### Day 4: January 5, 2018 <a name="day-4"></a>
+ <a name="day-4"></a>
+### Day 4: January 5, 2018
 
 **Today's Focus**: Continue learning [FSharp.Data](http://fsharp.github.io/FSharp.Data/) library. Also look into async programming in F#.
 
@@ -107,7 +111,8 @@
 [Table of Contents](#toc)
 
 ----------
-### Day 5: January 6, 2018 <a name="day-5"></a>
+<a name="day-5"></a>
+### Day 5: January 6, 2018 
 
 **Today's Focus**: Begin learning [FSharp.Charting](https://fslab.org/FSharp.Charting/index.html) and combine it with [FSharp.Data](http://fsharp.github.io/FSharp.Data/) library. 
 
@@ -131,7 +136,8 @@
 [Table of Contents](#toc)
 
 ----------
-### Day 6: January 7, 2018 <a name="day-6"></a>
+<a name="day-6"></a>
+### Day 6: January 7, 2018 
 
 **Today's Focus**: Continue learning [FSharp.Charting](https://fslab.org/FSharp.Charting/index.html) and refactoring the golf major championship charting code.
 
@@ -156,7 +162,8 @@
 [Table of Contents](#toc)
 
 ----------
-### Day 7: January 8, 2018 <a name="day-7"></a>
+ <a name="day-7"></a>
+### Day 7: January 8, 2018
 
 **Today's Focus**: I joined the F# open source community tonight via the [FsProjects/Mechanic](https://github.com/fsprojects/Mechanic) project on GitHub. 
 
