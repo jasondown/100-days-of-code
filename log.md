@@ -1,7 +1,24 @@
 
 # 100 Days Of Code - Log
 
-### Day 1: January 2, 2018
+### Table of Contents <a name="toc"></a>
+- [Day 1](#day-1) - **January 2, 2018** 
+	- Focus: FSharp.Data
+- [Day 2](#day-2) - **January 3, 2018**
+	- Forcus: FSharp.Data
+- [Day 3](#day-3) - **January 4, 2018**
+	- Focus: FSharp.Data
+- [Day 4](#day-4) - **January 5, 2018**
+	- Focus: FSharp.Data, async
+- [Day 5](#day-5) - **January 6, 2018**
+	- Focus: FSharp.Data, FSharp.Charting
+- [Day 6](#day-6) - **January 7, 2018**
+	- Focus: FSharp.Charting
+- [Day 7](#day-7) - **January 8, 2018**
+	- Focus: FsProjects/Mechanic open source project (F#)
+
+----------
+### Day 1: January 2, 2018 <a name="day-1"></a>
 
 **Today's Focus**: Begin learning [FSharp.Data](http://fsharp.github.io/FSharp.Data/) library.
 
@@ -17,8 +34,10 @@
 
 **Link to work**: [Github](https://github.com/jasondown/FunWithFSharpData/)
 
+[Table of Contents](#toc)
+
 ----------
-### Day 2: January 3, 2018
+### Day 2: January 3, 2018 <a name="day-2"></a>
 
 **Today's Focus**: Continue learning [FSharp.Data](http://fsharp.github.io/FSharp.Data/) library.
 
@@ -37,8 +56,11 @@
  - [Vikings episode scraper](https://github.com/jasondown/FunWithFSharpData/blob/master/FunWithFSharpData/HtmlProviderExample.fsx)
  - [Stock quote lookup](https://github.com/jasondown/FunWithFSharpData/blob/master/FunWithFSharpData/JsonProviderExample_StockQuotes.fsx)
 
+
+[Table of Contents](#toc)
+
 ----------
-### Day 3: January 4, 2018
+### Day 3: January 4, 2018 <a name="day-3"></a>
 
 **Today's Focus**: Continue learning [FSharp.Data](http://fsharp.github.io/FSharp.Data/) library.
 
@@ -58,8 +80,10 @@
  - [Main repository](https://github.com/jasondown/FunWithFSharpData)
  - [RSS example](https://github.com/jasondown/FunWithFSharpData/blob/master/FunWithFSharpData/RssExample.fsx)
 
+[Table of Contents](#toc)
+
 ----------
-### Day 4: January 5, 2018
+### Day 4: January 5, 2018 <a name="day-4"></a>
 
 **Today's Focus**: Continue learning [FSharp.Data](http://fsharp.github.io/FSharp.Data/) library. Also look into async programming in F#.
 
@@ -80,8 +104,10 @@
 - [Main repository](https://github.com/jasondown/FunWithFSharpData)
 - [Rss example with sync/async loading](https://github.com/jasondown/FunWithFSharpData/blob/master/FunWithFSharpData/JsonProviderExample_StockQuotes.fsx)
 
+[Table of Contents](#toc)
+
 ----------
-### Day 5: January 6, 2018
+### Day 5: January 6, 2018 <a name="day-5"></a>
 
 **Today's Focus**: Begin learning [FSharp.Charting](https://fslab.org/FSharp.Charting/index.html) and combine it with [FSharp.Data](http://fsharp.github.io/FSharp.Data/) library. 
 
@@ -102,8 +128,10 @@
  - [Main repository](https://github.com/jasondown/FunWithFSharpData)
  - [Charting Code](https://github.com/jasondown/FunWithFSharpData/blob/master/FunWithFSharpData/GolfMajors.fsx)
 
+[Table of Contents](#toc)
+
 ----------
-### Day 6: January 7, 2018
+### Day 6: January 7, 2018 <a name="day-6"></a>
 
 **Today's Focus**: Continue learning [FSharp.Charting](https://fslab.org/FSharp.Charting/index.html) and refactoring the golf major championship charting code.
 
@@ -125,8 +153,10 @@
  - [Main repository](https://github.com/jasondown/FunWithFSharpData)
  - [Charting Code](https://github.com/jasondown/FunWithFSharpData/blob/master/FunWithFSharpData/GolfMajors.fsx) 
 
+[Table of Contents](#toc)
+
 ----------
-### Day 7: January 8, 2018
+### Day 7: January 8, 2018 <a name="day-7"></a>
 
 **Today's Focus**: I joined the F# open source community tonight via the [FsProjects/Mechanic](https://github.com/fsprojects/Mechanic) project on GitHub. 
 
@@ -144,6 +174,10 @@ This project is aimed at getting some new comers to the F# OSS community with me
 I spent most of my time on getting the repository forked and built and then exploring the project. I even made my first pull request, which was accepted. **Woo!** It was just fixing a link in the readme, but you gotta start somewhere.
 
 ![Giphy - Jedi Training](https://github.com/jasondown/100-days-of-code/blob/master/images/day7.gif)
+
+**Link to work**: [Github](https://github.com/jasondown/Mechanic)
+
+[Table of Contents](#toc)
 
 ----------
 
