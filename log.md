@@ -24,6 +24,8 @@
 	- Focus: FsLab, Google GeoChart, Deedle, FSharp.Data, Xml Type Provider
 - [Day 11](#day-11) - **January 12, 2018**
 	- Focus: F# Web Programming, Suave Framework
+- [Day 12](#day-12) - **January 13, 2018*
+	- Focus: F# Web Programming, Suave Framework
 
 ----------
 <a name="day-1"></a>
@@ -312,3 +314,37 @@ I've been following along with [this tutorial](http://blog.tamizhvendan.in/blog/
 [Table of Contents](#toc)
 
 ----------
+<a name="day-12"></a>
+### Day 12: January 13, 2018
+
+**Today's Focus**:  Continued web programming in F# via the [Suave](https://suave.io/) framework.
+
+ **Details**:
+ 
+ - Moved forward with the [tutorial](http://blog.tamizhvendan.in/blog/2015/06/11/building-rest-api-in-fsharp-using-suave/) from yesterday. Today it clicked completely after seeing more of the code, which just made it that much cooler to me.
+ - Added the HTTP PUT (with some error handling for missing resources) and HTTP DELETE implementations (again, both implemenations are for people in a "database" (read: in memory Dictionary)).
+
+**Examples**: Postman screenshots below.
+
+HTTP GET - Just to show the dataset that was created via HTTP POST:
+
+![Day 12 Example - HTTP GET](https://github.com/jasondown/100-days-of-code/blob/master/images/day12_getsuave.png)
+
+HTTP PUT - To change Yoda's name:
+
+![Day 12 Example - HTTP PUT](https://github.com/jasondown/100-days-of-code/blob/master/images/day12_putsuave.png)
+
+HTTP PUT - Error handling for missing resources. *This is not the captain you're looking for*:
+
+![Day 12 Example - HTTP PUT With Error Handling](https://github.com/jasondown/100-days-of-code/blob/master/images/day12_put_no_resource_suave.png)
+
+HTTP DELETE - Not much to see here, other than the 204 status (people/3 was Darth Vader, who was [erased from existence](https://youtu.be/WAQbRFZU7rE?t=12s)):
+
+![Day 12 Example - HTTP DELETE](https://github.com/jasondown/100-days-of-code/blob/master/images/day12_delete_suave.png)
+
+**Link to work**: [GitHub](https://github.com/jasondown/FunWithSuave)
+
+[Table of Contents](#toc)
+
+----------
+
