@@ -415,7 +415,7 @@ Also, after 2 weeks, here is how my github contributions are looking. Unfortunat
 
 **Details**:
 
- - Decided to do three Classic Puzzle - Easy solutions in Scala. It was similar enough to F# for me to get the gist of it, but different enough that I had to do some research.
+ - Decided to do three *Classic Puzzle - Easy* solutions in Scala. It was similar enough to F# for me to get the gist of it, but different enough that I had to do some research.
  - I don't know much about the JVM (haven't programmed in Java in over 15 years!), but Scala seems pretty cool.
  - I may need to explore Clojure a little more now too (I hear there is a Clojure for the .Net CLR too). I do like me some LISP.
 
