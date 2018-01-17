@@ -242,6 +242,7 @@ The idea was to:
 Unfortunately, if a city didn't come back with a temperature, the temperature was not set and that country is greyed out. Oh well.
 
 **Examples**:
+
 ![Day 9 Example - GeoChart](https://github.com/jasondown/100-days-of-code/blob/master/images/day9_geochart.gif)
 
 
