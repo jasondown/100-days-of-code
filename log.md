@@ -16,6 +16,8 @@
 	- Focus: FSharp.Charting
 - [Day 7](#day-7) - **January 8, 2018**
 	- Focus: FsProjects/Mechanic open source project (F#)
+- [Day 8](#day-8) - **January 9, 2018**
+	- Focus: Fsharp.Data, FSharp.Charting
 
 ----------
 <a name="day-1"></a>
@@ -187,4 +189,28 @@ I spent most of my time on getting the repository forked and built and then expl
 [Table of Contents](#toc)
 
 ----------
+ <a name="day-8"></a>
+### Day 8: January 9, 2018
 
+**Today's Focus**: Returned to learning [FSharp.Charting](https://fslab.org/FSharp.Charting/index.html) and [FSharp.Data](http://fsharp.github.io/FSharp.Data/) libraries.
+
+ **Details**:
+ 
+ - Explored the [World Bank Type provider](http://fsharp.github.io/FSharp.Data/library/WorldBank.html):
+	 >The World Bank is an international organization that provides financial and technical assistance to developing countries around the world. As one of the activities, the World Bank also collects development indicators and other data about countries in the world. The data catalog contains over 8,000 indicators that can be programmatically accessed.
+ - *NOTE: There are a lot of indicators, so the Intellisense can take a couple seconds to pop up initially.*
+ - Used the async version of the type provider to load multiple indicators for multiple countries at once.
+ - Used FSharp.Charting again to draw some interesting charts for displaying the data.
+ - Used the new .Net underscore separator so large integer constants are easier to read:
+	 -  *50_000_000 vs 50000000 is much easier to tell you are talking about 50 million.*
+
+**Examples**: The final result of playing around was to load the total population, female population and male population of Canada, the US and the UK and display them in comparison charts. Not too shabby for relatively little code.
+
+![Day 8 - Population Charts](https://github.com/jasondown/100-days-of-code/blob/master/images/day8_populations.png)
+
+**Link to work**: 
+
+ - [Main repository](https://github.com/jasondown/FunWithFSharpData)
+ - [World Bank Type Provider and Charting Code](https://github.com/jasondown/FunWithFSharpData/blob/master/FunWithFSharpData/WorldBankProvider.fsx)
+
+[Table of Contents](#toc)
