@@ -29,7 +29,9 @@
 - [Day 13](#day-13) - **January 14, 2018**
 	- Focus: F# Web Programming, Suave Framework, Star Wars API (SWAPI), F# Swapi, FSharp.Data, JSON Type Provider
 - [Day 14](#day-14) - **January 15, 2018**
-	- Focus: Codingame challenges, Classic Puzzles - Easy, Code Golf, Optimization
+	- Focus: Codingame challenges, Classic Puzzles - Easy, Code Golf, Optimization, F#, C#
+- [Day 15](#day-15) - **January 16, 2018**
+	- Focus: Codingame challenges, Classic Puzzles - Easy, Scala, GitHub Markdown (this log)
 
 ----------
 <a name="day-1"></a>
@@ -406,3 +408,24 @@ Also, after 2 weeks, here is how my github contributions are looking. Unfortunat
 [Table of Contents](#toc)
 
 ----------
+<a name="day-15"></a>
+### Day 15: January 16, 2018
+
+**Today's Focus**: Continued with some [Codingame](https://codingame.com/) puzzles.
+
+**Details**:
+
+ - Decided to do three Classic Puzzle - Easy solutions in Scala. It was similar enough to F# for me to get the gist of it, but different enough that I had to do some research.
+ - I don't know much about the JVM (haven't programmed in Java in over 15 years!), but Scala seems pretty cool.
+ - I may need to explore Clojure a little more now too (I hear there is a Clojure for the .Net CLR too). I do like me some LISP.
+
+As an added bonus the past couple of days, I have been creating this log on GitHub. I'm finally caught up today (my logs were being created on an internal platform where I work before I discovered this repository and forked it).
+
+Also, I was listening to this cool [Scandroid](https://scandroid.bandcamp.com/album/scandroid) (Cyberpunk genre) album tonight while working. I recommend it!
+
+**Link to work**: [GitHub](https://github.com/jasondown/codingame)
+
+[Table of Contents](#toc)
+
+----------
+
