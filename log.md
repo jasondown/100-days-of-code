@@ -17,7 +17,9 @@
 - [Day 7](#day-7) - **January 8, 2018**
 	- Focus: FsProjects/Mechanic open source project (F#)
 - [Day 8](#day-8) - **January 9, 2018**
-	- Focus: Fsharp.Data, FSharp.Charting
+	- Focus: FSharp.Data, FSharp.Charting
+- [Day 9](#day-9) - **January 10, 2018**
+	- Focus: FsLab, OpenWeatherMap API, Google GeoChart, FSharp.Data
 
 ----------
 <a name="day-1"></a>
@@ -208,9 +210,46 @@ I spent most of my time on getting the repository forked and built and then expl
 
 ![Day 8 - Population Charts](https://github.com/jasondown/100-days-of-code/blob/master/images/day8_populations.png)
 
-**Link to work**: 
+**Links to work**: 
 
  - [Main repository](https://github.com/jasondown/FunWithFSharpData)
  - [World Bank Type Provider and Charting Code](https://github.com/jasondown/FunWithFSharpData/blob/master/FunWithFSharpData/WorldBankProvider.fsx)
 
 [Table of Contents](#toc)
+
+----------
+ <a name="day-9"></a>
+### Day 9: January 10, 2018
+
+**Today's Focus**: [Analyzing and Visualizing Data With F#](https://www.oreilly.com/ideas/analyzing-and-visualizing-data-with-f-sharp) (book by Tomas Petricek). The first chapter was a nice mix of stuff I've already been playing with and new stuff.
+
+ **Details**: The following technologies were used:
+
+ - [OpenWeatherMap API](https://www.oreilly.com/ideas/analyzing-and-visualizing-data-with-f-sharp) (I already had an api key when I was reading [Elixir and OTP](https://www.manning.com/books/the-little-elixir-and-otp-guidebook) a while ago. Who knew!?!)
+ - [FsLab](https://fslab.org/)
+ - [World Bank Type Provider](http://fsharp.github.io/FSharp.Data/library/WorldBank.html)
+ - [Google GeoChart](https://developers.google.com/chart/interactive/docs/gallery/geochart)
+
+The idea was to:
+
+ - Use the World Bank type provider to get a list of capital cities in the world.
+ - Take that list and feed it into a chain of calls to the OpenWeatherMap API to get the high temperature for tomorrow's forecast (in degrees Celsius).
+ - I had to work some F# magic to handle capital cities that weren't listed in the OpenWeatherMap API for some reason (e.g. Washington D.C. ... strange).
+ - Feed the list of cities into the Google GeoChart and configure it for some pretty colours to show the temperature.
+
+*Caveat: The temperature for an entire country is based on the temperature in the capital city. Obviously, that is not very accurate. At this time of night, what are you gonna do?* 
+
+Unfortunately, if a city didn't come back with a temperature, the temperature was not set and that country is greyed out. Oh well.
+
+**Examples**:
+![Day 9 Example - GeoChart](https://github.com/jasondown/100-days-of-code/blob/master/images/day9_geochart.gif)
+
+
+**Links to work**: 
+
+ - [Main repository](https://github.com/jasondown/FunWithFSLab)
+ - [OpenWeatherMap API and GeoChart Code](https://github.com/jasondown/FunWithFSLab/blob/master/OpenWeather.fsx)
+
+[Table of Contents](#toc)
+
+----------
