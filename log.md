@@ -22,6 +22,8 @@
 	- Focus: FsLab, OpenWeatherMap API, Google GeoChart, FSharp.Data, World Bank Type Provider
 - [Day 10](#day-10) - **January 11, 2018**
 	- Focus: FsLab, Google GeoChart, Deedle, FSharp.Data, Xml Type Provider
+- [Day 11](#day-11) - **January 12, 2018**
+	- Focus: F# Web Programming, Suave Framework
 
 ----------
 <a name="day-1"></a>
@@ -279,6 +281,33 @@ I stopped about 3/4 of the way through chapter 2 before getting into the R Type 
 
  - [Main repository](https://github.com/jasondown/FunWithFSLab)
  - [Deedle Code](https://github.com/jasondown/FunWithFSLab/blob/master/DeedleExample.fsx)
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-11"></a>
+### Day 11: January 12, 2018
+
+**Today's Focus**:  Web programming in F# using the [Suave](https://suave.io/) framework.
+
+ **Details**:
+
+ - Exploring [Sauve](https://suave.io)
+	 >Suave is a simple web development F# library providing a lightweight web server and a set of combinators to manipulate route flow and task composition.
+ - Started with GET and POST implementations for people (I guess similar to a controller, but less bloat).
+ - I'll admit, at first the syntax was weird, even for F#. Then I realized that they just built a little DSL to easily compose things together (combinators) via a **>=>** operator. It looks even crazier with my FiraCode font and ligatures:
+
+![Day 11 - Ligatures](https://github.com/jasondown/100-days-of-code/blob/master/images/day11_ligatures.jpg)
+
+I've been following along with [this tutorial](http://blog.tamizhvendan.in/blog/2015/06/11/building-rest-api-in-fsharp-using-suave/) (some slight mods have to be made because the library has been changed slightly since the tutorial was written).
+
+**Examples**: Here are some Postman screenshots of the POST and GET requests:
+
+![Day 11 Example - POST](https://github.com/jasondown/100-days-of-code/blob/master/images/day11_postsuave.png)
+
+![Day 11 Example - GET](https://github.com/jasondown/100-days-of-code/blob/master/images/day11_getsuave.png)
+
+**Link to work**: [GitHub](https://github.com/jasondown/FunWithSuave)
 
 [Table of Contents](#toc)
 
