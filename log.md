@@ -28,6 +28,8 @@
 	- Focus: F# Web Programming, Suave Framework
 - [Day 13](#day-13) - **January 14, 2018**
 	- Focus: F# Web Programming, Suave Framework, Star Wars API (SWAPI), F# Swapi, FSharp.Data, JSON Type Provider
+- [Day 14](#day-14) - **January 15, 2018**
+	- Focus: Codingame challenges, Classic Puzzles - Easy, Code Golf, Optimization
 
 ----------
 <a name="day-1"></a>
@@ -369,6 +371,37 @@ HTTP DELETE - Not much to see here, other than the 204 status (people/3 was Dart
 ![Day 13 Example - Star Wars API and Suave](https://github.com/jasondown/100-days-of-code/blob/master/images/day13_sauve_star_wars.gif)
 
 **Link to work**: [GitHub](https://github.com/jasondown/FunWithSuave)
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-14"></a>
+### Day 14: January 15, 2018
+
+**Today's Focus**: Tonight I decided to do some [Codingame](https://codingame.com/) puzzles.
+
+**Details**:
+
+ - I created a new repository to hold my solutions (for anything except for contests, since they don't like you to do that).
+ - I tossed up all my *Classic Puzzle - Easy* solutions for C# and F#. A couple things I noticed:
+	 - I realized I hadn't solved all of them in both languages. I'll be doing that soon.
+	 - My C# code from some of the older solutions I did a couple of years ago look a little different from how I'd do them today.
+ - I also tossed up one of my *code golf* solutions (F#... which will beat C# for size, but no chance against the python solutions).
+ - Finally, I started looking into one of the *optimization* challenges (Code vs Zombies). That's just a shell right now with the default code for the F# solution.
+
+Plans for the rest of the week:
+ - Finish the four *Classic Puzzle - Easy* challenges I missed (2 for F# and 2 for C#... not the same ones mind you).
+ - Get some more *code golf* challenges up (probably just F#).
+ - Finish my Code vs Zombies solution.
+ - Time permitting, I'll do some more optimization puzzles.
+ - If I'm feeling really ambitious, I'll start going at the *Classic Puzzle - Medium* challenges (I have a couple done already in both C# and F#).
+ - In the distant future (before my 100 days are up), I'll do some of the puzzles in another language or two (leaning towards Scala first).
+
+Also, after 2 weeks, here is how my github contributions are looking. Unfortunately, on the first day and the fourth day I made all my commits just after midnight, so they look like they were part of day 2 and day 5. Mind the gap!
+
+![Day 14 - Progress on contributions](https://github.com/jasondown/100-days-of-code/blob/master/images/day14.jpeg)
+
+**Link to work**: [GitHub](https://github.com/jasondown/codingame)
 
 [Table of Contents](#toc)
 
