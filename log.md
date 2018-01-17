@@ -3,23 +3,25 @@
 <a name="toc"></a>
 ### Table of Contents 
 - [Day 1](#day-1) - **January 2, 2018** 
-	- Focus: FSharp.Data
+	- Focus: FSharp.Data, Html Type Provider
 - [Day 2](#day-2) - **January 3, 2018**
-	- Forcus: FSharp.Data
+	- Forcus: FSharp.Data, Html Type Provider, JSON Type Provider, IEX Trading API
 - [Day 3](#day-3) - **January 4, 2018**
-	- Focus: FSharp.Data
+	- Focus: FSharp.Data, XML Type Provider, RSS Feeds, Partial Function Application
 - [Day 4](#day-4) - **January 5, 2018**
-	- Focus: FSharp.Data, async
+	- Focus: FSharp.Data, async, JSON Type Provider, IEX Trading API
 - [Day 5](#day-5) - **January 6, 2018**
-	- Focus: FSharp.Data, FSharp.Charting
+	- Focus: FSharp.Data, HTML Type Provider, FSharp.Charting, Bar Chart, BoxPlot Chart
 - [Day 6](#day-6) - **January 7, 2018**
-	- Focus: FSharp.Charting
+	- Focus: FSharp.Charting, RangeColumn Chart, Column Chart
 - [Day 7](#day-7) - **January 8, 2018**
 	- Focus: FsProjects/Mechanic open source project (F#)
 - [Day 8](#day-8) - **January 9, 2018**
-	- Focus: FSharp.Data, FSharp.Charting
+	- Focus: FSharp.Data, World Bank Type Provider, FSharp.Charting
 - [Day 9](#day-9) - **January 10, 2018**
-	- Focus: FsLab, OpenWeatherMap API, Google GeoChart, FSharp.Data
+	- Focus: FsLab, OpenWeatherMap API, Google GeoChart, FSharp.Data, World Bank Type Provider
+- [Day 10](#day-10) - **January 11, 2018**
+	- Focus: FsLab, Google GeoChart, Deedle, FSharp.Data, Xml Type Provider
 
 ----------
 <a name="day-1"></a>
@@ -245,11 +247,38 @@ Unfortunately, if a city didn't come back with a temperature, the temperature wa
 
 ![Day 9 Example - GeoChart](https://github.com/jasondown/100-days-of-code/blob/master/images/day9_geochart.gif)
 
-
 **Links to work**: 
 
  - [Main repository](https://github.com/jasondown/FunWithFSLab)
  - [OpenWeatherMap API and GeoChart Code](https://github.com/jasondown/FunWithFSLab/blob/master/OpenWeather.fsx)
+
+[Table of Contents](#toc)
+
+----------
+ <a name="day-10"></a>
+### Day 10: January 11, 2018
+
+**Today's Focus**:  Continued with the book [Analyzing and Visualizing Data With F#](https://www.oreilly.com/ideas/analyzing-and-visualizing-data-with-f-sharp) by Tomas Petricek. The second chapter introduced some new stuff from [FsLab](https://fslab.org/).
+
+ **Details**:
+
+ - Began looking at the [Deedle](http://bluemountaincapital.github.io/Deedle/) exploratory library.
+	 >Deedle is an easy to use library for data and time series manipulation and for scientific programming. It supports working with structured data frames, ordered and unordered data, as well as time series. Deedle is designed to work well for exploratory programming using F# and C# interactive console, but can be also used in efficient compiled .NET code.
+ - I combined Deedle with the World Bank API again (this time accessed through the [XML Type Provider](http://fsharp.github.io/FSharp.Data/library/XmlProvider.html) rather than the [World Bank Type Provider](http://fsharp.github.io/FSharp.Data/library/WorldBank.html)).
+ - Looked up various indicators for all countries, for specific years or date ranges.
+ - Showed data in a [Google GeoChart](https://developers.google.com/chart/interactive/docs/gallery/geochart).
+ - Showed data in a Deedle Frame (think table displayed in F# Interactive).
+
+I stopped about 3/4 of the way through chapter 2 before getting into the R Type Provider (requires installing R, but gives you access to R charts/plots, statistics etc. directly in F#).
+
+**Examples**: Nothing too fancy to show tonight in a gif (couple more geo charts, which I won't show). This is an example of a section of a Deedle Frame showing a bunch of indicators from the World Bank for 2012 (lots of values start to be missing as you get more recent for some of these things). With R and the R Type provider, I could plot some cool diagrams and find possible correlations between indicators. One day...
+
+![Day 10 Example - Deedle Frame](https://github.com/jasondown/100-days-of-code/blob/master/images/day10_deedleframe.gif)
+
+**Links to work**: 
+
+ - [Main repository](https://github.com/jasondown/FunWithFSLab)
+ - [Deedle Code](https://github.com/jasondown/FunWithFSLab/blob/master/DeedleExample.fsx)
 
 [Table of Contents](#toc)
 
