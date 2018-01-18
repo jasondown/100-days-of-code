@@ -3,35 +3,37 @@
 <a name="toc"></a>
 ### Table of Contents 
 - [Day 1](#day-1) - **January 2, 2018** 
-	- Focus: FSharp.Data, Html Type Provider
+	- FSharp.Data, Html Type Provider
 - [Day 2](#day-2) - **January 3, 2018**
-	- Forcus: FSharp.Data, Html Type Provider, JSON Type Provider, IEX Trading API
+	- FSharp.Data, Html Type Provider, JSON Type Provider, IEX Trading API
 - [Day 3](#day-3) - **January 4, 2018**
-	- Focus: FSharp.Data, XML Type Provider, RSS Feeds, Partial Function Application
+	- FSharp.Data, XML Type Provider, RSS Feeds, Partial Function Application
 - [Day 4](#day-4) - **January 5, 2018**
-	- Focus: FSharp.Data, async, JSON Type Provider, IEX Trading API
+	- FSharp.Data, async, JSON Type Provider, IEX Trading API
 - [Day 5](#day-5) - **January 6, 2018**
-	- Focus: FSharp.Data, HTML Type Provider, FSharp.Charting, Bar Chart, BoxPlot Chart
+	- FSharp.Data, HTML Type Provider, FSharp.Charting, Bar Chart, BoxPlot Chart
 - [Day 6](#day-6) - **January 7, 2018**
-	- Focus: FSharp.Charting, RangeColumn Chart, Column Chart
+	- FSharp.Charting, RangeColumn Chart, Column Chart
 - [Day 7](#day-7) - **January 8, 2018**
-	- Focus: FsProjects/Mechanic open source project (F#)
+	- FsProjects/Mechanic open source project (F#)
 - [Day 8](#day-8) - **January 9, 2018**
-	- Focus: FSharp.Data, World Bank Type Provider, FSharp.Charting
+	- FSharp.Data, World Bank Type Provider, FSharp.Charting
 - [Day 9](#day-9) - **January 10, 2018**
-	- Focus: FsLab, OpenWeatherMap API, Google GeoChart, FSharp.Data, World Bank Type Provider
+	- FsLab, OpenWeatherMap API, Google GeoChart, FSharp.Data, World Bank Type Provider
 - [Day 10](#day-10) - **January 11, 2018**
-	- Focus: FsLab, Google GeoChart, Deedle, FSharp.Data, Xml Type Provider
+	- FsLab, Google GeoChart, Deedle, FSharp.Data, Xml Type Provider
 - [Day 11](#day-11) - **January 12, 2018**
-	- Focus: F# Web Programming, Suave Framework
+	- F# Web Programming, Suave Framework
 - [Day 12](#day-12) - **January 13, 2018**
-	- Focus: F# Web Programming, Suave Framework
+	- F# Web Programming, Suave Framework
 - [Day 13](#day-13) - **January 14, 2018**
-	- Focus: F# Web Programming, Suave Framework, Star Wars API (SWAPI), F# Swapi, FSharp.Data, JSON Type Provider
+	- F# Web Programming, Suave Framework, Star Wars API (SWAPI), F# Swapi, FSharp.Data, JSON Type Provider
 - [Day 14](#day-14) - **January 15, 2018**
-	- Focus: Codingame challenges, Classic Puzzles - Easy, Code Golf, Optimization, F#, C#
+	- Codingame challenges, Classic Puzzles - Easy, Code Golf, Optimization, F#, C#
 - [Day 15](#day-15) - **January 16, 2018**
-	- Focus: Codingame challenges, Classic Puzzles - Easy, Scala, GitHub Markdown (this log)
+	- Codingame challenges, Classic Puzzles - Easy, Scala, GitHub Markdown (this log)
+- [Day 16](#day-16) - **January 17, 2018**
+	- Codingame challenges, Classic Puzzles - Medium, F#
 
 ----------
 <a name="day-1"></a>
@@ -428,4 +430,19 @@ Also, I was listening to this cool [Scandroid](https://scandroid.bandcamp.com/al
 [Table of Contents](#toc)
 
 ----------
+<a name="day-16"></a>
+### Day 16: January 17, 2018
 
+**Today's Focus**: Continued with some [Codingame](https://codingame.com/) puzzles.
+
+**Details**:
+
+- Added two *Classic Puzzle - Medium* solutions in F#: War (the card game) and Don't Panic ([HHGTTG](https://en.wikipedia.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy) reference)
+- The solutions are very domain logic centric (overkill for these solutions, but something that's more enterprisey like).
+- I attempted a third puzzle (trying to be overly clever). Failed miserably. I'll make another attempt at it tomorrow, likely without trying to be *clever*.
+
+**Link to work**: [GitHub](https://github.com/jasondown/codingame)
+
+[Table of Contents](#toc)
+
+----------
