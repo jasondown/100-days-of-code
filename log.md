@@ -459,7 +459,7 @@ Also, I was listening to this cool [Scandroid](https://scandroid.bandcamp.com/al
 - Updates were made by Frandi Dwi to drop support for the old version of Tidy and support version 5.0. [here](https://github.com/frandi/TidyHtml5Managed). Support for versions of .Net from 2.0 through 4.5 were also added.
 - More updates were made by gabrieleteotino to support 32 bit and 64 bit versions [here](https://github.com/gabrieleteotino/TidyHtml5Managed). The supported version of Tidy was also updated to 5.2.
 - Original Tidy library (C version) was found [here](http://tidy.sourceforge.net/).
-- New versions of Tidy (C version) are now maintained [here (and source code is here).- New versions of Tidy (C version) are now maintained [here]() (and source code is [here](https://github.com/htacg/tidy-html5)).
+- New versions of Tidy (C version) are now maintained [here](http://www.html-tidy.org/) (and source code is [here](https://github.com/htacg/tidy-html5)).
 - I've forked the managed repository (seems to no longer be maintained) and fixed some links. I plan to update to the latest version of Tidy (5.6 at the moment) and add the necessary PInoke calls for any new features.
 - I also plan to create an updated NuGet package and ensure that the XML documentation is included (currently this is not the case in [this](https://www.nuget.org/packages/TidyHtml5ManagedRepack/) package or [this](https://www.nuget.org/packages/TidyHtml5Managed/) package).
 
