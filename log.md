@@ -34,6 +34,8 @@
 	- Codingame challenges, Classic Puzzles - Easy, Scala, GitHub Markdown (this log)
 - [Day 16](#day-16) - **January 17, 2018**
 	- Codingame challenges, Classic Puzzles - Medium, F#
+- [Day 17](#day-17) - **January 18, 2018**
+	- Tidy, Tidy-Html5, TidyHtml5Managed, C#, C
 
 ----------
 <a name="day-1"></a>
@@ -445,4 +447,23 @@ Also, I was listening to this cool [Scandroid](https://scandroid.bandcamp.com/al
 
 [Table of Contents](#toc)
 
+----------
+<a name="day-17"></a>
+### Day 17: January 18, 2018
+
+**Today's Focus**: 100 Days of code is now merging with some work related interests. I've decided to update the TidyHtml5Managed wrapper library around Tidy (or HTML Tidy... or HTML Tidy 5) to the newest version and update the nuget package. I'd also like to make sure the XML documentation is part of the NuGet package.
+
+**Details**
+
+- Original managed library was created by Mark Beaton [here](https://github.com/markbeaton/TidyManaged).
+- Updates were made by Frandi Dwi to drop support for the old version of Tidy and support version 5.0. here(https://github.com/frandi/TidyHtml5Managed). Support for versions of .Net from 2.0 through 4.5 were also added.
+- More updates were made by gabrieleteotino to support 32 bit and 64 bit versions [here](https://github.com/gabrieleteotino/TidyHtml5Managed). The supported version of Tidy was also updated to 5.2.
+- Original Tidy library (C version) was found [here](http://tidy.sourceforge.net/).
+- New versions of Tidy (C version) are now maintained [here (and source code is here).- New versions of Tidy (C version) are now maintained [here]() (and source code is [here](https://github.com/htacg/tidy-html5)).
+- I've forked the managed repository (seems to no longer be maintained) and fixed some links. I plan to update to the latest version of Tidy (5.6 at the moment) and add the necessary PInoke calls for any new features.
+- I also plan to create an updated NuGet package and ensure that the XML documentation is included (currently this is not the case in [this](https://www.nuget.org/packages/TidyHtml5ManagedRepack/) package or [this](https://www.nuget.org/packages/TidyHtml5Managed/) package).
+
+**Link to work**: [GitHub](https://github.com/jasondown/TidyHtml5Managed)
+
+[Table of Contents](#toc)
 ----------
