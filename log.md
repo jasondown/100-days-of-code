@@ -36,6 +36,8 @@
 	- Codingame challenges, Classic Puzzles - Medium, F#
 - [Day 17](#day-17) - **January 18, 2018**
 	- Tidy, Tidy-Html5, TidyHtml5Managed, C#, C
+- [Day 18](#day-18) - **January 19, 2018**
+	- Codingame challenges, Classic Puzzles - Easy, Classic Puzzles - Medium, F#, C#
 
 ----------
 <a name="day-1"></a>
@@ -464,6 +466,21 @@ Also, I was listening to this cool [Scandroid](https://scandroid.bandcamp.com/al
 - I also plan to create an updated NuGet package and ensure that the XML documentation is included (currently this is not the case in [this](https://www.nuget.org/packages/TidyHtml5ManagedRepack/) package or [this](https://www.nuget.org/packages/TidyHtml5Managed/) package).
 
 **Link to work**: [GitHub](https://github.com/jasondown/TidyHtml5Managed)
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-18"></a>
+### Day 18: January 19, 2018
+
+**Today's Focus**: Continued with some [Codingame](https://codingame.com/) puzzles.
+
+**Details**:
+
+- Added a *Classic Puzzle - Medium* solution in F#: Stock Exchange Losses.
+- Added a *Classic Puzzle - Easy* solution in C#: The Descent.
+
+**Link to work**: [GitHub](https://github.com/jasondown/codingame)
 
 [Table of Contents](#toc)
 
