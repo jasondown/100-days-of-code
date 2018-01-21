@@ -496,10 +496,12 @@ Also, I was listening to this cool [Scandroid](https://scandroid.bandcamp.com/al
 **Details**:
 
  - Used the [JSON Type Provider](http://fsharp.github.io/FSharp.Data/library/JsonProvider.html) to get a list of Google APIs.
- - Converted the JSON responses to summary objects with title, description and documenation links.
+ - Converted the JSON responses to summary objects with title, version, description and documenation links.
  - Converted the summaries into an HTML file with a table (rather ugly, but I was not going for a nice design).
 
 **Examples**: This is a screen shot of my fugly html file:
+
+![Day 19 Example - Google API List]https://github.com/jasondown/100-days-of-code/blob/master/images/day19_Google_api_list.png
 
 **Links to work**: 
 
