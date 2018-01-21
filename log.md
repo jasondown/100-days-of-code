@@ -3,35 +3,43 @@
 <a name="toc"></a>
 ### Table of Contents 
 - [Day 1](#day-1) - **January 2, 2018** 
-	- Focus: FSharp.Data, Html Type Provider
+	- FSharp.Data, Html Type Provider
 - [Day 2](#day-2) - **January 3, 2018**
-	- Forcus: FSharp.Data, Html Type Provider, JSON Type Provider, IEX Trading API
+	- FSharp.Data, Html Type Provider, JSON Type Provider, IEX Trading API
 - [Day 3](#day-3) - **January 4, 2018**
-	- Focus: FSharp.Data, XML Type Provider, RSS Feeds, Partial Function Application
+	- FSharp.Data, XML Type Provider, RSS Feeds, Partial Function Application
 - [Day 4](#day-4) - **January 5, 2018**
-	- Focus: FSharp.Data, async, JSON Type Provider, IEX Trading API
+	- FSharp.Data, async, JSON Type Provider, IEX Trading API
 - [Day 5](#day-5) - **January 6, 2018**
-	- Focus: FSharp.Data, HTML Type Provider, FSharp.Charting, Bar Chart, BoxPlot Chart
+	- FSharp.Data, HTML Type Provider, FSharp.Charting, Bar Chart, BoxPlot Chart
 - [Day 6](#day-6) - **January 7, 2018**
-	- Focus: FSharp.Charting, RangeColumn Chart, Column Chart
+	- FSharp.Charting, RangeColumn Chart, Column Chart
 - [Day 7](#day-7) - **January 8, 2018**
-	- Focus: FsProjects/Mechanic open source project (F#)
+	- FsProjects/Mechanic open source project (F#)
 - [Day 8](#day-8) - **January 9, 2018**
-	- Focus: FSharp.Data, World Bank Type Provider, FSharp.Charting
+	- FSharp.Data, World Bank Type Provider, FSharp.Charting
 - [Day 9](#day-9) - **January 10, 2018**
-	- Focus: FsLab, OpenWeatherMap API, Google GeoChart, FSharp.Data, World Bank Type Provider
+	- FsLab, OpenWeatherMap API, Google GeoChart, FSharp.Data, World Bank Type Provider
 - [Day 10](#day-10) - **January 11, 2018**
-	- Focus: FsLab, Google GeoChart, Deedle, FSharp.Data, Xml Type Provider
+	- FsLab, Google GeoChart, Deedle, FSharp.Data, Xml Type Provider
 - [Day 11](#day-11) - **January 12, 2018**
-	- Focus: F# Web Programming, Suave Framework
+	- F# Web Programming, Suave Framework
 - [Day 12](#day-12) - **January 13, 2018**
-	- Focus: F# Web Programming, Suave Framework
+	- F# Web Programming, Suave Framework
 - [Day 13](#day-13) - **January 14, 2018**
-	- Focus: F# Web Programming, Suave Framework, Star Wars API (SWAPI), F# Swapi, FSharp.Data, JSON Type Provider
+	- F# Web Programming, Suave Framework, Star Wars API (SWAPI), F# Swapi, FSharp.Data, JSON Type Provider
 - [Day 14](#day-14) - **January 15, 2018**
-	- Focus: Codingame challenges, Classic Puzzles - Easy, Code Golf, Optimization, F#, C#
+	- Codingame challenges, Classic Puzzles - Easy, Code Golf, Optimization, F#, C#
 - [Day 15](#day-15) - **January 16, 2018**
-	- Focus: Codingame challenges, Classic Puzzles - Easy, Scala, GitHub Markdown (this log)
+	- Codingame challenges, Classic Puzzles - Easy, Scala, GitHub Markdown (this log)
+- [Day 16](#day-16) - **January 17, 2018**
+	- Codingame challenges, Classic Puzzles - Medium, F#
+- [Day 17](#day-17) - **January 18, 2018**
+	- Tidy, Tidy-Html5, TidyHtml5Managed, C#, C
+- [Day 18](#day-18) - **January 19, 2018**
+	- Codingame challenges, Classic Puzzles - Easy, Classic Puzzles - Medium, F#, C#
+- [Dady 19](#day-19) - **January 20, 2018**
+	- FSharp.Data, JSON Type Provider, Google APIs
 
 ----------
 <a name="day-1"></a>
@@ -415,7 +423,7 @@ Also, after 2 weeks, here is how my github contributions are looking. Unfortunat
 
 **Details**:
 
- - Decided to do three Classic Puzzle - Easy solutions in Scala. It was similar enough to F# for me to get the gist of it, but different enough that I had to do some research.
+ - Decided to do three *Classic Puzzle - Easy* solutions in Scala. It was similar enough to F# for me to get the gist of it, but different enough that I had to do some research.
  - I don't know much about the JVM (haven't programmed in Java in over 15 years!), but Scala seems pretty cool.
  - I may need to explore Clojure a little more now too (I hear there is a Clojure for the .Net CLR too). I do like me some LISP.
 
@@ -428,4 +436,76 @@ Also, I was listening to this cool [Scandroid](https://scandroid.bandcamp.com/al
 [Table of Contents](#toc)
 
 ----------
+<a name="day-16"></a>
+### Day 16: January 17, 2018
 
+**Today's Focus**: Continued with some [Codingame](https://codingame.com/) puzzles.
+
+**Details**:
+
+- Added two *Classic Puzzle - Medium* solutions in F#: War (the card game) and Don't Panic ([HHGTTG](https://en.wikipedia.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy) reference)
+- The solutions are very domain logic centric (overkill for these solutions, but something that's more enterprisey like).
+- I attempted a third puzzle (trying to be overly clever). Failed miserably. I'll make another attempt at it tomorrow, likely without trying to be *clever*.
+
+**Link to work**: [GitHub](https://github.com/jasondown/codingame)
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-17"></a>
+### Day 17: January 18, 2018
+
+**Today's Focus**: 100 Days of code is now merging with some work related interests. I've decided to update the TidyHtml5Managed wrapper library around Tidy (or HTML Tidy... or HTML Tidy 5) to the newest version and update the nuget package. I'd also like to make sure the XML documentation is part of the NuGet package.
+
+**Details**
+
+- Original managed library was created by Mark Beaton [here](https://github.com/markbeaton/TidyManaged).
+- Updates were made by Frandi Dwi to drop support for the old version of Tidy and support version 5.0. [here](https://github.com/frandi/TidyHtml5Managed). Support for versions of .Net from 2.0 through 4.5 were also added.
+- More updates were made by gabrieleteotino to support 32 bit and 64 bit versions [here](https://github.com/gabrieleteotino/TidyHtml5Managed). The supported version of Tidy was also updated to 5.2.
+- Original Tidy library (C version) was found [here](http://tidy.sourceforge.net/).
+- New versions of Tidy (C version) are now maintained [here](http://www.html-tidy.org/) (and source code is [here](https://github.com/htacg/tidy-html5)).
+- I've forked the managed repository (seems to no longer be maintained) and fixed some links. I plan to update to the latest version of Tidy (5.6 at the moment) and add the necessary PInvoke calls for any new features.
+- I also plan to create an updated NuGet package and ensure that the XML documentation is included (currently this is not the case in [this](https://www.nuget.org/packages/TidyHtml5ManagedRepack/) package or [this](https://www.nuget.org/packages/TidyHtml5Managed/) package).
+
+**Link to work**: [GitHub](https://github.com/jasondown/TidyHtml5Managed)
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-18"></a>
+### Day 18: January 19, 2018
+
+**Today's Focus**: Continued with some [Codingame](https://codingame.com/) puzzles.
+
+**Details**:
+
+- Added a *Classic Puzzle - Medium* solution in F#: Stock Exchange Losses.
+- Added a *Classic Puzzle - Easy* solution in C#: The Descent.
+
+**Link to work**: [GitHub](https://github.com/jasondown/codingame)
+
+[Table of Contents](#toc)
+
+----------
+----------
+ <a name="day-19"></a>
+### Day 4: January 5, 2018
+
+**Today's Focus**: Looking for some APIs to play with so made use of [FSharp.Data](http://fsharp.github.io/FSharp.Data/) library for discovery.
+
+**Details**:
+
+ - Used the [JSON Type Provider](http://fsharp.github.io/FSharp.Data/library/JsonProvider.html) to get a list of Google APIs.
+ - Converted the JSON responses to summary objects with title, description and documenation links.
+ - Converted the summaries into an HTML file with a table (rather ugly, but I was not going for a nice design).
+
+**Examples**: This is a screen shot of my fugly html file:
+
+**Links to work**: 
+
+ - [Main repository](https://github.com/jasondown/FunWithFSharpData)
+ - [Google API Discovery and HTML Page Generator](https://github.com/jasondown/FunWithFSharpData/blob/master/FunWithFSharpData/GoogleApis.fsx)
+
+[Table of Contents](#toc)
+
+----------
