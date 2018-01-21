@@ -38,6 +38,8 @@
 	- Tidy, Tidy-Html5, TidyHtml5Managed, C#, C
 - [Day 18](#day-18) - **January 19, 2018**
 	- Codingame challenges, Classic Puzzles - Easy, Classic Puzzles - Medium, F#, C#
+- [Dady 19](#day-19) - **January 20, 2018**
+	- FSharp.Data, JSON Type Provider, Google APIs
 
 ----------
 <a name="day-1"></a>
@@ -481,6 +483,28 @@ Also, I was listening to this cool [Scandroid](https://scandroid.bandcamp.com/al
 - Added a *Classic Puzzle - Easy* solution in C#: The Descent.
 
 **Link to work**: [GitHub](https://github.com/jasondown/codingame)
+
+[Table of Contents](#toc)
+
+----------
+----------
+ <a name="day-19"></a>
+### Day 4: January 5, 2018
+
+**Today's Focus**: Looking for some APIs to play with so made use of [FSharp.Data](http://fsharp.github.io/FSharp.Data/) library for discovery.
+
+**Details**:
+
+ - Used the [JSON Type Provider](http://fsharp.github.io/FSharp.Data/library/JsonProvider.html) to get a list of Google APIs.
+ - Converted the JSON responses to summary objects with title, description and documenation links.
+ - Converted the summaries into an HTML file with a table (rather ugly, but I was not going for a nice design).
+
+**Examples**: This is a screen shot of my fugly html file:
+
+**Links to work**: 
+
+ - [Main repository](https://github.com/jasondown/FunWithFSharpData)
+ - [Google API Discovery and HTML Page Generator](https://github.com/jasondown/FunWithFSharpData/blob/master/FunWithFSharpData/GoogleApis.fsx)
 
 [Table of Contents](#toc)
 
