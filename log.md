@@ -38,7 +38,7 @@
 	- Tidy, Tidy-Html5, TidyHtml5Managed, C#, C
 - [Day 18](#day-18) - **January 19, 2018**
 	- Codingame challenges, Classic Puzzles - Easy, Classic Puzzles - Medium, F#, C#
-- [Dady 19](#day-19) - **January 20, 2018**
+- [Day 19](#day-19) - **January 20, 2018**
 	- FSharp.Data, JSON Type Provider, Google APIs
 
 ----------
