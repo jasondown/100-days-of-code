@@ -490,7 +490,7 @@ Also, I was listening to this cool [Scandroid](https://scandroid.bandcamp.com/al
 
 ----------
 <a name="day-19"></a>
-### Day 4: January 5, 2018
+### Day 19: January 20, 2018
 
 **Today's Focus**: Looking for some APIs to play with so made use of [FSharp.Data](http://fsharp.github.io/FSharp.Data/) library for discovery.
 
