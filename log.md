@@ -40,6 +40,8 @@
 	- Codingame challenges, Classic Puzzles - Easy, Classic Puzzles - Medium, F#, C#
 - [Day 19](#day-19) - **January 20, 2018**
 	- FSharp.Data, JSON Type Provider, Google APIs
+- [Day 20](#day-20) - **January 21, 2018**
+	- Codingame challenges, code golf, F#, Java, JPanel
 
 ----------
 <a name="day-1"></a>
@@ -487,8 +489,7 @@ Also, I was listening to this cool [Scandroid](https://scandroid.bandcamp.com/al
 [Table of Contents](#toc)
 
 ----------
-----------
- <a name="day-19"></a>
+<a name="day-19"></a>
 ### Day 4: January 5, 2018
 
 **Today's Focus**: Looking for some APIs to play with so made use of [FSharp.Data](http://fsharp.github.io/FSharp.Data/) library for discovery.
@@ -507,6 +508,26 @@ Also, I was listening to this cool [Scandroid](https://scandroid.bandcamp.com/al
 
  - [Main repository](https://github.com/jasondown/FunWithFSharpData)
  - [Google API Discovery and HTML Page Generator](https://github.com/jasondown/FunWithFSharpData/blob/master/FunWithFSharpData/GoogleApis.fsx)
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-20"></a>
+### Day 20: January 21, 2018
+
+**Today's Focus**: Double whammy today. Continued with some [Codingame](https://codingame.com/) puzzles. Also helped a friend's son work through some issues on a final project in Java (it's been 15 years since I wrote Java!). It felt great to help someone taking their first programming class.
+
+**Details**:
+
+- Added a *code golf* solution in F#: Don't Panic.
+- Added a *code golf* solution in F#: Temperatures.
+- Worked through some JPanel paintComponent override issues in some very complicated code for a Blackjack game. Complicated as in a beginner's code that uses many nested if statements and global variables to manage state and flow, all inside of the paint functionality. He still did a good job, but it was interesting to see code written in a way I probably would have done 15 years ago. It really makes me appreciate functional programming with pure functions and the lack of needing to keep track of tons of global state.
+
+**Examples**: On that note, here is some really ugly F# I wrote in the name of code golf. Seems fitting for today.
+
+![Day 20 Example - F# Code Golf - Temperatures](https://github.com/jasondown/100-days-of-code/blob/master/images/day20_codegolf_temperatures.png)
+
+**Link to work**: [GitHub](https://github.com/jasondown/codingame)
 
 [Table of Contents](#toc)
 
