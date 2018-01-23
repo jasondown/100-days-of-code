@@ -42,6 +42,8 @@
 	- FSharp.Data, JSON Type Provider, Google APIs
 - [Day 20](#day-20) - **January 21, 2018**
 	- Codingame challenges, code golf, F#, Java, JPanel
+- [Day 21](#day-21) - **January 22, 2018**
+	- Machine Learning, F#, C#
 
 ----------
 <a name="day-1"></a>
@@ -532,3 +534,30 @@ Also, I was listening to this cool [Scandroid](https://scandroid.bandcamp.com/al
 [Table of Contents](#toc)
 
 ----------
+<a name="day-21"></a>
+### Day 21: January 22, 2018
+
+**Today's Focus**: Decided to play around with some machine learning. I've had a copy of Mathias Brandewinder's book [Machine Learning Project for .Net Developers](https://www.apress.com/us/book/9781430267676) for a while and finally started to dig in tonight.
+
+**Details**:
+
+- Read chapter 1 tonight: 256 Shades of Gray.
+	- The chapter gives you a short introduction into machine learning basics.
+	- It then tackles a classic machine learning problem: Classifying images. In particular, building a digit recognizer (borrowed from the [Kaggle.com](http://www.kaggle.com) machine learning competition found [here](http://www.kaggle.com/c/digit-recognizer).
+- Interesting fun fact from the book:
+	>CAPTCHA (“Completely Automated Public Turing Test to tell Computers and Humans Apart”) is a
+mechanism devised to filter out computer bots from humans. To make sure a user is an actual
+human being, CAPTCHA displays a piece of text purposefully obfuscated to make automatic computer
+recognition difficult. In an intriguing twist, the idea has been extended with reCAPTCHA. reCAPTCHA
+displays two images instead of just one: one of them is used to filter out bots, while the other is an
+actual digitized piece of text (see figure 1-1). Every time a human logs in that way, he also helps digitize
+archive documents, such as back issues of the New York Times, one word at a time.
+- The book goes through code samples in both C# and F#, comparing the two.
+- I spent tonight setting up the repository and reading the first chapter. Tomorrow I will re-read it while coding the examples as I follow along.
+
+**Link to work**: [GitHub](https://github.com/jasondown/MachineLearningDotNet)
+
+[Table of Contents](#toc)
+
+----------
+	
