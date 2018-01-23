@@ -543,7 +543,7 @@ Also, I was listening to this cool [Scandroid](https://scandroid.bandcamp.com/al
 
 - Read chapter 1 tonight: 256 Shades of Gray.
 	- The chapter gives you a short introduction into machine learning basics.
-	- It then tackles a classic machine learning problem: Classifying images. In particular, building a digit recognizer (borrowed from the [Kaggle.com](http://www.kaggle.com) machine learning competition found [here](http://www.kaggle.com/c/digit-recognizer).
+	- It then tackles a classic machine learning problem: **classifying images**. In particular, building a digit recognizer (borrowed from the [Kaggle.com](http://www.kaggle.com) machine learning competition found [here](http://www.kaggle.com/c/digit-recognizer)).
 - Interesting fun fact from the book:
 	>CAPTCHA (“Completely Automated Public Turing Test to tell Computers and Humans Apart”) is a
 mechanism devised to filter out computer bots from humans. To make sure a user is an actual
