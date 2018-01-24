@@ -44,6 +44,8 @@
 	- Codingame challenges, code golf, F#, Java, JPanel
 - [Day 21](#day-21) - **January 22, 2018**
 	- Machine Learning, F#, C#
+- [Day 22](#day-22) - **January 23, 2018**
+	- Machine Learning, C#, Manhattan Distance, Classification
 
 ----------
 <a name="day-1"></a>
@@ -560,4 +562,18 @@ archive documents, such as back issues of the New York Times, one word at a time
 [Table of Contents](#toc)
 
 ----------
-	
+<a name="day-22"></a>
+### Day 22: January 23, 2018
+
+**Today's Focus**: Continued with machine learning with Mathias Brandewinder's book [Machine Learning Project for .Net Developers](https://www.apress.com/us/book/9781430267676).
+
+**Details**:
+
+- Began re-reading chapter 1: 256 Shades of Gray.
+- Project is to create a classifier (digit recognizer).
+- Implemented the C# code for Observation, DataReader, IDistance, ManhattanDistance, IClassifier and BasicClassifier.
+- Stopped before creating an evaluator to test the code out (tomorrow FTW!).
+
+**Link to work**: [GitHub](https://github.com/jasondown/MachineLearningDotNet)
+
+[Table of Contents](#toc)
