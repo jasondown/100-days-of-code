@@ -590,9 +590,9 @@ archive documents, such as back issues of the New York Times, one word at a time
 
 - Continued with chapter 1: 256 Shades of Gray.
 - Project is to create a classifier (digit recognizer).
-- Added Evaluator class in C# solution and updated the console application to evaluate the algorithm. **93.40% accurancy!**
+- Added Evaluator class in C# solution and updated the console application to evaluate the algorithm. **93.40% accuracy!**
 - Added an F# project to the solution.
-- Implemented and F# script (less than 50 lines of code) to replace the equivalent C# code for Observation, DataReader, IDistance, ManhattanDistance, IClassifier and BasicClassifier and Evaluator.
+- Implemented an F# script (less than 50 lines of code) to replace the equivalent C# code for Observation, DataReader, IDistance, ManhattanDistance, IClassifier, BasicClassifier and Evaluator.
 - Used F# Interactive to replace the console application.
 
 **Link to work**: [GitHub](https://github.com/jasondown/MachineLearningDotNet)
