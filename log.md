@@ -46,6 +46,8 @@
 	- Machine Learning, F#, C#
 - [Day 22](#day-22) - **January 23, 2018**
 	- Machine Learning, C#, Manhattan Distance, Classification
+- [Day 23](#day-23) - **January 24, 2018**
+	- Machine Learning, C#, F#, Manhattan Distance, Classification
 
 ----------
 <a name="day-1"></a>
@@ -573,6 +575,25 @@ archive documents, such as back issues of the New York Times, one word at a time
 - Project is to create a classifier (digit recognizer).
 - Implemented the C# code for Observation, DataReader, IDistance, ManhattanDistance, IClassifier and BasicClassifier.
 - Stopped before creating an evaluator to test the code out (tomorrow FTW!).
+
+**Link to work**: [GitHub](https://github.com/jasondown/MachineLearningDotNet)
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-23"></a>
+### Day 23: January 24, 2018
+
+**Today's Focus**: Continued with machine learning with Mathias Brandewinder's book [Machine Learning Project for .Net Developers](https://www.apress.com/us/book/9781430267676).
+
+**Details**:
+
+- Continued with chapter 1: 256 Shades of Gray.
+- Project is to create a classifier (digit recognizer).
+- Added Evaluator class in C# solution and updated the console application to evaluate the algorithm. **93.40% accurancy!**
+- Added an F# project to the solution.
+- Implemented and F# script (less than 50 lines of code) to replace the equivalent C# code for Observation, DataReader, IDistance, ManhattanDistance, IClassifier and BasicClassifier and Evaluator.
+- Used F# Interactive to replace the console application.
 
 **Link to work**: [GitHub](https://github.com/jasondown/MachineLearningDotNet)
 
