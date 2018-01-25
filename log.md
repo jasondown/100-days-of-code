@@ -2,52 +2,20 @@
 # 100 Days Of Code - Log
 <a name="toc"></a>
 ### Table of Contents 
-- [Day 1](#day-1) - **January 2, 2018** 
-	- FSharp.Data, Html Type Provider
-- [Day 2](#day-2) - **January 3, 2018**
-	- FSharp.Data, Html Type Provider, JSON Type Provider, IEX Trading API
-- [Day 3](#day-3) - **January 4, 2018**
-	- FSharp.Data, XML Type Provider, RSS Feeds, Partial Function Application
-- [Day 4](#day-4) - **January 5, 2018**
-	- FSharp.Data, async, JSON Type Provider, IEX Trading API
-- [Day 5](#day-5) - **January 6, 2018**
-	- FSharp.Data, HTML Type Provider, FSharp.Charting, Bar Chart, BoxPlot Chart
-- [Day 6](#day-6) - **January 7, 2018**
-	- FSharp.Charting, RangeColumn Chart, Column Chart
-- [Day 7](#day-7) - **January 8, 2018**
-	- FsProjects/Mechanic open source project (F#)
-- [Day 8](#day-8) - **January 9, 2018**
-	- FSharp.Data, World Bank Type Provider, FSharp.Charting
-- [Day 9](#day-9) - **January 10, 2018**
-	- FsLab, OpenWeatherMap API, Google GeoChart, FSharp.Data, World Bank Type Provider
-- [Day 10](#day-10) - **January 11, 2018**
-	- FsLab, Google GeoChart, Deedle, FSharp.Data, Xml Type Provider
-- [Day 11](#day-11) - **January 12, 2018**
-	- F# Web Programming, Suave Framework
-- [Day 12](#day-12) - **January 13, 2018**
-	- F# Web Programming, Suave Framework
-- [Day 13](#day-13) - **January 14, 2018**
-	- F# Web Programming, Suave Framework, Star Wars API (SWAPI), F# Swapi, FSharp.Data, JSON Type Provider
-- [Day 14](#day-14) - **January 15, 2018**
-	- Codingame challenges, Classic Puzzles - Easy, Code Golf, Optimization, F#, C#
-- [Day 15](#day-15) - **January 16, 2018**
-	- Codingame challenges, Classic Puzzles - Easy, Scala, GitHub Markdown (this log)
-- [Day 16](#day-16) - **January 17, 2018**
-	- Codingame challenges, Classic Puzzles - Medium, F#
-- [Day 17](#day-17) - **January 18, 2018**
-	- Tidy, Tidy-Html5, TidyHtml5Managed, C#, C
-- [Day 18](#day-18) - **January 19, 2018**
-	- Codingame challenges, Classic Puzzles - Easy, Classic Puzzles - Medium, F#, C#
-- [Day 19](#day-19) - **January 20, 2018**
-	- FSharp.Data, JSON Type Provider, Google APIs
-- [Day 20](#day-20) - **January 21, 2018**
-	- Codingame challenges, code golf, F#, Java, JPanel
-- [Day 21](#day-21) - **January 22, 2018**
-	- Machine Learning, F#, C#
-- [Day 22](#day-22) - **January 23, 2018**
-	- Machine Learning, C#, Manhattan Distance, Classification
-- [Day 23](#day-23) - **January 24, 2018**
-	- Machine Learning, C#, F#, Manhattan Distance, Classification
+|Day|Focus|Day|Focus|
+|:---:|:-----:|:---:|:-----:|
+|[Day 1](#day-1) **01/02/18**|FSharp.Data, Html Type Provider|[Day 2](#day-2) **01/03/18**|FSharp.Data, Html Type Provider, JSON Type Provider, IEX Trading API|
+|[Day 3](#day-3) **01/04/18**|FSharp.Data, XML Type Provider, RSS Feeds, Partial Function Application|[Day 4](#day-4) **01/05/18**|FSharp.Data, async, JSON Type Provider, IEX Trading API
+|[Day 5](#day-5) **01/06/18**|FSharp.Data, HTML Type Provider, FSharp.Charting, Bar Chart, BoxPlot Chart|[Day 6](#day-6) **01/07/18**|FSharp.Charting, RangeColumn Chart, Column Chart|
+|[Day 7](#day-7) **01/08/18**|FsProjects/Mechanic open source project (F#)|[Day 8](#day-8) **01/09/18**|FSharp.Data, World Bank Type Provider, FSharp.Charting|
+|[Day 9](#day-9) **01/10/18**|FsLab, OpenWeatherMap API, Google GeoChart, FSharp.Data, World Bank Type Provider|[Day 10](#day-10) **01/11/18**|FsLab, Google GeoChart, Deedle, FSharp.Data, Xml Type Provider|
+|[Day 11](#day-11) **01/12/18**|F# Web Programming, Suave Framework|[Day 12](#day-12) **01/13/18**|F# Web Programming, Suave Framework|
+|[Day 13](#day-13) **01/14/18**|F# Web Programming, Suave Framework, Star Wars API (SWAPI), F# Swapi, FSharp.Data, JSON Type Provider|[Day 14](#day-14) **01/15/18**|Codingame challenges, Classic Puzzles - Easy, Code Golf, Optimization, F#, C#|
+[Day 15](#day-15) **01/16/18**|Codingame challenges, Classic Puzzles - Easy, Scala, GitHub Markdown (this log)|[Day 16](#day-16) **01/17/18**|Codingame challenges, Classic Puzzles - Medium, F#|
+|[Day 17](#day-17) **01/18/18**|Tidy, Tidy-Html5, TidyHtml5Managed, C#, C|[Day 18](#day-18) **01/19/18**|Codingame challenges, Classic Puzzles - Easy, Classic Puzzles - Medium, F#, C#|
+|[Day 19](#day-19) **01/20/18**|FSharp.Data, JSON Type Provider, Google APIs|[Day 20](#day-20) **01/21/18**|Codingame challenges, code golf, F#, Java, JPanel|
+|[Day 21](#day-21) **01/22/18**|Machine Learning, F#, C#|[Day 22](#day-22) **01/23/18**|Machine Learning, C#, Manhattan Distance, Classification|
+|[Day 23](#day-23) **01/24/18**|Machine Learning, C#, F#, Manhattan Distance, Classification, GitHub Markdown (this log)|
 
 ----------
 <a name="day-1"></a>
@@ -594,6 +562,7 @@ archive documents, such as back issues of the New York Times, one word at a time
 - Added an F# project to the solution.
 - Implemented an F# script (less than 50 lines of code) to replace the equivalent C# code for Observation, DataReader, IDistance, ManhattanDistance, IClassifier, BasicClassifier and Evaluator.
 - Used F# Interactive to replace the console application.
+- Also updated this log's table of contents to be in tabular format.
 
 **Link to work**: [GitHub](https://github.com/jasondown/MachineLearningDotNet)
 
