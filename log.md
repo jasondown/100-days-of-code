@@ -580,10 +580,10 @@ archive documents, such as back issues of the New York Times, one word at a time
 - Finished chapter 1: 256 Shades of Gray.
 - Project is to create a classifier (digit recognizer).
 - Refactored F# solution to accept different distance functions.
-- Created a Euclidean distance function which improve to **94.40% accuracy!**
+- Created a Euclidean distance function which improved the evaluator to **94.40% accuracy!**
 - Created a C# functional style classifier to accept a Func<int[], int[], int> delegate for the distance function.
-- The book didn't hook up this new C# functional classifier, so I figured that one out myself.
-- Also used the new C#7 local function feature instead of a Func delegate with the classifier.
+- The book didn't hook up this new C# functional classifier, so I had to figure that out myself. I feel it was only halfway to functional style programming. More could be done, but I'd like to move on to chapter 2.
+- Used the new C#7 local function feature instead of a Func delegate with the new classifier.
 
 **Link to work**: [GitHub](https://github.com/jasondown/MachineLearningDotNet)
 
