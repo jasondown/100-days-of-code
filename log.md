@@ -15,7 +15,7 @@
 |[Day 17](#day-17) **01/18/18**|Tidy, Tidy-Html5, TidyHtml5Managed, C#, C|[Day 18](#day-18) **01/19/18**|Codingame challenges, Classic Puzzles - Easy, Classic Puzzles - Medium, F#, C#|
 |[Day 19](#day-19) **01/20/18**|FSharp.Data, JSON Type Provider, Google APIs|[Day 20](#day-20) **01/21/18**|Codingame challenges, code golf, F#, Java, JPanel|
 |[Day 21](#day-21) **01/22/18**|Machine Learning, F#, C#|[Day 22](#day-22) **01/23/18**|Machine Learning, C#, Manhattan Distance, Classification|
-|[Day 23](#day-23) **01/24/18**|Machine Learning, C#, F#, Manhattan Distance, Classification, GitHub Markdown (this log)|
+|[Day 23](#day-23) **01/24/18**|Machine Learning, C#, F#, Manhattan Distance, Classification, GitHub Markdown (this log)|[Day 24](#day-24) **01/25/18**|Machine Learning, F#, C# (functional), Euclidean Distance, Classification|
 
 ----------
 <a name="day-1"></a>
@@ -563,6 +563,27 @@ archive documents, such as back issues of the New York Times, one word at a time
 - Implemented an F# script (less than 50 lines of code) to replace the equivalent C# code for Observation, DataReader, IDistance, ManhattanDistance, IClassifier, BasicClassifier and Evaluator.
 - Used F# Interactive to replace the console application.
 - Also updated this log's table of contents to be in tabular format.
+
+**Link to work**: [GitHub](https://github.com/jasondown/MachineLearningDotNet)
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-24"></a>
+### Day 24: January 25, 2018
+
+**Today's Focus**: Continued with machine learning with Mathias Brandewinder's book [Machine Learning Project for .Net Developers](https://www.apress.com/us/book/9781430267676).
+
+**Details**:
+
+- Took the day off work sick (tossed my cookies around 4:30 am).
+- Finished chapter 1: 256 Shades of Gray.
+- Project is to create a classifier (digit recognizer).
+- Refactored F# solution to accept different distance functions.
+- Created a Euclidean distance function which improve to **94.40% accuracy!**
+- Created a C# functional style classifier to accept a Func<int[], int[], int> delegate for the distance function.
+- The book didn't hook up this new C# functional classifier, so I figured that one out myself.
+- Also used the new C#7 local function feature instead of a Func delegate with the classifier.
 
 **Link to work**: [GitHub](https://github.com/jasondown/MachineLearningDotNet)
 
