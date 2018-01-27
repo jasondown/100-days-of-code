@@ -604,6 +604,7 @@ archive documents, such as back issues of the New York Times, one word at a time
 - Using an [SMS Spam Collection](http://archive.ics.uci.edu/ml/datasets/SMS+Spam+Collection) dataset from UCI machine learning repository.
 - Loaded the dataset and tested a primitive classifier.
 - Created a Naive Bayes Classifier.
+- Modified some of the code samples to use new F# 4.x features.
 - Tomorrow I'll be creating tokenizers to test the classifier.
 
 **Link to work**: [GitHub](https://github.com/jasondown/MachineLearningDotNet)
