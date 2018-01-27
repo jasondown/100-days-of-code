@@ -16,6 +16,7 @@
 |[Day 19](#day-19) **01/20/18**|FSharp.Data, JSON Type Provider, Google APIs|[Day 20](#day-20) **01/21/18**|Codingame challenges, code golf, F#, Java, JPanel|
 |[Day 21](#day-21) **01/22/18**|Machine Learning, F#, C#|[Day 22](#day-22) **01/23/18**|Machine Learning, C#, Manhattan Distance, Classification|
 |[Day 23](#day-23) **01/24/18**|Machine Learning, C#, F#, Manhattan Distance, Classification, GitHub Markdown (this log)|[Day 24](#day-24) **01/25/18**|Machine Learning, F#, C# (functional), Euclidean Distance, Classification|
+|[Day 25](#day-25) **01/26/18**|Machine Learning, F#, Naive Bayes Classifier, Spam Filter|
 
 ----------
 <a name="day-1"></a>
@@ -584,6 +585,26 @@ archive documents, such as back issues of the New York Times, one word at a time
 - Created a C# functional style classifier to accept a Func<int[], int[], int> delegate for the distance function.
 - The book didn't hook up this new C# functional classifier, so I had to figure that out myself. I feel it was only halfway to functional style programming. More could be done, but I'd like to move on to chapter 2.
 - Used the new C#7 local function feature instead of a Func delegate with the new classifier.
+
+**Link to work**: [GitHub](https://github.com/jasondown/MachineLearningDotNet)
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-25"></a>
+### Day 25: January 26, 2018
+
+**Today's Focus**: Continued with machine learning with Mathias Brandewinder's book [Machine Learning Project for .Net Developers](https://www.apress.com/us/book/9781430267676).
+
+**Details**:
+
+- Another sick day for work. Feeling better tonight though.
+- Got 2/3rds of the way through chapter 2: Ham or Spam.
+- Project is to create a spam filter.
+- Using an [SMS Spam Collection](http://archive.ics.uci.edu/ml/datasets/SMS+Spam+Collection) dataset from UCI machine learning repository.
+- Loaded the dataset and tested a primitive classifier.
+- Created a Naive Bayes Classifier.
+- Tomorrow I'll be tokenizers to test the classifier.
 
 **Link to work**: [GitHub](https://github.com/jasondown/MachineLearningDotNet)
 
