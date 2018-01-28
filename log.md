@@ -623,9 +623,9 @@ archive documents, such as back issues of the New York Times, one word at a time
 - Project is to create a spam filter.
 - Using an [SMS Spam Collection](http://archive.ics.uci.edu/ml/datasets/SMS+Spam+Collection) dataset from UCI machine learning repository.
 - Created a word tokenizer.
-- Created basic classifier that made use of the word tokenizer (very simple one)
+- Created basic classifier that made use of the word tokenizer (very simple one).
 - Trained the classifier (book forgot to put that code in).
-- Cross validation with the classifier for **87.7% accuracy**. This is less impressive considering choosing ham over spam will result in nearly 85% accuracy.
+- Cross validation with the classifier for **87.7% accuracy**. This is less impressive considering choosing ham over spam every time will result in nearly 85% accuracy.
 - Tomorrow will include an improved classifier.
 
 **Link to work**: [GitHub](https://github.com/jasondown/MachineLearningDotNet)
