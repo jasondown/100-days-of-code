@@ -16,7 +16,7 @@
 |[Day 19](#day-19) **01/20/18**|FSharp.Data, JSON Type Provider, Google APIs|[Day 20](#day-20) **01/21/18**|Codingame challenges, code golf, F#, Java, JPanel|
 |[Day 21](#day-21) **01/22/18**|Machine Learning, F#, C#|[Day 22](#day-22) **01/23/18**|Machine Learning, C#, Manhattan Distance, Classification|
 |[Day 23](#day-23) **01/24/18**|Machine Learning, C#, F#, Manhattan Distance, Classification, GitHub Markdown (this log)|[Day 24](#day-24) **01/25/18**|Machine Learning, F#, C# (functional), Euclidean Distance, Classification|
-|[Day 25](#day-25) **01/26/18**|Machine Learning, F#, Naive Bayes Classifier, Spam Filter|
+|[Day 25](#day-25) **01/26/18**|Machine Learning, F#, Naive Bayes Classifier, Spam Filter|[Day 26](#day-26) **01/27/18**|Machine Learning, F#, Naive Bayes Classifier, Spam Filter, Word Tokenization|
 
 ----------
 <a name="day-1"></a>
@@ -606,6 +606,27 @@ archive documents, such as back issues of the New York Times, one word at a time
 - Created a Naive Bayes Classifier.
 - Modified some of the code samples to use new F# 4.x features.
 - Tomorrow I'll be creating tokenizers to test the classifier.
+
+**Link to work**: [GitHub](https://github.com/jasondown/MachineLearningDotNet)
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-26"></a>
+### Day 26: January 27, 2018
+
+**Today's Focus**: Continued with machine learning with Mathias Brandewinder's book [Machine Learning Project for .Net Developers](https://www.apress.com/us/book/9781430267676).
+
+**Details**:
+
+- Finished one more section of chapter 2: Ham or Spam.
+- Project is to create a spam filter.
+- Using an [SMS Spam Collection](http://archive.ics.uci.edu/ml/datasets/SMS+Spam+Collection) dataset from UCI machine learning repository.
+- Created a work tokenizer.
+- Created basic classifier that made use of the word tokenizer (very simple one)
+- Trained the classifier (book forgot to put that code in).
+- Cross validation with the classifier for **87.7% accuracy**. This is less impressive considering choosing ham over spam will result in nearly 85% accuracy.
+- Tomorrow will include an improved classifier.
 
 **Link to work**: [GitHub](https://github.com/jasondown/MachineLearningDotNet)
 
