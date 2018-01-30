@@ -17,7 +17,7 @@
 |[Day 21](#day-21) **01/22/18**|Machine Learning, F#, C#|[Day 22](#day-22) **01/23/18**|Machine Learning, C#, Manhattan Distance, Classification|
 |[Day 23](#day-23) **01/24/18**|Machine Learning, C#, F#, Manhattan Distance, Classification, GitHub Markdown (this log)|[Day 24](#day-24) **01/25/18**|Machine Learning, F#, C# (functional), Euclidean Distance, Classification|
 |[Day 25](#day-25) **01/26/18**|Machine Learning, F#, Naive Bayes Classifier, Spam Filter|[Day 26](#day-26) **01/27/18**|Machine Learning, F#, Naive Bayes Classifier, Spam Filter, Word Tokenization|
-|[Day 27](#day-27) **01/27/18**|Machine Learning, F#, Naive Bayes Classifier, Spam Filter, Word Tokenization|
+|[Day 27](#day-27) **01/28/18**|Machine Learning, F#, Naive Bayes Classifier, Spam Filter, Word Tokenization|[Day 28](#day-28) **01/29/18**|Machine Learning, F#, Naive Bayes Classifier, Spam Filter, Word Tokenization|
 
 ----------
 <a name="day-1"></a>
@@ -656,6 +656,49 @@ archive documents, such as back issues of the New York Times, one word at a time
 	- ***cit = case insensitive tokenizer***
 	- ***cst = case sensitive tokenizer***
 - Still a few improvements to make before chapter 2 is done (tomorrow).
+
+**Link to work**: [GitHub](https://github.com/jasondown/MachineLearningDotNet)
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-28"></a>
+### Day 28: January 29, 2018
+
+**Today's Focus**: Continued with machine learning with Mathias Brandewinder's book [Machine Learning Project for .Net Developers](https://www.apress.com/us/book/9781430267676).
+
+**Details**:
+
+- Finished chapter 2: Ham or Spam.
+- Project is to create a spam filter.
+- Using an [SMS Spam Collection](http://archive.ics.uci.edu/ml/datasets/SMS+Spam+Collection) dataset from UCI machine learning repository.
+- Created smart tokens, taking into account specific rare tokens found for spam (regexes for phone numbers and text numbers).
+- Created a smarter cross validation function that took into account false positives vs. false negatives (important for spam filter).
+- Results
+	- Baseline, always choose ham (higher percentage of sms messages are ham):
+		- Ham: **100%** - False Positive: **0%**
+		- Spam: **0%** - False Negative: **100%**
+	- If contains "txt" (cit*) then spam else ham:
+		- Ham: **99.53%** - False Positive: **0.47%**
+		- Spam: **21.71%** - False Negative: **78.29%**
+	- Use all words (cit*) and compare vs training data:
+		- Ham: **84.20%** - False Positive: **15.80%**
+		- Spam: **98.68%** - False Negative: **1.32%**
+	- Use all words (cst*) and compare vs training data:
+		- Ham: **85.61%** - False Positive: **14.39%**
+		- Spam: **98.09%** - False Negative: **1.97%**
+	- Use top 10% ham+spam tokens (cst*) and compare vs training data:
+		- Ham: **94.81%** - False Positive: **5.19%**
+		- Spam: **97.37%** - False Negative: **2.63%**
+	- Use top 10% ham+spam tokens, remove common to both (cst*) and compare vs training data:
+		- Ham: **98.82%** - False Positive: **1.18%**
+		- Spam: **92.76%** - False Negative: **7.24%**
+	- Use specific rare tokens found in spam training set (regexes for phone numbers and text numbers) converted to custom tokens:
+		- Ham: **98.82%** - False Positive: **1.18%**
+		- Spam: **95.39%** - False Negative: **4.61%**
+	- ***cit = case insensitive tokenizer***
+	- ***cst = case sensitive tokenizer***
+- Did some refactoring to add the fp/fn information, which was not included in the book.
 
 **Link to work**: [GitHub](https://github.com/jasondown/MachineLearningDotNet)
 
