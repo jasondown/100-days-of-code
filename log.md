@@ -713,8 +713,8 @@ archive documents, such as back issues of the New York Times, one word at a time
 
 **Details**:
 
-- Read through chapter 4, but skipped the code examples. It was an introduction to FSharp.Data, FSharp.Charting, Deedle and the R Type Provider. These are things I already explored earlier in my 100 days of code.
-- Began chapter 5: Of Bikes and Men.
+- Read through chapter 3, but skipped the code examples. It was an introduction to FSharp.Data, FSharp.Charting, Deedle and the R Type Provider. These are things I already explored earlier in my 100 days of code.
+- Began chapter 4: Of Bikes and Men.
 - Project is to create a prediction model (regression model) using methods such as gradient descent and linear algebra.
 - Using a [Bike Sharing](https://archive.ics.uci.edu/ml/datasets/Bike+Sharing+Dataset) dataset from UCI machine learning repository.
 - Ran into some issues trying to create the F# library project. It turned out that when I updated Visual Studio yesterday I forgot to include the F# desktop development tools (I only had F# .Net Core and .Net Standard, but not .Net Framework). This was wreaking havoc with the FSharp.Data nuget package. All fixed up now.
