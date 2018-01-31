@@ -18,6 +18,7 @@
 |[Day 23](#day-23) **01/24/18**|Machine Learning, C#, F#, Manhattan Distance, Classification, GitHub Markdown (this log)|[Day 24](#day-24) **01/25/18**|Machine Learning, F#, C# (functional), Euclidean Distance, Classification|
 |[Day 25](#day-25) **01/26/18**|Machine Learning, F#, Naive Bayes Classifier, Spam Filter|[Day 26](#day-26) **01/27/18**|Machine Learning, F#, Naive Bayes Classifier, Spam Filter, Word Tokenization|
 |[Day 27](#day-27) **01/28/18**|Machine Learning, F#, Naive Bayes Classifier, Spam Filter, Word Tokenization|[Day 28](#day-28) **01/29/18**|Machine Learning, F#, Naive Bayes Classifier, Spam Filter, Word Tokenization|
+|[Day 29](#day-29) **01/30/18**|Machine Learning, F#, FSharp.Data, FSharp.Charting|
 
 ----------
 <a name="day-1"></a>
@@ -699,6 +700,32 @@ archive documents, such as back issues of the New York Times, one word at a time
 	- ***cit = case insensitive tokenizer***
 	- ***cst = case sensitive tokenizer***
 - Did some refactoring to add the fp/fn information, which was not included in the book.
+
+**Link to work**: [GitHub](https://github.com/jasondown/MachineLearningDotNet)
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-29"></a>
+### Day 29: January 30, 2018
+
+**Today's Focus**: Continued with machine learning with Mathias Brandewinder's book [Machine Learning Project for .Net Developers](https://www.apress.com/us/book/9781430267676).
+
+**Details**:
+
+- Read through chapter 4, but skipped the code examples. It was an introduction to FSharp.Data, FSharp.Charting, Deedle and the R Type Provider. These are things I already explored earlier in my 100 days of code.
+- Began chapter 5: Of Bikes and Men.
+- Project is to create a prediction model (regression model) using methods such as gradient descent and linear algebra.
+- Using a [Bike Sharing](https://archive.ics.uci.edu/ml/datasets/Bike+Sharing+Dataset) dataset from UCI machine learning repository.
+- Ran into some issues trying to create the F# library project. It turned out that when I updated Visual Studio yesterday I forgot to include the F# desktop development tools (I only had F# .Net Core and .Net Standard, but not .Net Framework). This was wreaking havoc with the FSharp.Data nuget package. All fixed up now.
+- Used the [CSV Type provider](http://fsharp.github.io/FSharp.Data/library/CsvProvider.html) to load the bike sharing dataset.
+- Did some basic charting via [FSharp.Charting ](https://fslab.org/FSharp.Charting/) to explore the data and look for some basic trends.
+- Compared bike usage counts over time vs a moving average for 7 days and 30 days (again, exploring trends). 
+- Displayed the comparison in a combined chart.
+
+**Examples**: Here is the combined chart. I added a little more detail than the book (legend, colours and axis labels), but this is just to do some quick exploring before getting into gradient descent etc.
+
+![Day 10 Example - Deedle Frame](https://github.com/jasondown/100-days-of-code/blob/master/images/day29_bikesused_comparison.png)
 
 **Link to work**: [GitHub](https://github.com/jasondown/MachineLearningDotNet)
 
