@@ -742,19 +742,19 @@ archive documents, such as back issues of the New York Times, one word at a time
 - Continued a few sections in chapter 4: Of Bikes and Men.
 - Project is to create a prediction model (regression model) using methods such as gradient descent and linear algebra.
 - Using a [Bike Sharing](https://archive.ics.uci.edu/ml/datasets/Bike+Sharing+Dataset) dataset from UCI machine learning repository.
-- Looked a finding straight-line models and lowest cost models.
+- Looked at finding straight-line models and lowest cost models.
 - Read up on derivatives for a refresher (it has been 20 years since I used Calculus!).
 - Explored Gradient Descent.
 	- The idea makes sense (the author does a great job at explaining the concept in plain English).
 	- The math makes sense for the most part (the gist of what it is doing).
 	- The formulas written in the math-notation are a bit of a head spinner for me (don't read it often).
-	- Implemented a stoachastic gradient descent.
+	- Implemented a stochastic gradient descent.
 	- Implemented a batch gradient descent.
 	- Explored error evaluations for both models.
 - Created some graphs to visually explore the concepts.
 - Tomorrow is ***Linear Algebra to the Rescue!*** Hopefully the small refresher provided is enough!
 
-**Examples**: Here are a few of the charts that were created.
+**Examples**: Here are a few of the charts that I created.
 
 Linear Combination (I think haha!):
 ![Day 31 Example - Linear Combination](https://github.com/jasondown/100-days-of-code/blob/master/images/day30_linear_combination.png)
