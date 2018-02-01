@@ -18,7 +18,7 @@
 |[Day 23](#day-23) **01/24/18**|Machine Learning, C#, F#, Manhattan Distance, Classification, GitHub Markdown (this log)|[Day 24](#day-24) **01/25/18**|Machine Learning, F#, C# (functional), Euclidean Distance, Classification|
 |[Day 25](#day-25) **01/26/18**|Machine Learning, F#, Naive Bayes Classifier, Spam Filter|[Day 26](#day-26) **01/27/18**|Machine Learning, F#, Naive Bayes Classifier, Spam Filter, Word Tokenization|
 |[Day 27](#day-27) **01/28/18**|Machine Learning, F#, Naive Bayes Classifier, Spam Filter, Word Tokenization|[Day 28](#day-28) **01/29/18**|Machine Learning, F#, Naive Bayes Classifier, Spam Filter, Word Tokenization|
-|[Day 29](#day-29) **01/30/18**|Machine Learning, F#, FSharp.Data, FSharp.Charting|
+|[Day 29](#day-29) **01/30/18**|Machine Learning, F#, FSharp.Data, FSharp.Charting|[Day 30](#day-30) **01/31/18**|Machine Learning, F#, Gradient Descent, Linear Regression, Derivatives|
 
 ----------
 <a name="day-1"></a>
@@ -725,7 +725,45 @@ archive documents, such as back issues of the New York Times, one word at a time
 
 **Examples**: Here is the combined chart. I added a little more detail than the book (legend, colours and axis labels), but this is just to do some quick exploring before getting into gradient descent etc.
 
-![Day 10 Example - Deedle Frame](https://github.com/jasondown/100-days-of-code/blob/master/images/day29_bikesused_comparison.png)
+![Day 29 Example - Bikes Used Comparison](https://github.com/jasondown/100-days-of-code/blob/master/images/day29_bikesused_comparison.png)
+
+**Link to work**: [GitHub](https://github.com/jasondown/MachineLearningDotNet)
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-30"></a>
+### Day 30: January 31, 2018
+
+**Today's Focus**: Continued with machine learning with Mathias Brandewinder's book [Machine Learning Project for .Net Developers](https://www.apress.com/us/book/9781430267676).
+
+**Details**:
+
+- Continued a few sections in chapter 4: Of Bikes and Men.
+- Project is to create a prediction model (regression model) using methods such as gradient descent and linear algebra.
+- Using a [Bike Sharing](https://archive.ics.uci.edu/ml/datasets/Bike+Sharing+Dataset) dataset from UCI machine learning repository.
+- Looked a finding straight-line models and lowest cost models.
+- Read up on derivatives for a refresher (it has been 20 years since I used Calculus!).
+- Explored Gradient Descent.
+	- The idea makes sense (the author does a great job at explaining the concept in plain English).
+	- The math makes sense for the most part (the gist of what it is doing).
+	- The formulas written in the math-notation are a bit of a head spinner for me (don't read it often).
+	- Implemented a stoachastic gradient descent.
+	- Implemented a batch gradient descent.
+	- Explored error evaluations for both models.
+- Created some graphs to visually explore the concepts.
+- Tomorrow is ***Linear Algebra to the Rescue!*** Hopefully the small refresher provided is enough!
+
+**Examples**: Here are a few of the charts that were created.
+
+Linear Combination (I think haha!):
+![Day 31 Example - Linear Combination](https://github.com/jasondown/100-days-of-code/blob/master/images/day30_linear_combination.png)
+
+Stochastic Gradient Descent:
+![Day 31 Example - Stochastic Gradient Descent](https://github.com/jasondown/100-days-of-code/blob/master/images/day30_stochastic_gradient_descent.png)
+
+Batch Gradient Descent Error Evaluation (Step-by-Step):
+![Day 31 Example - Batch Gradient Descent](https://github.com/jasondown/100-days-of-code/blob/master/images/day30_error_batch_gradient_descent.png)
 
 **Link to work**: [GitHub](https://github.com/jasondown/MachineLearningDotNet)
 
