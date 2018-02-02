@@ -35,7 +35,7 @@
 
 **Examples**: Here is an example of the type provider in action, while it scrapes html information from the season 1 Wikipedia page. I'm able to access html, lists and tables on the fly and then access elements within those structures. Pretty neat stuff! [This](https://en.wikipedia.org/wiki/Vikings_(season_1)#Episodes) is the table I'm accessing from Wikipedia. Also, notice how useful the F# Interactive window is to test your code as your write it :open_mouth:
 
-![Day 1 Example](https://github.com/jasondown/100-days-of-code/blob/master/images/day1_htmlprovide.gif)
+![Day 1 Example](https://raw.githubusercontent.com/jasondown/100-days-of-code/master/images/day1_htmlprovide.gif)
 
 **Link to work**: [Github](https://github.com/jasondown/FunWithFSharpData/)
 
@@ -54,7 +54,7 @@
 
 **Examples**: Here is an animated GIF showing the stock quote code in use with F# Interactive:
 
-![Day 2 Example](https://github.com/jasondown/100-days-of-code/blob/master/images/day2_jsonprovider.gif)
+![Day 2 Example](https://raw.githubusercontent.com/jasondown/100-days-of-code/master/images/day2_jsonprovider.gif)
 
 **Links to work**:
 
@@ -80,7 +80,7 @@
 
 **Examples**:
 
-![Day 3 Example](https://github.com/jasondown/100-days-of-code/blob/master/images/day3_rssexample_xmlprovider.gif)
+![Day 3 Example](https://raw.githubusercontent.com/jasondown/100-days-of-code/master/images/day3_rssexample_xmlprovider.gif)
 
 **Links to work**:
 
@@ -105,7 +105,7 @@
 
 **Examples**: This animated GIF shows comparing the two approaches:
 
-![Day 4 Example](https://github.com/jasondown/100-days-of-code/blob/master/images/day4_rssexample_async.gif)
+![Day 4 Example](https://raw.githubusercontent.com/jasondown/100-days-of-code/master/images/day4_rssexample_async.gif)
 
 **Links to work**:
 
@@ -128,9 +128,9 @@
 
 **Examples**: Here are the two charts in action:
 
-![Day 5 Example - Total Wins](https://github.com/jasondown/100-days-of-code/blob/master/images/day5_total_wins.png)
+![Day 5 Example - Total Wins](https://raw.githubusercontent.com/jasondown/100-days-of-code/master/images/day5_total_wins.png)
 
-![Day 5 Example - Winning Span](https://github.com/jasondown/100-days-of-code/blob/master/images/day5_winning_span.png)
+![Day 5 Example - Winning Span](https://raw.githubusercontent.com/jasondown/100-days-of-code/master/images/day5_winning_span.png)
 
 **Links to work**:
 
@@ -154,9 +154,9 @@
 
 **Examples**: Here are the updated charts:
 
-![Day 6 Example - Total Wins](https://github.com/jasondown/100-days-of-code/blob/master/images/day6_total_wins.png)
+![Day 6 Example - Total Wins](https://raw.githubusercontent.com/jasondown/100-days-of-code/master/images/day6_total_wins.png)
 
-![Day 6 Example - Winning Span](https://github.com/jasondown/100-days-of-code/blob/master/images/day6_winning_span.png)
+![Day 6 Example - Winning Span](https://raw.githubusercontent.com/jasondown/100-days-of-code/master/images/day6_winning_span.png)
 
 **Links to work**:
 
@@ -184,7 +184,7 @@ This project is aimed at getting some new comers to the F# OSS community with me
 
 I spent most of my time on getting the repository forked and built and then exploring the project. I even made my first pull request, which was accepted. **Woo!** It was just fixing a link in the readme, but you gotta start somewhere.
 
-![Giphy - Jedi Training](https://github.com/jasondown/100-days-of-code/blob/master/images/day7.gif)
+![Giphy - Jedi Training](https://raw.githubusercontent.com/jasondown/100-days-of-code/master/images/day7.gif)
 
 **Link to work**: [Github](https://github.com/jasondown/Mechanic)
 
@@ -208,7 +208,7 @@ I spent most of my time on getting the repository forked and built and then expl
 
 **Examples**: The final result of playing around was to load the total population, female population and male population of Canada, the US and the UK and display them in comparison charts. Not too shabby for relatively little code.
 
-![Day 8 - Population Charts](https://github.com/jasondown/100-days-of-code/blob/master/images/day8_populations.png)
+![Day 8 - Population Charts](https://raw.githubusercontent.com/jasondown/100-days-of-code/master/images/day8_populations.png)
 
 **Links to work**: 
 
@@ -243,7 +243,7 @@ Unfortunately, if a city didn't come back with a temperature, the temperature wa
 
 **Examples**:
 
-![Day 9 Example - GeoChart](https://github.com/jasondown/100-days-of-code/blob/master/images/day9_geochart.gif)
+![Day 9 Example - GeoChart](https://raw.githubusercontent.com/jasondown/100-days-of-code/master/images/day9_geochart.gif)
 
 **Links to work**: 
 
@@ -271,7 +271,7 @@ I stopped about 3/4 of the way through chapter 2 before getting into the R Type 
 
 **Examples**: Nothing too fancy to show tonight in a gif (couple more geo charts, which I won't show). This is an example of a section of a Deedle Frame showing a bunch of indicators from the World Bank for 2012 (lots of values start to be missing as you get more recent for some of these things). With R and the R Type provider, I could plot some cool diagrams and find possible correlations between indicators. One day...
 
-![Day 10 Example - Deedle Frame](https://github.com/jasondown/100-days-of-code/blob/master/images/day10_deedleframe.gif)
+![Day 10 Example - Deedle Frame](https://raw.githubusercontent.com/jasondown/100-days-of-code/master/images/day10_deedleframe.gif)
 
 **Links to work**: 
 
@@ -293,15 +293,15 @@ I stopped about 3/4 of the way through chapter 2 before getting into the R Type 
  - Started with GET and POST implementations for people (I guess similar to a controller, but less bloat).
  - I'll admit, at first the syntax was weird, even for F#. Then I realized that they just built a little DSL to easily compose things together (combinators) via a **>=>** operator. It looks even crazier with my FiraCode font and ligatures:
 
-![Day 11 - Ligatures](https://github.com/jasondown/100-days-of-code/blob/master/images/day11_ligatures.jpg)
+![Day 11 - Ligatures](https://raw.githubusercontent.com/jasondown/100-days-of-code/master/images/day11_ligatures.jpg)
 
 I've been following along with [this tutorial](http://blog.tamizhvendan.in/blog/2015/06/11/building-rest-api-in-fsharp-using-suave/) (some slight mods have to be made because the library has been changed slightly since the tutorial was written).
 
 **Examples**: Here are some Postman screenshots of the POST and GET requests:
 
-![Day 11 Example - POST](https://github.com/jasondown/100-days-of-code/blob/master/images/day11_postsuave.png)
+![Day 11 Example - POST](https://raw.githubusercontent.com/jasondown/100-days-of-code/master/images/day11_postsuave.png)
 
-![Day 11 Example - GET](https://github.com/jasondown/100-days-of-code/blob/master/images/day11_getsuave.png)
+![Day 11 Example - GET](https://raw.githubusercontent.com/jasondown/100-days-of-code/master/images/day11_getsuave.png)
 
 **Link to work**: [GitHub](https://github.com/jasondown/FunWithSuave)
 
@@ -322,19 +322,19 @@ I've been following along with [this tutorial](http://blog.tamizhvendan.in/blog/
 
 HTTP GET - Just to show the dataset that was created via HTTP POST:
 
-![Day 12 Example - HTTP GET](https://github.com/jasondown/100-days-of-code/blob/master/images/day12_getsuave.png)
+![Day 12 Example - HTTP GET](https://raw.githubusercontent.com/jasondown/100-days-of-code/master/images/day12_getsuave.png)
 
 HTTP PUT - To change Yoda's name:
 
-![Day 12 Example - HTTP PUT](https://github.com/jasondown/100-days-of-code/blob/master/images/day12_putsuave.png)
+![Day 12 Example - HTTP PUT](https://raw.githubusercontent.com/jasondown/100-days-of-code/master/images/day12_putsuave.png)
 
 HTTP PUT - Error handling for missing resources. *This is not the captain you're looking for*:
 
-![Day 12 Example - HTTP PUT With Error Handling](https://github.com/jasondown/100-days-of-code/blob/master/images/day12_put_no_resource_suave.png)
+![Day 12 Example - HTTP PUT With Error Handling](https://raw.githubusercontent.com/jasondown/100-days-of-code/master/images/day12_put_no_resource_suave.png)
 
 HTTP DELETE - Not much to see here, other than the 204 status (people/3 was Darth Vader, who was [erased from existence](https://youtu.be/WAQbRFZU7rE?t=12s)):
 
-![Day 12 Example - HTTP DELETE](https://github.com/jasondown/100-days-of-code/blob/master/images/day12_delete_suave.png)
+![Day 12 Example - HTTP DELETE](https://raw.githubusercontent.com/jasondown/100-days-of-code/master/images/day12_delete_suave.png)
 
 **Link to work**: [GitHub](https://github.com/jasondown/FunWithSuave)
 
@@ -346,7 +346,7 @@ HTTP DELETE - Not much to see here, other than the 204 status (people/3 was Dart
 
 **Today's Focus**:  As I learn new things ([Suave](https://suave.io) framework), I like to combine the *new hotness* with recent things I learned to make sure I cement those ideas into my noggin... Ok, that word immediately brings some [flash backs](https://youtu.be/t-OCjvbV2Z4?t=8s). 
 
-![It's Like an Orange on a Toothpick](https://github.com/jasondown/100-days-of-code/blob/master/images/day13.gif)
+![It's Like an Orange on a Toothpick](https://raw.githubusercontent.com/jasondown/100-days-of-code/master/images/day13.gif)
 
  **Details**:
 
@@ -358,7 +358,7 @@ HTTP DELETE - Not much to see here, other than the 204 status (people/3 was Dart
 
 **Examples**: Here is Postman in action, loading all the SW characters and a single one:
 
-![Day 13 Example - Star Wars API and Suave](https://github.com/jasondown/100-days-of-code/blob/master/images/day13_sauve_star_wars.gif)
+![Day 13 Example - Star Wars API and Suave](https://raw.githubusercontent.com/jasondown/100-days-of-code/master/images/day13_sauve_star_wars.gif)
 
 **Link to work**: [GitHub](https://github.com/jasondown/FunWithSuave)
 
@@ -389,7 +389,7 @@ Plans for the rest of the week:
 
 Also, after 2 weeks, here is how my github contributions are looking. Unfortunately, on the first day and the fourth day I made all my commits just after midnight, so they look like they were part of day 2 and day 5. Mind the gap!
 
-![Day 14 - Progress on contributions](https://github.com/jasondown/100-days-of-code/blob/master/images/day14.jpeg)
+![Day 14 - Progress on contributions](https://raw.githubusercontent.com/jasondown/100-days-of-code/master/images/day14.jpeg)
 
 **Link to work**: [GitHub](https://github.com/jasondown/codingame)
 
@@ -480,7 +480,7 @@ Also, I was listening to this cool [Scandroid](https://scandroid.bandcamp.com/al
 
 **Examples**: This is a screen shot of my fugly html file:
 
-![Day 19 Example - Google API List](https://github.com/jasondown/100-days-of-code/blob/master/images/day19_Google_api_list.png)
+![Day 19 Example - Google API List](https://raw.githubusercontent.com/jasondown/100-days-of-code/master/images/day19_Google_api_list.png)
 
 **Links to work**: 
 
@@ -503,7 +503,7 @@ Also, I was listening to this cool [Scandroid](https://scandroid.bandcamp.com/al
 
 **Examples**: On that note, here is some really ugly F# I wrote in the name of code golf. Seems fitting for today.
 
-![Day 20 Example - F# Code Golf - Temperatures](https://github.com/jasondown/100-days-of-code/blob/master/images/day20_codegolf_temperatures.png)
+![Day 20 Example - F# Code Golf - Temperatures](https://raw.githubusercontent.com/jasondown/100-days-of-code/master/images/day20_codegolf_temperatures.png)
 
 **Link to work**: [GitHub](https://github.com/jasondown/codingame)
 
@@ -726,7 +726,7 @@ archive documents, such as back issues of the New York Times, one word at a time
 
 **Examples**: Here is the combined chart. I added a little more detail than the book (legend, colours and axis labels), but this is just to do some quick exploring before getting into gradient descent etc.
 
-![Day 29 Example - Bikes Used Comparison](https://github.com/jasondown/100-days-of-code/blob/master/images/day29_bikesused_comparison.png)
+![Day 29 Example - Bikes Used Comparison](https://raw.githubusercontent.com/jasondown/100-days-of-code/master/images/day29_bikesused_comparison.png)
 
 **Link to work**: [GitHub](https://github.com/jasondown/MachineLearningDotNet)
 
@@ -758,13 +758,13 @@ archive documents, such as back issues of the New York Times, one word at a time
 **Examples**: Here are a few of the charts that I created.
 
 Linear Combination (I think haha!):
-![Day 30 Example - Linear Combination](https://github.com/jasondown/100-days-of-code/blob/master/images/day30_linear_combination.png)
+![Day 30 Example - Linear Combination](https://raw.githubusercontent.com/jasondown/100-days-of-code/master/images/day30_linear_combination.png)
 
 Stochastic Gradient Descent:
-![Day 30 Example - Stochastic Gradient Descent](https://github.com/jasondown/100-days-of-code/blob/master/images/day30_stochastic_gradient_descent.png)
+![Day 30 Example - Stochastic Gradient Descent](https://raw.githubusercontent.com/jasondown/100-days-of-code/master/images/day30_stochastic_gradient_descent.png)
 
 Batch Gradient Descent Error Evaluation (Step-by-Step):
-![Day 30 Example - Batch Gradient Descent](https://github.com/jasondown/100-days-of-code/blob/master/images/day30_error_batch_gradient_descent.png)
+![Day 30 Example - Batch Gradient Descent](https://raw.githubusercontent.com/jasondown/100-days-of-code/master/images/day30_error_batch_gradient_descent.png)
 
 **Link to work**: [GitHub](https://github.com/jasondown/MachineLearningDotNet)
 
@@ -790,13 +790,15 @@ Batch Gradient Descent Error Evaluation (Step-by-Step):
 
 **Examples**: Here are a few of the charts that I created.
 
-Linear Algebra with MathNet library:
+Linear Algebra with MathNet library. Looks very close to how you would write vectors and matrices by hand:  
 ![Day 31 Example - Linear Algebra with MathNet Library](https://raw.githubusercontent.com/jasondown/100-days-of-code/master/images/day31_linear_algebra.png)
 
-Linear Algebra with Normal Form Regression, comparing models (predictions) with actual (line chart):
+Linear Algebra with Normal Form Regression, comparing models (predictions) with actual (line chart).  
+Single feature model is not bad, but five feature model is much closer to the actual data:  
 ![Day 31 Example - Model Comparison Line Chart](https://raw.githubusercontent.com/jasondown/100-days-of-code/master/images/day31_linear_algebra_feature_comparison.png)
 
-Linear Algebra with Normal Form Regression, comparing models (predictions) with actual (scatter plot):
+Linear Algebra with Normal Form Regression, comparing models (predictions) with actual (scatter plot).  
+Single feature model is definitely not on a nice slope of 1 (or 45 degree angle). The five feature model is pretty close:  
 ![Day 31 Example - Model Comparison Scatter Plot](https://raw.githubusercontent.com/jasondown/100-days-of-code/master/images/day31_linear_algebra_feature_comparison_scatterplot.png)
 
 **Link to work**: [GitHub](https://github.com/jasondown/MachineLearningDotNet)
