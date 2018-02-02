@@ -19,6 +19,7 @@
 |[Day 25](#day-25) **01/26/18**|Machine Learning, F#, Naive Bayes Classifier, Spam Filter|[Day 26](#day-26) **01/27/18**|Machine Learning, F#, Naive Bayes Classifier, Spam Filter, Word Tokenization|
 |[Day 27](#day-27) **01/28/18**|Machine Learning, F#, Naive Bayes Classifier, Spam Filter, Word Tokenization|[Day 28](#day-28) **01/29/18**|Machine Learning, F#, Naive Bayes Classifier, Spam Filter, Word Tokenization|
 |[Day 29](#day-29) **01/30/18**|Machine Learning, F#, FSharp.Data, FSharp.Charting|[Day 30](#day-30) **01/31/18**|Machine Learning, F#, Gradient Descent, Linear Regression, Derivatives|
+|[Day 31](#day-31) **02/01/18**|Machine Learning, F#, Linear Algebra, MathNet, Math Kernel Library, FSharp.Charting|
 
 ----------
 <a name="day-1"></a>
@@ -757,13 +758,46 @@ archive documents, such as back issues of the New York Times, one word at a time
 **Examples**: Here are a few of the charts that I created.
 
 Linear Combination (I think haha!):
-![Day 31 Example - Linear Combination](https://github.com/jasondown/100-days-of-code/blob/master/images/day30_linear_combination.png)
+![Day 30 Example - Linear Combination](https://github.com/jasondown/100-days-of-code/blob/master/images/day30_linear_combination.png)
 
 Stochastic Gradient Descent:
-![Day 31 Example - Stochastic Gradient Descent](https://github.com/jasondown/100-days-of-code/blob/master/images/day30_stochastic_gradient_descent.png)
+![Day 30 Example - Stochastic Gradient Descent](https://github.com/jasondown/100-days-of-code/blob/master/images/day30_stochastic_gradient_descent.png)
 
 Batch Gradient Descent Error Evaluation (Step-by-Step):
-![Day 31 Example - Batch Gradient Descent](https://github.com/jasondown/100-days-of-code/blob/master/images/day30_error_batch_gradient_descent.png)
+![Day 30 Example - Batch Gradient Descent](https://github.com/jasondown/100-days-of-code/blob/master/images/day30_error_batch_gradient_descent.png)
+
+**Link to work**: [GitHub](https://github.com/jasondown/MachineLearningDotNet)
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-31"></a>
+### Day 31: February 2, 2018
+
+**Today's Focus**: Continued with machine learning with Mathias Brandewinder's book [Machine Learning Project for .Net Developers](https://www.apress.com/us/book/9781430267676).
+
+**Details**:
+
+- Continued a few sections in chapter 4: Of Bikes and Men.
+- Project is to create a prediction model (regression model) using methods such as gradient descent and linear algebra.
+- Using a [Bike Sharing](https://archive.ics.uci.edu/ml/datasets/Bike+Sharing+Dataset) dataset from UCI machine learning repository.
+- Refresher on Linear Algebra, vectors and matrices.
+- Explored the MathNet library (lets you work with vectors and matrices very easily in the code).
+- Replaced original code from past few days with linear algebra style code. Although, not a complete conversion because we can take advantage of **normal form regression** instead of gradient descent for this particular problem.
+- Took advantage of the **Math Kernel Library (MKL)** that uses highly-optimized math libraries that are built within Intel processors.	
+- Created more cross-validation logic, simplified model creation functions and the ability to easily add features to models.
+- Created some graphs to visually explore the model differences of 1 feature vs 5 features (line chart and scatter plot).
+
+**Examples**: Here are a few of the charts that I created.
+
+Linear Algebra with MathNet library:
+![Day 31 Example - Linear Algebra with MathNet Library](https://raw.githubusercontent.com/jasondown/100-days-of-code/master/images/day31_linear_algebra.png)
+
+Linear Algebra with Normal Form Regression, comparing models (predictions) with actual (line chart):
+![Day 31 Example - Model Comparison Line Chart](https://raw.githubusercontent.com/jasondown/100-days-of-code/master/images/day31_linear_algebra_feature_comparison.png)
+
+Linear Algebra with Normal Form Regression, comparing models (predictions) with actual (scatter plot):
+![Day 31 Example - Model Comparison Scatter Plot](https://raw.githubusercontent.com/jasondown/100-days-of-code/master/images/day31_linear_algebra_feature_comparison_scatterplot.png)
 
 **Link to work**: [GitHub](https://github.com/jasondown/MachineLearningDotNet)
 
