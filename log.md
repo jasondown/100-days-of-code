@@ -823,7 +823,7 @@ Single feature model is definitely not on a nice slope of 1 (or 45 degree angle)
 
 **Examples**: Here is a chart showing the temperature example:
 
-![Day 31 Example - Linear Algebra with MathNet Library](https://raw.githubusercontent.com/jasondown/100-days-of-code/master/images/day32_polynomial_temperature.png)
+![Day 32 Example - Bikes Used vs Regularized Temperature](https://raw.githubusercontent.com/jasondown/100-days-of-code/master/images/day32_polynomial_temperature.png)
 
 **Link to work**: [GitHub](https://github.com/jasondown/MachineLearningDotNet)
 
