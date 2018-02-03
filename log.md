@@ -19,7 +19,7 @@
 |[Day 25](#day-25) **01/26/18**|Machine Learning, F#, Naive Bayes Classifier, Spam Filter|[Day 26](#day-26) **01/27/18**|Machine Learning, F#, Naive Bayes Classifier, Spam Filter, Word Tokenization|
 |[Day 27](#day-27) **01/28/18**|Machine Learning, F#, Naive Bayes Classifier, Spam Filter, Word Tokenization|[Day 28](#day-28) **01/29/18**|Machine Learning, F#, Naive Bayes Classifier, Spam Filter, Word Tokenization|
 |[Day 29](#day-29) **01/30/18**|Machine Learning, F#, FSharp.Data, FSharp.Charting|[Day 30](#day-30) **01/31/18**|Machine Learning, F#, Gradient Descent, Linear Regression, Derivatives|
-|[Day 31](#day-31) **02/01/18**|Machine Learning, F#, Linear Algebra, MathNet, Math Kernel Library, FSharp.Charting|[Day 32](#day-32) **02/02/18**|Machine Learning, F#, Polynomials, Categorical Features, Collinearity, FSharp.Charting|
+|[Day 31](#day-31) **02/01/18**|Machine Learning, F#, Linear Algebra, MathNet, Math Kernel Library, FSharp.Charting|[Day 32](#day-32) **02/02/18**|Machine Learning, F#, Polynomials, Categorical Features, Collinearity, Regularization, Normalization FSharp.Charting|
 
 ----------
 <a name="day-1"></a>
@@ -819,11 +819,12 @@ Single feature model is definitely not on a nice slope of 1 (or 45 degree angle)
 - Explored categorical features and dealing with collinearity issues.
 - Compared linear functions with higher-order polynomial functions.
 - In particular, looked at using a polynomial function to handle bike usage based on temperature. As the temperature warms up, bike usage goes up. However, it levels off and starts coming down again when the temperature gets too hot. The curved line of a polynomial more correctly relates to the data.
+- Also looked at regularization and normalization.
 - Created some more graphs to visually explore the models.
 
 **Examples**: Here is a chart showing the temperature example:
 
-![Day 32 Example - Bikes Used vs Regularized Temperature](https://raw.githubusercontent.com/jasondown/100-days-of-code/master/images/day32_polynomial_temperature.png)
+![Day 32 Example - Bikes Used vs Normalized Temperature](https://raw.githubusercontent.com/jasondown/100-days-of-code/master/images/day32_polynomial_temperature.png)
 
 **Link to work**: [GitHub](https://github.com/jasondown/MachineLearningDotNet)
 
