@@ -20,7 +20,8 @@
 |[Day 27](#day-27) **01/28/18**|Machine Learning, F#, Naive Bayes Classifier, Spam Filter, Word Tokenization|[Day 28](#day-28) **01/29/18**|Machine Learning, F#, Naive Bayes Classifier, Spam Filter, Word Tokenization|
 |[Day 29](#day-29) **01/30/18**|Machine Learning, F#, FSharp.Data, FSharp.Charting|[Day 30](#day-30) **01/31/18**|Machine Learning, F#, Gradient Descent, Linear Regression, Derivatives|
 |[Day 31](#day-31) **02/01/18**|Machine Learning, F#, Linear Algebra, MathNet, Math Kernel Library, FSharp.Charting|[Day 32](#day-32) **02/02/18**|Machine Learning, F#, Polynomials, Categorical Features, Collinearity, Regularization, Normalization FSharp.Charting|
-|[Day 33](#day-33) **02/03/18**|Machine Learning, F#, Unsupervised, K-Means Clustering, FSharp.Charting|[Day 34](#day-34) **02/04/18**|Machine Learning, f#, Unsupervised, K-Means Clustering, Residual Sum of Squares, Akaike Information Criterion|
+|[Day 33](#day-33) **02/03/18**|Machine Learning, F#, Unsupervised, K-Means Clustering, FSharp.Charting|[Day 34](#day-34) **02/04/18**|Machine Learning, F#, Unsupervised, K-Means Clustering, Residual Sum of Squares, Akaike Information Criterion|
+|[Day 35](#day-35) **02/05/08**|Machine Learning, F#, Unsupervised, Covariance/Correlation (Matrix), Principal Component Analysis, Eigenvectors, Eigenvalues|
 
 ----------
 <a name="day-1"></a>
@@ -868,6 +869,24 @@ Using RSS and AIC to find decent values for K:
 
 Selected the value 10 for K and got meaningful clusters (similar technologies or tech stacks together):  
 ![Day 34 Example - 10 Clusters](https://raw.githubusercontent.com/jasondown/100-days-of-code/master/images/day34_best_clusters.png)
+
+**Link to work**: [GitHub](https://github.com/jasondown/MachineLearningDotNet)
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-35"></a>
+### Day 35: February 5, 2018
+
+**Today's Focus**: Continued with machine learning with Mathias Brandewinder's book [Machine Learning Project for .Net Developers](https://www.apress.com/us/book/9781430267676).
+
+**Details**:
+
+- Continued chapter 5: You Are Not a Unique Snowflake
+- Looked into covariance via correlation matrices.
+- Learned about Principal Component Analysis (PCA).
+- Had a bried introduction to eigenvectors and eigenvalues.
+- Quote of the day: *"Principal Component Analysis relies on the eigen decomposition of the dataset covariance matrix."*
 
 **Link to work**: [GitHub](https://github.com/jasondown/MachineLearningDotNet)
 
