@@ -21,7 +21,7 @@
 |[Day 29](#day-29) **01/30/18**|Machine Learning, F#, FSharp.Data, FSharp.Charting|[Day 30](#day-30) **01/31/18**|Machine Learning, F#, Gradient Descent, Linear Regression, Derivatives|
 |[Day 31](#day-31) **02/01/18**|Machine Learning, F#, Linear Algebra, MathNet, Math Kernel Library, FSharp.Charting|[Day 32](#day-32) **02/02/18**|Machine Learning, F#, Polynomials, Categorical Features, Collinearity, Regularization, Normalization FSharp.Charting|
 |[Day 33](#day-33) **02/03/18**|Machine Learning, F#, Unsupervised, K-Means Clustering, FSharp.Charting|[Day 34](#day-34) **02/04/18**|Machine Learning, F#, Unsupervised, K-Means Clustering, Residual Sum of Squares, Akaike Information Criterion|
-|[Day 35](#day-35) **02/05/08**|Machine Learning, F#, Unsupervised, Covariance/Correlation (Matrix), Principal Component Analysis, Eigenvectors, Eigenvalues|
+|[Day 35](#day-35) **02/05/18**|Machine Learning, F#, Unsupervised, Covariance/Correlation (Matrix), Principal Component Analysis, Eigenvectors, Eigenvalues|[Day 36](#day-36) **02/06/18**|Machine Learning, F#, Unsupervised, Collaborative Filtering|
 
 ----------
 <a name="day-1"></a>
@@ -887,6 +887,23 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 - Learned about Principal Component Analysis (PCA).
 - Had a bried introduction to eigenvectors and eigenvalues.
 - Quote of the day: *"Principal Component Analysis relies on the eigen decomposition of the dataset covariance matrix."*
+
+**Link to work**: [GitHub](https://github.com/jasondown/MachineLearningDotNet)
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-36"></a>
+### Day 36: February 6, 2018
+
+**Today's Focus**: Continued with machine learning with Mathias Brandewinder's book [Machine Learning Project for .Net Developers](https://www.apress.com/us/book/9781430267676).
+
+**Details**:
+
+- Completed chapter 5: You Are Not a Unique Snowflake
+- Explored collaborative filtering to make a primitive recommendation system.
+- Recommender system was 32% accurate in recommending a stackoverflow tag to a user (predict vs. actual).
+- Baseline comparison of recommending the top tag to a user was only 13% accurate, so not too bad an improvement.
 
 **Link to work**: [GitHub](https://github.com/jasondown/MachineLearningDotNet)
 
