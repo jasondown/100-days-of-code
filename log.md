@@ -22,7 +22,7 @@
 |[Day 31](#day-31) **02/01/18**|Machine Learning, F#, Linear Algebra, MathNet, Math Kernel Library, FSharp.Charting|[Day 32](#day-32) **02/02/18**|Machine Learning, F#, Polynomials, Categorical Features, Collinearity, Regularization, Normalization FSharp.Charting|
 |[Day 33](#day-33) **02/03/18**|Machine Learning, F#, Unsupervised, K-Means Clustering, FSharp.Charting|[Day 34](#day-34) **02/04/18**|Machine Learning, F#, Unsupervised, K-Means Clustering, Residual Sum of Squares, Akaike Information Criterion|
 |[Day 35](#day-35) **02/05/18**|Machine Learning, F#, Unsupervised, Covariance/Correlation (Matrix), Principal Component Analysis, Eigenvectors, Eigenvalues|[Day 36](#day-36) **02/06/18**|Machine Learning, F#, Unsupervised, Collaborative Filtering|
-|[Day 37](#day-37) **02/07/18**|Machine Learning, F#, CSV Type Provider, Decision Stump, Discretization|
+|[Day 37](#day-37) **02/07/18**|Machine Learning, F#, CSV Type Provider, Decision Stump, Discretization|[Day 38](#day-38) **02/08/18**|Machine Learning, F#, Entropy, Discretization|
 
 ----------
 <a name="day-1"></a>
@@ -925,6 +925,26 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 - Classifiers ranged from passenger class, passenger sex, port of origin etc.
 - Handled missing data (e.g. port of origin was not required).
 - Handled continuous numeric values (ticket fares) by taking the large number of different values and applying discretization (group them into cheap tickets and expensive tickets) to get better information for a classifier.
+
+**Link to work**: [GitHub](https://github.com/jasondown/MachineLearningDotNet)
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-38"></a>
+### Day 38: February 8, 2018
+
+**Today's Focus**: Continued with machine learning with Mathias Brandewinder's book [Machine Learning Project for .Net Developers](https://www.apress.com/us/book/9781430267676).
+
+**Details**:
+
+- Did another section in chapter 6: Trees and Forests
+- Project takes a look at a dataset regarding Titanic passengers, based on [this](https://www.kaggle.com/c/titanic) machine learning competition.
+- Used the [CSV Type Provider](http://fsharp.github.io/FSharp.Data/library/CsvProvider.html) to load the data and get compile time safety and Intellisense.
+- Looked into using (Shannon) Entropy to figure out what features would give you the biggest information gain (think 20 question).
+- Used entropy to better choose a value for discretization (e.g. Age is best when split at 7 years old, assuming 2 groups is best).
+	- NOTE: Need to read up on [Minimum Description Length](https://en.wikipedia.org/wiki/Minimum_description_length) to explore using more than 2 groups for discretization.
+- Explored information gain by a feature, then further splitting into sub-groups. Splitting by sex, then class yields the best results for this particular dataset.
 
 **Link to work**: [GitHub](https://github.com/jasondown/MachineLearningDotNet)
 
