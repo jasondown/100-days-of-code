@@ -941,8 +941,8 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 - Did another section in chapter 6: Trees and Forests
 - Project takes a look at a dataset regarding Titanic passengers, based on [this](https://www.kaggle.com/c/titanic) machine learning competition.
 - Used the [CSV Type Provider](http://fsharp.github.io/FSharp.Data/library/CsvProvider.html) to load the data and get compile time safety and Intellisense.
-- Looked into using (Shannon) Entropy to figure out what features would give you the biggest information gain (think 20 question).
-- Used entropy to better choose a value for discretization (e.g. Age is best when split at 7 years old, assuming 2 groups is best).
+- Looked into using [(Shannon) Entropy](https://en.wikipedia.org/wiki/Entropy_(information_theory)) to figure out what features would give you the biggest information gain (think 20 questions and narrowing down your choices quicker by asking questions like "Is it alive?" first).
+- Used entropy to better choose a value for [discretization](https://en.wikipedia.org/wiki/Discretization_of_continuous_features) (e.g. Age is best split at 7 years old, assuming 2 groups is best).
 	- NOTE: Need to read up on [Minimum Description Length](https://en.wikipedia.org/wiki/Minimum_description_length) to explore using more than 2 groups for discretization.
 - Explored information gain by a feature, then further splitting into sub-groups. Splitting by sex, then class yields the best results for this particular dataset.
 
