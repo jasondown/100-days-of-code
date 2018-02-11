@@ -23,7 +23,7 @@
 |[Day 33](#day-33) **02/03/18**|Machine Learning, F#, Unsupervised, K-Means Clustering, FSharp.Charting|[Day 34](#day-34) **02/04/18**|Machine Learning, F#, Unsupervised, K-Means Clustering, Residual Sum of Squares, Akaike Information Criterion|
 |[Day 35](#day-35) **02/05/18**|Machine Learning, F#, Unsupervised, Covariance/Correlation (Matrix), Principal Component Analysis, Eigenvectors, Eigenvalues|[Day 36](#day-36) **02/06/18**|Machine Learning, F#, Unsupervised, Collaborative Filtering|
 |[Day 37](#day-37) **02/07/18**|Machine Learning, F#, CSV Type Provider, Decision Stump, Discretization|[Day 38](#day-38) **02/08/18**|Machine Learning, F#, Entropy, Discretization|
-|[Day 39](#day-39) **02/09/18**|Machine Learning, F#, Entropy, Decision Stump, Decision Tree|[Day 40](#day-40) **02/10/18**|Machine Learning, F#, Dicision Tree, Entropy, Filters|
+|[Day 39](#day-39) **02/09/18**|Machine Learning, F#, Entropy, Decision Stump, Decision Tree|[Day 40](#day-40) **02/10/18**|Machine Learning, F#, Decision Tree, Entropy, Filters|
 
 ----------
 <a name="day-1"></a>
