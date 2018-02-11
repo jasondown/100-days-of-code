@@ -23,7 +23,7 @@
 |[Day 33](#day-33) **02/03/18**|Machine Learning, F#, Unsupervised, K-Means Clustering, FSharp.Charting|[Day 34](#day-34) **02/04/18**|Machine Learning, F#, Unsupervised, K-Means Clustering, Residual Sum of Squares, Akaike Information Criterion|
 |[Day 35](#day-35) **02/05/18**|Machine Learning, F#, Unsupervised, Covariance/Correlation (Matrix), Principal Component Analysis, Eigenvectors, Eigenvalues|[Day 36](#day-36) **02/06/18**|Machine Learning, F#, Unsupervised, Collaborative Filtering|
 |[Day 37](#day-37) **02/07/18**|Machine Learning, F#, CSV Type Provider, Decision Stump, Discretization|[Day 38](#day-38) **02/08/18**|Machine Learning, F#, Entropy, Discretization|
-|[Day 39](#day-39) **02/09/18**|Machine Learning, F#, Entropy, Decision Stump, Decision Tree|
+|[Day 39](#day-39) **02/09/18**|Machine Learning, F#, Entropy, Decision Stump, Decision Tree|[Day 40](#day-40) **02/10/18**|Machine Learning, F#, Dicision Tree, Entropy, Filters|
 
 ----------
 <a name="day-1"></a>
@@ -965,6 +965,25 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 - Created a new Tree library and created a generic Tree type that can be used without our decision stumps (to create a decision tree).
 - Created a new script to try the tree out, with 80% accuracy.
 - Output of tree is uuuuuuugly though.
+
+**Link to work**: [GitHub](https://github.com/jasondown/MachineLearningDotNet)
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-40"></a>
+### Day 40: February 10, 2018
+
+**Today's Focus**: Continued with machine learning with Mathias Brandewinder's book [Machine Learning Project for .Net Developers](https://www.apress.com/us/book/9781430267676).
+
+**Details**:
+
+- Did another section in chapter 6: Trees and Forests
+- Project takes a look at a dataset regarding Titanic passengers, based on [this](https://www.kaggle.com/c/titanic) machine learning competition.
+- Used the [CSV Type Provider](http://fsharp.github.io/FSharp.Data/library/CsvProvider.html) to load the data and get compile time safety and Intellisense.
+- Improved decision tree display output.
+- Created a new decision tree creation process that uses filters.
+- Filters can be used to only add features to the tree that add poistive entropy gain.
 
 **Link to work**: [GitHub](https://github.com/jasondown/MachineLearningDotNet)
 
