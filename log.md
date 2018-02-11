@@ -983,7 +983,7 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 - Used the [CSV Type Provider](http://fsharp.github.io/FSharp.Data/library/CsvProvider.html) to load the data and get compile time safety and Intellisense.
 - Improved decision tree display output.
 - Created a new decision tree creation process that uses filters.
-- Filters can be used to only add features to the tree that add poistive entropy gain.
+- Filters can be used to only add features to the tree that add positive entropy gain.
 
 **Link to work**: [GitHub](https://github.com/jasondown/MachineLearningDotNet)
 
