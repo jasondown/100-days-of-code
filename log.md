@@ -24,7 +24,7 @@
 |[Day 35](#day-35) **02/05/18**|Machine Learning, F#, Unsupervised, Covariance/Correlation (Matrix), Principal Component Analysis, Eigenvectors, Eigenvalues|[Day 36](#day-36) **02/06/18**|Machine Learning, F#, Unsupervised, Collaborative Filtering|
 |[Day 37](#day-37) **02/07/18**|Machine Learning, F#, CSV Type Provider, Decision Stump, Discretization|[Day 38](#day-38) **02/08/18**|Machine Learning, F#, Entropy, Discretization|
 |[Day 39](#day-39) **02/09/18**|Machine Learning, F#, Entropy, Decision Stump, Decision Tree|[Day 40](#day-40) **02/10/18**|Machine Learning, F#, Decision Tree, Entropy, Filters|
-|[Day 41](#day-41) **02/11/18**|Machine Learning, F#, Decision Tree, K-Folds, Random Forests|
+|[Day 41](#day-41) **02/11/18**|Machine Learning, F#, Decision Tree, K-Folds, Random Forests|[Day 42](#day-42) **02/12/18**|Codingame challenges, Classic Puzzles - Hard, F#|
 
 ----------
 <a name="day-1"></a>
@@ -1006,5 +1006,24 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 	- While each tree is slightly less accurate than one using the entire dataset, it prevents over-fitting to that specific data and creating a model that is not necessarily as good as it seems. The forest allows a combination and majority vote between the many trees that is usually more accurate for real classification/prediction.
 
 **Link to work**: [GitHub](https://github.com/jasondown/MachineLearningDotNet)
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-42"></a>
+### Day 42: February 12, 2018
+
+**Today's Focus**: In honour of the number 42 (day 42), I decided to do a [HHGTTG](https://en.wikipedia.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy) nod by returning to [Codingame](https://www.codingame.com) and work on [Don't Panic - Episode 2](https://www.codingame.com/training/hard/don't-panic-episode-2).
+
+**Details**:
+
+- This puzzle is my first attempt a *Classic Puzzle - Hard* category.
+- I've got 5 of the 10 test cases passing. [Here](https://www.codingame.com/replay/solo/287776216) is a sample of one of the passing tests.
+- I used my episode 1 code (as suggested by the instructional text), with some tweaks for the new rules. These are good until best path restrictions are added (for the remaining unpassing tests).
+- I'll need to look into an appropriate shortest path algorithm, such as [BFS](https://en.wikipedia.org/wiki/Breadth-first_search), [A*](http://web.mit.edu/eranki/www/tutorials/search/), [Alpha-beta pruning](https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning) or perhaps [Dijkstra's algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm). 
+- I've implemented some of these in C# before, using a Graphs (for Codingame challenges, actually) but never in F#.
+- Looking forward to finishing this off tomorrow before returning to Machine Learning.
+
+**Link to work**: [GitHub](https://github.com/jasondown/codingame)
 
 [Table of Contents](#toc)
