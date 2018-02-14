@@ -10,10 +10,10 @@
 |[Day 7](#day-7) **01/08/18**|FsProjects/Mechanic open source project (F#)|[Day 8](#day-8) **01/09/18**|FSharp.Data, World Bank Type Provider, FSharp.Charting|
 |[Day 9](#day-9) **01/10/18**|FsLab, OpenWeatherMap API, Google GeoChart, FSharp.Data, World Bank Type Provider|[Day 10](#day-10) **01/11/18**|FsLab, Google GeoChart, Deedle, FSharp.Data, Xml Type Provider|
 |[Day 11](#day-11) **01/12/18**|F# Web Programming, Suave Framework|[Day 12](#day-12) **01/13/18**|F# Web Programming, Suave Framework|
-|[Day 13](#day-13) **01/14/18**|F# Web Programming, Suave Framework, Star Wars API (SWAPI), F# Swapi, FSharp.Data, JSON Type Provider|[Day 14](#day-14) **01/15/18**|Codingame challenges, Classic Puzzles - Easy, Code Golf, Optimization, F#, C#|
-[Day 15](#day-15) **01/16/18**|Codingame challenges, Classic Puzzles - Easy, Scala, GitHub Markdown (this log)|[Day 16](#day-16) **01/17/18**|Codingame challenges, Classic Puzzles - Medium, F#|
-|[Day 17](#day-17) **01/18/18**|Tidy, Tidy-Html5, TidyHtml5Managed, C#, C|[Day 18](#day-18) **01/19/18**|Codingame challenges, Classic Puzzles - Easy, Classic Puzzles - Medium, F#, C#|
-|[Day 19](#day-19) **01/20/18**|FSharp.Data, JSON Type Provider, Google APIs|[Day 20](#day-20) **01/21/18**|Codingame challenges, code golf, F#, Java, JPanel|
+|[Day 13](#day-13) **01/14/18**|F# Web Programming, Suave Framework, Star Wars API (SWAPI), F# Swapi, FSharp.Data, JSON Type Provider|[Day 14](#day-14) **01/15/18**|Codingame Challenges, Classic Puzzles - Easy, Code Golf, Optimization, F#, C#|
+[Day 15](#day-15) **01/16/18**|Codingame Challenges, Classic Puzzles - Easy, Scala, GitHub Markdown (this log)|[Day 16](#day-16) **01/17/18**|Codingame Challenges, Classic Puzzles - Medium, F#|
+|[Day 17](#day-17) **01/18/18**|Tidy, Tidy-Html5, TidyHtml5Managed, C#, C|[Day 18](#day-18) **01/19/18**|Codingame Challenges, Classic Puzzles - Easy, Classic Puzzles - Medium, F#, C#|
+|[Day 19](#day-19) **01/20/18**|FSharp.Data, JSON Type Provider, Google APIs|[Day 20](#day-20) **01/21/18**|Codingame Challenges, code golf, F#, Java, JPanel|
 |[Day 21](#day-21) **01/22/18**|Machine Learning, F#, C#|[Day 22](#day-22) **01/23/18**|Machine Learning, C#, Manhattan Distance, Classification|
 |[Day 23](#day-23) **01/24/18**|Machine Learning, C#, F#, Manhattan Distance, Classification, GitHub Markdown (this log)|[Day 24](#day-24) **01/25/18**|Machine Learning, F#, C# (functional), Euclidean Distance, Classification|
 |[Day 25](#day-25) **01/26/18**|Machine Learning, F#, Naive Bayes Classifier, Spam Filter|[Day 26](#day-26) **01/27/18**|Machine Learning, F#, Naive Bayes Classifier, Spam Filter, Word Tokenization|
@@ -24,7 +24,8 @@
 |[Day 35](#day-35) **02/05/18**|Machine Learning, F#, Unsupervised, Covariance/Correlation (Matrix), Principal Component Analysis, Eigenvectors, Eigenvalues|[Day 36](#day-36) **02/06/18**|Machine Learning, F#, Unsupervised, Collaborative Filtering|
 |[Day 37](#day-37) **02/07/18**|Machine Learning, F#, CSV Type Provider, Decision Stump, Discretization|[Day 38](#day-38) **02/08/18**|Machine Learning, F#, Entropy, Discretization|
 |[Day 39](#day-39) **02/09/18**|Machine Learning, F#, Entropy, Decision Stump, Decision Tree|[Day 40](#day-40) **02/10/18**|Machine Learning, F#, Decision Tree, Entropy, Filters|
-|[Day 41](#day-41) **02/11/18**|Machine Learning, F#, Decision Tree, K-Folds, Random Forests|[Day 42](#day-42) **02/12/18**|Codingame challenges, Classic Puzzles - Hard, F#|
+|[Day 41](#day-41) **02/11/18**|Machine Learning, F#, Decision Tree, K-Folds, Random Forests|[Day 42](#day-42) **02/12/18**|Codingame Challenges, Classic Puzzles - Hard, F#|
+|[Day 43](#day-43) **02/13/18**|Codingame Challenges, Classic Puzzles - Hard, F#, Graphs, Trees, BFS, Shortest-Path|
 
 ----------
 <a name="day-1"></a>
@@ -1023,6 +1024,24 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 - I'll need to look into an appropriate shortest path algorithm, such as [BFS](https://en.wikipedia.org/wiki/Breadth-first_search), [A*](http://web.mit.edu/eranki/www/tutorials/search/), [Alpha-beta pruning](https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning) or perhaps [Dijkstra's algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm). 
 - I've implemented some of these in C# before, using a Graphs (for Codingame challenges, actually) but never in F#.
 - Looking forward to finishing this off tomorrow before returning to Machine Learning.
+
+**Link to work**: [GitHub](https://github.com/jasondown/codingame)
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-43"></a>
+### Day 43: February 13, 2018
+
+**Today's Focus**: Continued [Codingame](https://www.codingame.com) and work on [Don't Panic - Episode 2](https://www.codingame.com/training/hard/don't-panic-episode-2).
+
+**Details**:
+
+- This puzzle is my first attempt a *Classic Puzzle - Hard* category.
+- I've got another test case working for best path (6/10 passing now).
+- Read lots of material on shortest path algorithm, such as [BFS](https://en.wikipedia.org/wiki/Breadth-first_search), [A*](http://web.mit.edu/eranki/www/tutorials/search/), [Alpha-beta pruning](https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning) or perhaps [Dijkstra's algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm). 
+- It's tough to find examples of these algorithms in F# (I may have to look into something like Haskell... or just do an imperative style like I've done in C#).
+- I also need to look at the cost/weight calculation because just distance to the closest elevator is not enough. You also have to take into account the cost of building missing elevators (and how many you have left), the cost of blocking clones (and number of clones left) and sometimes, look ahead to another level (the exit is sometimes surrounded by elevators that lead to a no-exit scenario).
 
 **Link to work**: [GitHub](https://github.com/jasondown/codingame)
 
