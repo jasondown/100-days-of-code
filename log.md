@@ -1057,7 +1057,7 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 
 - This puzzle is my first attempt a *Classic Puzzle - Hard* category.
 - I've got another test case working for best path (6/10 passing now).
-- Started working on creating some graphing related types and an adjacency list. This should support BFS and/or Djikstra's algorithm.
+- Started working on creating some graphing related types and an adjacency list. This should support BFS and/or Dijkstra's algorithm.
 
 **Link to work**: [GitHub](https://github.com/jasondown/codingame)
 
