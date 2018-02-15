@@ -25,7 +25,7 @@
 |[Day 37](#day-37) **02/07/18**|Machine Learning, F#, CSV Type Provider, Decision Stump, Discretization|[Day 38](#day-38) **02/08/18**|Machine Learning, F#, Entropy, Discretization|
 |[Day 39](#day-39) **02/09/18**|Machine Learning, F#, Entropy, Decision Stump, Decision Tree|[Day 40](#day-40) **02/10/18**|Machine Learning, F#, Decision Tree, Entropy, Filters|
 |[Day 41](#day-41) **02/11/18**|Machine Learning, F#, Decision Tree, K-Folds, Random Forests|[Day 42](#day-42) **02/12/18**|Codingame Challenges, Classic Puzzles - Hard, F#|
-|[Day 43](#day-43) **02/13/18**|Codingame Challenges, Classic Puzzles - Hard, F#, Graphs, Trees, BFS, Shortest-Path|
+|[Day 43](#day-43) **02/13/18**|Codingame Challenges, Classic Puzzles - Hard, F#, Graphs, Trees, BFS, Shortest-Path|[Day 44](#day-44) **02/14/18**|Codingame Challenges, Classic Puzzles - Hard, F#, Graphs, BFS|s
 
 ----------
 <a name="day-1"></a>
@@ -1042,6 +1042,22 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 - Read lots of material on shortest path algorithm, such as [BFS](https://en.wikipedia.org/wiki/Breadth-first_search), [A*](http://web.mit.edu/eranki/www/tutorials/search/), [Alpha-beta pruning](https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning) or perhaps [Dijkstra's algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm). 
 - It's tough to find examples of these algorithms in F# (I may have to look into something like Haskell... or just do an imperative style like I've done in C#).
 - I also need to look at the cost/weight calculation because just distance to the closest elevator is not enough. You also have to take into account the cost of building missing elevators (and how many you have left), the cost of blocking clones (and number of clones left) and sometimes, look ahead to another level (the exit is sometimes surrounded by elevators that lead to a no-exit scenario).
+
+**Link to work**: [GitHub](https://github.com/jasondown/codingame)
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-44"></a>
+### Day 44: February 14, 2018
+
+**Today's Focus**: Shortened coding day (20 minutes) because it was Valentine's day. Continued [Codingame](https://www.codingame.com) and work on [Don't Panic - Episode 2](https://www.codingame.com/training/hard/don't-panic-episode-2).
+
+**Details**:
+
+- This puzzle is my first attempt a *Classic Puzzle - Hard* category.
+- I've got another test case working for best path (6/10 passing now).
+- Started working on creating some graphing related types and an adjacency list. This should support BFS and/or Djikstra's algorithm.
 
 **Link to work**: [GitHub](https://github.com/jasondown/codingame)
 
