@@ -1065,7 +1065,7 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 [Table of Contents](#toc)
 
 ----------
-<a name="day-44"></a>
+<a name="day-45"></a>
 ### Day 45: February 15, 2018
 
 **Today's Focus**: Continued [Codingame](https://www.codingame.com) and work on [Don't Panic - Episode 2](https://www.codingame.com/training/hard/don't-panic-episode-2).
