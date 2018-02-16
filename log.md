@@ -25,7 +25,8 @@
 |[Day 37](#day-37) **02/07/18**|Machine Learning, F#, CSV Type Provider, Decision Stump, Discretization|[Day 38](#day-38) **02/08/18**|Machine Learning, F#, Entropy, Discretization|
 |[Day 39](#day-39) **02/09/18**|Machine Learning, F#, Entropy, Decision Stump, Decision Tree|[Day 40](#day-40) **02/10/18**|Machine Learning, F#, Decision Tree, Entropy, Filters|
 |[Day 41](#day-41) **02/11/18**|Machine Learning, F#, Decision Tree, K-Folds, Random Forests|[Day 42](#day-42) **02/12/18**|Codingame Challenges, Classic Puzzles - Hard, F#|
-|[Day 43](#day-43) **02/13/18**|Codingame Challenges, Classic Puzzles - Hard, F#, Graphs, Trees, BFS, Shortest-Path|[Day 44](#day-44) **02/14/18**|Codingame Challenges, Classic Puzzles - Hard, F#, Graphs, BFS|s
+|[Day 43](#day-43) **02/13/18**|Codingame Challenges, Classic Puzzles - Hard, F#, Graphs, Trees, BFS, Shortest-Path|[Day 44](#day-44) **02/14/18**|Codingame Challenges, Classic Puzzles - Hard, F#, Graphs, BFS|Codingame Challenges, Classic Puzzles - Hard, F#, Graphs, Shortest-Path|
+|[Day 45](#day-45) **02/15/18**|
 
 ----------
 <a name="day-1"></a>
@@ -1058,6 +1059,22 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 - This puzzle is my first attempt a *Classic Puzzle - Hard* category.
 - I've got another test case working for best path (6/10 passing now).
 - Started working on creating some graphing related types and an adjacency list. This should support BFS and/or Dijkstra's algorithm.
+
+**Link to work**: [GitHub](https://github.com/jasondown/codingame)
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-44"></a>
+### Day 45: February 15, 2018
+
+**Today's Focus**: Continued [Codingame](https://www.codingame.com) and work on [Don't Panic - Episode 2](https://www.codingame.com/training/hard/don't-panic-episode-2).
+
+**Details**:
+
+- This puzzle is my first attempt a *Classic Puzzle - Hard* category.
+- I've got another test case working for best path (6/10 passing now).
+- Went crazy on the graph related code (nearly 400 lines now). I've been combining code and concepts from all over the place. I need to start fresh I think (over-complicating this).
 
 **Link to work**: [GitHub](https://github.com/jasondown/codingame)
 
