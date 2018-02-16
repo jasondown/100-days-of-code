@@ -25,8 +25,8 @@
 |[Day 37](#day-37) **02/07/18**|Machine Learning, F#, CSV Type Provider, Decision Stump, Discretization|[Day 38](#day-38) **02/08/18**|Machine Learning, F#, Entropy, Discretization|
 |[Day 39](#day-39) **02/09/18**|Machine Learning, F#, Entropy, Decision Stump, Decision Tree|[Day 40](#day-40) **02/10/18**|Machine Learning, F#, Decision Tree, Entropy, Filters|
 |[Day 41](#day-41) **02/11/18**|Machine Learning, F#, Decision Tree, K-Folds, Random Forests|[Day 42](#day-42) **02/12/18**|Codingame Challenges, Classic Puzzles - Hard, F#|
-|[Day 43](#day-43) **02/13/18**|Codingame Challenges, Classic Puzzles - Hard, F#, Graphs, Trees, BFS, Shortest-Path|[Day 44](#day-44) **02/14/18**|Codingame Challenges, Classic Puzzles - Hard, F#, Graphs, BFS|Codingame Challenges, Classic Puzzles - Hard, F#, Graphs, Shortest-Path|
-|[Day 45](#day-45) **02/15/18**|
+|[Day 43](#day-43) **02/13/18**|Codingame Challenges, Classic Puzzles - Hard, F#, Graphs, Trees, BFS, Shortest-Path|[Day 44](#day-44) **02/14/18**|Codingame Challenges, Classic Puzzles - Hard, F#, Graphs, BFS|
+|[Day 45](#day-45) **02/15/18**|Codingame Challenges, Classic Puzzles - Hard, F#, Graphs, Shortest-Path|
 
 ----------
 <a name="day-1"></a>
