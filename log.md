@@ -26,7 +26,8 @@
 |[Day 39](#day-39) **02/09/18**|Machine Learning, F#, Entropy, Decision Stump, Decision Tree|[Day 40](#day-40) **02/10/18**|Machine Learning, F#, Decision Tree, Entropy, Filters|
 |[Day 41](#day-41) **02/11/18**|Machine Learning, F#, Decision Tree, K-Folds, Random Forests|[Day 42](#day-42) **02/12/18**|Codingame Challenges, Classic Puzzles - Hard, F#|
 |[Day 43](#day-43) **02/13/18**|Codingame Challenges, Classic Puzzles - Hard, F#, Graphs, Trees, BFS, Shortest-Path|[Day 44](#day-44) **02/14/18**|Codingame Challenges, Classic Puzzles - Hard, F#, Graphs, BFS|
-|[Day 45](#day-45) **02/15/18**|Codingame Challenges, Classic Puzzles - Hard, F#, Graphs, Shortest-Path|
+|[Day 45](#day-45) **02/15/18**|Codingame Challenges, Classic Puzzles - Hard, F#, Graphs, Shortest-Path|[Day 46](#day-46) **02/16/08**|Graphs, Pluralsight, Python|
+|[Day 47](#day-47) **02/17/18**|Graphs, Topological Sort, Pluralsight, Python|[Day 48](#day-48) **02/18/18**|Graphs, Shortest-Path, Pluralsight, Python|
 
 ----------
 <a name="day-1"></a>
@@ -1075,6 +1076,53 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 - This puzzle is my first attempt a *Classic Puzzle - Hard* category.
 - I've got another test case working for best path (6/10 passing now).
 - Went crazy on the graph related code (nearly 400 lines now). I've been combining code and concepts from all over the place. I need to start fresh I think (over-complicating this).
+
+**Link to work**: [GitHub](https://github.com/jasondown/codingame)
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-46"></a>
+### Day 46: February 16, 2018
+
+**Today's Focus**: Graphing data structures and algorithms.
+
+**Details**:
+
+- I've decided that my graphing data structure and algorithm knowledge could use a good refresher, so I started taking the Pluralsight course [Working with Graph Algorithms in Python](https://app.pluralsight.com/library/courses/graph-algorithms-python/table-of-contents).
+- Also spent some time re-reading my Algorithms, 4th Edition text book from the Princeton Coursera classes I took many years ago. There is an online companion I found [here](https://algs4.cs.princeton.edu/home/).
+- I've been playing around with the code a bit in F# via a scratch pad in my codingame repository.
+
+**Link to work**: [GitHub](https://github.com/jasondown/codingame)
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-47"></a>
+### Day 47: February 17, 2018
+
+**Today's Focus**: Graphing data structures and algorithms.
+
+**Details**:
+
+- Continued with Pluralsight course [Working with Graph Algorithms in Python](https://app.pluralsight.com/library/courses/graph-algorithms-python/table-of-contents).
+- Spent a bit more time re-reading my Algorithms, 4th Edition text book from the Princeton Coursera classes I took many years ago. There is an online companion I found [here](https://algs4.cs.princeton.edu/home/).
+- Again some playing around with the code in F# via a scratch pad in my codingame repository.
+
+**Link to work**: [GitHub](https://github.com/jasondown/codingame)
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-48"></a>
+### Day 48: February 18, 2018
+
+**Today's Focus**: Graphing data structures and algorithms.
+
+**Details**:
+
+- Continued with Pluralsight course [Working with Graph Algorithms in Python](https://app.pluralsight.com/library/courses/graph-algorithms-python/table-of-contents).
+- Implemented a Priority Queue in F# based on Sedgewick and Wayne's [Java implemention](https://algs4.cs.princeton.edu/24pq/MaxPQ.java.html) (more details [here](https://algs4.cs.princeton.edu/24pq/)).
 
 **Link to work**: [GitHub](https://github.com/jasondown/codingame)
 
