@@ -28,6 +28,7 @@
 |[Day 43](#day-43) **02/13/18**|Codingame Challenges, Classic Puzzles - Hard, F#, Graphs, Trees, BFS, Shortest-Path|[Day 44](#day-44) **02/14/18**|Codingame Challenges, Classic Puzzles - Hard, F#, Graphs, BFS|
 |[Day 45](#day-45) **02/15/18**|Codingame Challenges, Classic Puzzles - Hard, F#, Graphs, Shortest-Path|[Day 46](#day-46) **02/16/08**|Graphs, Pluralsight, Python|
 |[Day 47](#day-47) **02/17/18**|Graphs, Topological Sort, Pluralsight, Python|[Day 48](#day-48) **02/18/18**|Graphs, Shortest-Path, Pluralsight, Python, F#, Priority Queue|
+|[Day 49](#day-49) **02/19/18**|F#, SqlProgrammability Type Provider, FsReveal|[Day 50](#day-50) **02/20/18**|F#, SqlProgrammability Type Provider, FsReveal|
 
 ----------
 <a name="day-1"></a>
@@ -1125,5 +1126,35 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 - Implemented a Priority Queue in F# based on Sedgewick and Wayne's [Java implemention](https://algs4.cs.princeton.edu/24pq/MaxPQ.java.html) (more details [here](https://algs4.cs.princeton.edu/24pq/)).
 
 **Link to work**: [GitHub](https://github.com/jasondown/codingame)
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-49"></a>
+### Day 49: February 19, 2018
+
+**Today's Focus**: SqlProgrammability Type Provider demo and presentation for work.
+
+**Details**:
+
+- There was some interest at work about F# type providers (specifically the [SqlProgrammability type provider](http://fsprojects.github.io/FSharp.Data.SqlClient/index.html)), so I've been putting together a demo (can't show code, since it is work related code).
+- Started putting together a presentation (F# primer, type providers, demo) via [FsReveal](https://github.com/fsprojects/FsReveal) (which I can include a link to below).
+
+**Link to presentation**: [GitHub](https://github.com/jasondown/FSharpIntro)
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-50"></a>
+### Day 50: February 20, 2018
+
+**Today's Focus**: SqlProgrammability Type Provider demo and presentation for work.
+
+**Details**:
+
+- There was some interest at work about F# type providers (specifically the [SqlProgrammability type provider](http://fsprojects.github.io/FSharp.Data.SqlClient/index.html)), so I've been putting together a demo (can't show code, since it is work related code).
+- Continued working on presentation (F# primer, type providers, demo) via [FsReveal](https://github.com/fsprojects/FsReveal) (which I can include a link to below).
+
+**Link to presentation**: [GitHub](https://github.com/jasondown/FSharpIntro)
 
 [Table of Contents](#toc)
