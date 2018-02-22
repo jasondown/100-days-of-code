@@ -29,6 +29,7 @@
 |[Day 45](#day-45) **02/15/18**|Codingame Challenges, Classic Puzzles - Hard, F#, Graphs, Shortest-Path|[Day 46](#day-46) **02/16/08**|Graphs, Pluralsight, Python|
 |[Day 47](#day-47) **02/17/18**|Graphs, Topological Sort, Pluralsight, Python|[Day 48](#day-48) **02/18/18**|Graphs, Shortest-Path, Pluralsight, Python, F#, Priority Queue|
 |[Day 49](#day-49) **02/19/18**|F#, SqlProgrammability Type Provider, FsReveal|[Day 50](#day-50) **02/20/18**|F#, SqlProgrammability Type Provider, FsReveal|
+|[Day 51](#day-51) **02/21/18**|F#, SqlProgrammability Type Provider, FSReveal|
 
 ----------
 <a name="day-1"></a>
@@ -1154,6 +1155,21 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 
 - There was some interest at work about F# type providers (specifically the [SqlProgrammability type provider](http://fsprojects.github.io/FSharp.Data.SqlClient/index.html)), so I've been putting together a demo (can't show code, since it is work related code).
 - Continued working on presentation (F# primer, type providers, demo) via [FsReveal](https://github.com/fsprojects/FsReveal) (which I can include a link to below).
+
+**Link to presentation**: [GitHub](https://github.com/jasondown/FSharpIntro)
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-51"></a>
+### Day 51: February 21, 2018
+
+**Today's Focus**: SqlProgrammability Type Provider demo and presentation for work.
+
+**Details**:
+
+- There was some interest at work about F# type providers (specifically the [SqlProgrammability type provider](http://fsprojects.github.io/FSharp.Data.SqlClient/index.html)), so I've been putting together a demo (can't show code, since it is work related code).
+- Finished off presentation (F# primer, type providers, demo) via [FsReveal](https://github.com/fsprojects/FsReveal) (which I can include a link to below).
 
 **Link to presentation**: [GitHub](https://github.com/jasondown/FSharpIntro)
 
