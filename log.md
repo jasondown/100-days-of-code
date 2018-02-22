@@ -1171,6 +1171,10 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 - There was some interest at work about F# type providers (specifically the [SqlProgrammability type provider](http://fsprojects.github.io/FSharp.Data.SqlClient/index.html)), so I've been putting together a demo (can't show code, since it is work related code).
 - Finished off presentation (F# primer, type providers, demo) via [FsReveal](https://github.com/fsprojects/FsReveal) (which I can include a link to below).
 
+**Examples**:
+
+![Day 51 Example](https://raw.githubusercontent.com/jasondown/100-days-of-code/master/images/day51_fsreveal_presentation.gif)
+
 **Link to presentation**: [GitHub](https://github.com/jasondown/FSharpIntro)
 
 [Table of Contents](#toc)
