@@ -1188,7 +1188,7 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 **Details**:
 
 - I decided to jump back to a medium puzzle that used graphing algorithms (breadth first search or BFS) before going back to the hard puzzle (Don't Panic - Episode 2).
-- Since I watched Terminator 2: Judgement Day tonight, it only seemed fitting to do [Skynet Revolution - Episode 1](https://www.codingame.com/training/medium/skynet-revolution-episode-1).
+- Since I watched Terminator 2: Judgment Day tonight, it only seemed fitting to do [Skynet Revolution - Episode 1](https://www.codingame.com/training/medium/skynet-revolution-episode-1).
 - I did the solution in C# tonight. I'm not sure if I'll try F# next (same puzzle) or try the hard puzzle in C#, then move to F# for both.
 
 **Examples**:
