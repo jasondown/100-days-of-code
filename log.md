@@ -29,7 +29,7 @@
 |[Day 45](#day-45) **02/15/18**|Codingame Challenges, Classic Puzzles - Hard, F#, Graphs, Shortest-Path|[Day 46](#day-46) **02/16/08**|Graphs, Pluralsight, Python|
 |[Day 47](#day-47) **02/17/18**|Graphs, Topological Sort, Pluralsight, Python|[Day 48](#day-48) **02/18/18**|Graphs, Shortest-Path, Pluralsight, Python, F#, Priority Queue|
 |[Day 49](#day-49) **02/19/18**|F#, SqlProgrammability Type Provider, FsReveal|[Day 50](#day-50) **02/20/18**|F#, SqlProgrammability Type Provider, FsReveal|
-|[Day 51](#day-51) **02/21/18**|F#, SqlProgrammability Type Provider, FSReveal|
+|[Day 51](#day-51) **02/21/18**|F#, SqlProgrammability Type Provider, FSReveal|[Day 52](#day-52) **02/22/18**|C#, Graphs, BFS|
 
 ----------
 <a name="day-1"></a>
@@ -1176,5 +1176,28 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 ![Day 51 Example](https://raw.githubusercontent.com/jasondown/100-days-of-code/master/images/day51_fsreveal_presentation.gif)
 
 **Link to presentation**: [GitHub](https://github.com/jasondown/FSharpIntro)
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-52"></a>
+### Day 52: February 22, 2018
+
+**Today's Focus**: Back to Graphing Structures and Aglorithms.
+
+**Details**:
+
+- I decided to jump back to a medium puzzle that used graphing algorithms (breadth first search or BFS) before going back to the hard puzzle (Don't Panic - Episode 2).
+- Since I watched Terminator 2: Judgement Day tonight, it only seemed fitting to do [Skynet Revolution - Episode 1](https://www.codingame.com/training/medium/skynet-revolution-episode-1).
+- I did the solution in C# tonight. I'm not sure if I'll try F# next (same puzzle) or try the hard puzzle in C#, then move to F# for both.
+
+**Examples**:
+
+![Day 52 Example](https://raw.githubusercontent.com/jasondown/100-days-of-code/master/images/day52_skynetrevolution_episode1_csharp.gif)
+
+**Links to work**:
+
+ - [Main repository](https://github.com/jasondown/Codingame)
+ - [C# Solution](https://github.com/jasondown/codingame/blob/master/csharp/class_puzzles_medium/SkynetRevolution_Episode1.cs)
 
 [Table of Contents](#toc)
