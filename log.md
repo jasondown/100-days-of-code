@@ -1231,7 +1231,7 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 **Details**:
 
 - I did an alternative C# solution for the [Telephone Numbers](https://www.codingame.com/training/medium/telephone-numbers) classic medium puzzle tonight.
-- Explored and implemented a much simpler solution using the built-in .Net [HashSet<T>](https://msdn.microsoft.com/en-us/library/bb359438.aspx) data structure.
+- Explored and implemented a much simpler solution using the built-in .Net [HashSet](https://msdn.microsoft.com/en-us/library/bb359438.aspx) data structure.
 
 **Links to work**:
 
