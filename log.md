@@ -29,7 +29,9 @@
 |[Day 45](#day-45) **02/15/18**|Codingame Challenges, Classic Puzzles - Hard, F#, Graphs, Shortest-Path|[Day 46](#day-46) **02/16/08**|Graphs, Pluralsight, Python|
 |[Day 47](#day-47) **02/17/18**|Graphs, Topological Sort, Pluralsight, Python|[Day 48](#day-48) **02/18/18**|Graphs, Shortest-Path, Pluralsight, Python, F#, Priority Queue|
 |[Day 49](#day-49) **02/19/18**|F#, SqlProgrammability Type Provider, FsReveal|[Day 50](#day-50) **02/20/18**|F#, SqlProgrammability Type Provider, FsReveal|
-|[Day 51](#day-51) **02/21/18**|F#, SqlProgrammability Type Provider, FSReveal|[Day 52](#day-52) **02/22/18**|C#, Graphs, BFS|
+|[Day 51](#day-51) **02/21/18**|F#, SqlProgrammability Type Provider, FSReveal|[Day 52](#day-52) **02/22/18**|Codingame Challenges, Classic Puzzles - Medium, C#, Graphs, BFS|
+|[Day 53](#day-53) **02/23/18**|Codingame Challenges, Classic Puzzles - Medium, C#, Tries|[Day 54](#day-54) **02/24/18**|Codingame Challenges, Classic Puzzles - Medium, C#, Sets|
+[Day 55](#day-55) **02/25/18**|Codingame Challenges, Classic Puzzles - Medium, F#, Arrays, Sequences|
 
 ----------
 <a name="day-1"></a>
@@ -1199,5 +1201,59 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 
  - [Main repository](https://github.com/jasondown/Codingame)
  - [C# Solution](https://github.com/jasondown/codingame/blob/master/csharp/class_puzzles_medium/SkynetRevolution_Episode1.cs)
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-53"></a>
+### Day 53: February 23, 2018
+
+**Today's Focus**: Codingame Challenges
+
+**Details**:
+
+- I did a C# solution for the [Telephone Numbers](https://www.codingame.com/training/medium/telephone-numbers) classic medium puzzle tonight.
+- Explored and implemented a [Trie](https://en.wikipedia.org/wiki/Trie) data structure.
+
+**Links to work**:
+
+ - [Main repository](https://github.com/jasondown/Codingame)
+ - [C# Solution](https://github.com/jasondown/codingame/blob/master/csharp/class_puzzles_medium/TelephoneNumbers.cs)
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-54"></a>
+### Day 54: February 24, 2018
+
+**Today's Focus**: Codingame Challenges
+
+**Details**:
+
+- I did an alternative C# solution for the [Telephone Numbers](https://www.codingame.com/training/medium/telephone-numbers) classic medium puzzle tonight.
+- Explored and implemented a much simpler solution using the built-in .Net [HashSet<T>](https://msdn.microsoft.com/en-us/library/bb359438.aspx) data structure.
+
+**Links to work**:
+
+ - [Main repository](https://github.com/jasondown/Codingame)
+ - [C# Solution](https://github.com/jasondown/codingame/blob/master/csharp/class_puzzles_medium/TelephoneNumbers_solution2.cs)
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-55"></a>
+### Day 55: February 25, 2018
+
+**Today's Focus**: Codingame Challenges
+
+**Details**:
+
+- Yet again, I did a solution for the [Telephone Numbers](https://www.codingame.com/training/medium/telephone-numbers) classic medium puzzle tonight.
+- This time I did an F# solution, exploring various operations you can do with Sequences and Array. Specifically, I looked a the [Seq.zip<'T1,'T2>](https://msdn.microsoft.com/en-us/visualfsharpdocs/conceptual/seq.zip%5B't1,'t2%5D-function-%5Bfsharp%5D) and [Seq.pairwise<'T>](https://msdn.microsoft.com/en-us/visualfsharpdocs/conceptual/seq.pairwise%5B't%5D-function-%5Bfsharp%5D) (which I used through the Array data structure) functions.
+
+**Links to work**:
+
+ - [Main repository](https://github.com/jasondown/Codingame)
+ - [F# Solution](https://github.com/jasondown/codingame/blob/master/fsharp/classic_puzzles_medium/TelephoneNumbers.fsx)
 
 [Table of Contents](#toc)
