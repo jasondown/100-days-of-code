@@ -31,7 +31,8 @@
 |[Day 49](#day-49) **02/19/18**|F#, SqlProgrammability Type Provider, FsReveal|[Day 50](#day-50) **02/20/18**|F#, SqlProgrammability Type Provider, FsReveal|
 |[Day 51](#day-51) **02/21/18**|F#, SqlProgrammability Type Provider, FSReveal|[Day 52](#day-52) **02/22/18**|Codingame Challenges, Classic Puzzles - Medium, C#, Graphs, BFS|
 |[Day 53](#day-53) **02/23/18**|Codingame Challenges, Classic Puzzles - Medium, C#, Tries|[Day 54](#day-54) **02/24/18**|Codingame Challenges, Classic Puzzles - Medium, C#, Sets|
-[Day 55](#day-55) **02/25/18**|Codingame Challenges, Classic Puzzles - Medium, F#, Arrays, Sequences|
+|[Day 55](#day-55) **02/25/18**|Codingame Challenges, Classic Puzzles - Medium, F#, Arrays, Sequences|[Day 56](#day-56) **02/26/18**|Codingame Challenges, Classic Puzzles - Medium, C#, Binary Search|
+|[Day 57](#day-57) **02/27/18**|Codingame Challenges, Classic Puzzles - Medium, F#, Medians, Manhattan Distance|
 
 ----------
 <a name="day-1"></a>
@@ -1255,5 +1256,42 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 
  - [Main repository](https://github.com/jasondown/Codingame)
  - [F# Solution](https://github.com/jasondown/codingame/blob/master/fsharp/classic_puzzles_medium/TelephoneNumbers.fsx)
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-56"></a>
+### Day 56: February 26, 2018
+
+**Today's Focus**: Codingame Challenges
+
+**Details**:
+
+- Worked on a C# solution for [Shadows of the Knight - Episode 1](https://www.codingame.com/training/medium/shadows-of-the-knight-episode-1). 
+- The solution was pretty simple, using a Batman class to track his position as he zeroed in on a bomb using a binary search strategy.
+
+**Links to work**:
+
+ - [Main repository](https://github.com/jasondown/Codingame)
+ - [C# Solution](https://github.com/jasondown/codingame/blob/master/csharp/classic_puzzles_medium/ShadowsOfTheKnight_Episode1.cs)
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-57"></a>
+### Day 57: February 27, 2018
+
+**Today's Focus**: Codingame Challenges
+
+**Details**:
+
+- Worked on an F# solution for [Network Cabling](https://www.codingame.com/training/medium/network-cabling). 
+- The solution wasn't too hard, but I did refactor it quite a few times until I was happy with it.
+- It focuses on using medians and Manhattan distance to figure out the optimal amount of network cable to use for a neighbourhood (with some constraints).
+
+**Links to work**:
+
+ - [Main repository](https://github.com/jasondown/Codingame)
+ - [F# Solution](https://github.com/jasondown/codingame/blob/master/fsharp/classic_puzzles_medium/NetworkCabling.fsx)
 
 [Table of Contents](#toc)
