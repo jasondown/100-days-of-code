@@ -1270,6 +1270,10 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 - Worked on a C# solution for [Shadows of the Knight - Episode 1](https://www.codingame.com/training/medium/shadows-of-the-knight-episode-1). 
 - The solution was pretty simple, using a Batman class to track his position as he zeroed in on a bomb using a binary search strategy.
 
+**Examples**:
+
+![Day 56 Example](https://raw.githubusercontent.com/jasondown/100-days-of-code/master/images/day56_ShadowOfTheKnight_Episode1.gif)
+
 **Links to work**:
 
  - [Main repository](https://github.com/jasondown/Codingame)
