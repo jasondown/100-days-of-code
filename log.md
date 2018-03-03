@@ -1313,6 +1313,7 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 - This one was pretty fun.
 - I refactored it a few times to move from imperative for loops to recursive functions.
 - Further refactoring lead to using built-in functions like List.MaxBy instead of recursive functions.
+- Used the F# [Immutable Dictionary](https://www.dotnetperls.com/dict-fs).
 
 **Links to work**:
 
@@ -1332,7 +1333,7 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 - Worked on an F# solution for [Defibrillators](https://www.codingame.com/training/easy/defibrillators). 
 - This one was fairly easy (especially since I've already done it in C#).
 - Most of this solution was making use of F# functions that are built in.
-- Used the F# [Immutable Dictionary](https://www.dotnetperls.com/dict-fs).
+- Used the [Haversine Forumula](http://www.movable-type.co.uk/scripts/latlong.html)
 
 **Links to work**:
 
