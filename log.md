@@ -32,7 +32,8 @@
 |[Day 51](#day-51) **02/21/18**|F#, SqlProgrammability Type Provider, FSReveal|[Day 52](#day-52) **02/22/18**|Codingame Challenges, Classic Puzzles - Medium, C#, Graphs, BFS|
 |[Day 53](#day-53) **02/23/18**|Codingame Challenges, Classic Puzzles - Medium, C#, Tries|[Day 54](#day-54) **02/24/18**|Codingame Challenges, Classic Puzzles - Medium, C#, Sets|
 |[Day 55](#day-55) **02/25/18**|Codingame Challenges, Classic Puzzles - Medium, F#, Arrays, Sequences|[Day 56](#day-56) **02/26/18**|Codingame Challenges, Classic Puzzles - Medium, C#, Binary Search|
-|[Day 57](#day-57) **02/27/18**|Codingame Challenges, Classic Puzzles - Medium, F#, Medians, Manhattan Distance|
+|[Day 57](#day-57) **02/27/18**|Codingame Challenges, Classic Puzzles - Medium, F#, Medians, Manhattan Distance|[Day 58](#day-58) **02/28/18**|Codingame Challenges, Classic Puzzles - Medium, F#, Map/Dictionary|
+|[Day 59](#day-59) **03/01/18**|Codingame Challenges, Classic Puzzles - Easy, F#, Haversine Formula|[Day 60](#day-60) **03/02/18**|Codingame Challenges, Classic Puzzles - Easy, F#, Encoding, Strings, Codingame Contest|
 
 ----------
 <a name="day-1"></a>
@@ -1297,5 +1298,68 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 
  - [Main repository](https://github.com/jasondown/Codingame)
  - [F# Solution](https://github.com/jasondown/codingame/blob/master/fsharp/classic_puzzles_medium/NetworkCabling.fsx)
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-58"></a>
+### Day 58: February 28, 2018
+
+**Today's Focus**: Codingame Challenges
+
+**Details**:
+
+- Worked on an F# solution for [Scrabble](https://www.codingame.com/training/medium/scrabble). 
+- This one was pretty fun.
+- I refactored it a few times to move from imperative for loops to recursive functions.
+- Further refactoring lead to using built-in functions like List.MaxBy instead of recursive functions.
+
+**Links to work**:
+
+ - [Main repository](https://github.com/jasondown/Codingame)
+ - [F# Solution](https://github.com/jasondown/codingame/blob/master/fsharp/classic_puzzles_medium/Scrabble.fsx)
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-59"></a>
+### Day 59: March 1, 2018
+
+**Today's Focus**: Codingame Challenges
+
+**Details**:
+
+- Worked on an F# solution for [Defibrillators](https://www.codingame.com/training/easy/defibrillators). 
+- This one was fairly easy (especially since I've already done it in C#).
+- Most of this solution was making use of F# functions that are built in.
+- Used the F# [Immutable Dictionary](https://www.dotnetperls.com/dict-fs).
+
+**Links to work**:
+
+ - [Main repository](https://github.com/jasondown/Codingame)
+ - [F# Solution](https://github.com/jasondown/codingame/blob/master/fsharp/classic_puzzles_easy/Defibrillators.fsx)
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-60"></a>
+### Day 60: March 2, 2018
+
+**Today's Focus**: Double Whammy: Codingame Challenges & Codingame Contest
+
+**Details**:
+
+- Worked on final F# solution for Classic Puzzles - Easy. 
+- [Chuck Norris](https://www.codingame.com/training/easy/defibrillators). 
+- String encoding and bytes.
+- Began the Botters of the Galaxy contest.
+- Spent most of the time setting up my domain types.
+- Tried some simple strategies until I beat Wood League 3.
+
+**Links to work**:
+
+ - [Main repository](https://github.com/jasondown/Codingame)
+ - [F# Solution](https://github.com/jasondown/codingame/blob/master/fsharp/classic_puzzles_easy/ChuckNorris.fsx)
+ - [Botters of the Galaxy Notes](https://github.com/jasondown/codingame/blob/master/BottersOfTheGalaxyNotes.md) (can't push code publically during contest, but can talk strategy etc.).
 
 [Table of Contents](#toc)
