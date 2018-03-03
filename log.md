@@ -1351,7 +1351,7 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 **Details**:
 
 - Worked on final F# solution for Classic Puzzles - Easy. 
-- [Chuck Norris](https://www.codingame.com/training/easy/defibrillators). 
+- [Chuck Norris](https://www.codingame.com/training/easy/chuck-norris). 
 - String encoding and bytes.
 - Began the Botters of the Galaxy contest.
 - Spent most of the time setting up my domain types.
