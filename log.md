@@ -34,6 +34,7 @@
 |[Day 55](#day-55) **02/25/18**|Codingame Challenges, Classic Puzzles - Medium, F#, Arrays, Sequences|[Day 56](#day-56) **02/26/18**|Codingame Challenges, Classic Puzzles - Medium, C#, Binary Search|
 |[Day 57](#day-57) **02/27/18**|Codingame Challenges, Classic Puzzles - Medium, F#, Medians, Manhattan Distance|[Day 58](#day-58) **02/28/18**|Codingame Challenges, Classic Puzzles - Medium, F#, Map/Dictionary|
 |[Day 59](#day-59) **03/01/18**|Codingame Challenges, Classic Puzzles - Easy, F#, Haversine Formula|[Day 60](#day-60) **03/02/18**|Codingame Challenges, Classic Puzzles - Easy, F#, Encoding, Strings, Codingame Contest|
+|[Day 61](#day-61) **03/03/18**|Codingame Contest, F#|
 
 ----------
 <a name="day-1"></a>
@@ -1361,6 +1362,26 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 
  - [Main repository](https://github.com/jasondown/Codingame)
  - [F# Solution](https://github.com/jasondown/codingame/blob/master/fsharp/classic_puzzles_easy/ChuckNorris.fsx)
+ - [Botters of the Galaxy Notes](https://github.com/jasondown/codingame/blob/master/BottersOfTheGalaxyNotes.md) (can't push code publically during contest, but can talk strategy etc.).
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-61"></a>
+### Day 61: March 3, 2018
+
+**Today's Focus**: Codingame Contest (Day 2)
+
+**Details**:
+
+- Continued the Botters of the Galaxy contest.
+- It took a while, but I finally beat Wood League 2.
+- I was going to call it a night, but the people in the chat encouraged me to keep going.
+- I beat Wood League 1 and I'm not in the Bronze league (Silver league is not available yet).
+- Interesting note: A fellow contestent mentioned his C++ solution was 965 lines long. My F# solution is 278 lines. We're ranked within a few spots of each other. Go F#!
+
+**Links to work**:
+
  - [Botters of the Galaxy Notes](https://github.com/jasondown/codingame/blob/master/BottersOfTheGalaxyNotes.md) (can't push code publically during contest, but can talk strategy etc.).
 
 [Table of Contents](#toc)
