@@ -1378,7 +1378,7 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 - It took a while, but I finally beat Wood League 2.
 - I was going to call it a night, but the people in the chat encouraged me to keep going.
 - I beat Wood League 1 and I'm not in the Bronze league (Silver league is not available yet).
-- Interesting note: A fellow contestent mentioned his C++ solution was 965 lines long. My F# solution is 278 lines. We're ranked within a few spots of each other. Go F#!
+- Interesting note: A fellow contestant mentioned his C++ solution was 965 lines long. My F# solution is 278 lines. We're ranked within a few spots of each other. Go F#!
 
 **Links to work**:
 
