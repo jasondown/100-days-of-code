@@ -34,7 +34,8 @@
 |[Day 55](#day-55) **02/25/18**|Codingame Challenges, Classic Puzzles - Medium, F#, Arrays, Sequences|[Day 56](#day-56) **02/26/18**|Codingame Challenges, Classic Puzzles - Medium, C#, Binary Search|
 |[Day 57](#day-57) **02/27/18**|Codingame Challenges, Classic Puzzles - Medium, F#, Medians, Manhattan Distance|[Day 58](#day-58) **02/28/18**|Codingame Challenges, Classic Puzzles - Medium, F#, Map/Dictionary|
 |[Day 59](#day-59) **03/01/18**|Codingame Challenges, Classic Puzzles - Easy, F#, Haversine Formula|[Day 60](#day-60) **03/02/18**|Codingame Challenges, Classic Puzzles - Easy, F#, Encoding, Strings, Codingame Contest|
-|[Day 61](#day-61) **03/03/18**|Codingame Contest, F#|
+|[Day 61](#day-61) **03/03/18**|Codingame Contest, F#|[Day 62](#day-62) **03/04/18**|Codingame Contest, F#|
+|[Day 63](#day-63) **03/05/18**|Codingame Contest, F#|
 
 ----------
 <a name="day-1"></a>
@@ -1379,6 +1380,44 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 - I was going to call it a night, but the people in the chat encouraged me to keep going.
 - I beat Wood League 1 and I'm not in the Bronze league (Silver league is not available yet).
 - Interesting note: A fellow contestant mentioned his C++ solution was 965 lines long. My F# solution is 278 lines. We're ranked within a few spots of each other. Go F#!
+
+**Links to work**:
+
+ - [Botters of the Galaxy Notes](https://github.com/jasondown/codingame/blob/master/BottersOfTheGalaxyNotes.md) (can't push code publically during contest, but can talk strategy etc.).
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-62"></a>
+### Day 62: March 4, 2018
+
+**Today's Focus**: Codingame Contest (Day 2)
+
+**Details**:
+
+- Continued the Botters of the Galaxy contest.
+- Coded for Bronze league changes (added skills).
+- Tried many strategies with Skills (focusing on Ironman and Deadpool combination).
+- Fell from ~330 overall to ~500 (lost about 50 spots per submit!)
+
+**Links to work**:
+
+ - [Botters of the Galaxy Notes](https://github.com/jasondown/codingame/blob/master/BottersOfTheGalaxyNotes.md) (can't push code publically during contest, but can talk strategy etc.).
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-63"></a>
+### Day 63: March 5, 2018
+
+**Today's Focus**: Codingame Contest (Day 2)
+
+**Details**:
+
+- Continued the Botters of the Galaxy contest.
+- Added strategy to provoke closest Groot to enemy hero(es) (while being further from my hero(es)) via a fireball.
+- Moved up to ~460 overall (and ~60th in Bronze League). 
+- There are about 400 people in the newly unlocked Silver League. Need to really step up my game tomorrow and start adding MoveAttack rather than AttackNearest.
 
 **Links to work**:
 
