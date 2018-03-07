@@ -35,7 +35,7 @@
 |[Day 57](#day-57) **02/27/18**|Codingame Challenges, Classic Puzzles - Medium, F#, Medians, Manhattan Distance|[Day 58](#day-58) **02/28/18**|Codingame Challenges, Classic Puzzles - Medium, F#, Map/Dictionary|
 |[Day 59](#day-59) **03/01/18**|Codingame Challenges, Classic Puzzles - Easy, F#, Haversine Formula|[Day 60](#day-60) **03/02/18**|Codingame Challenges, Classic Puzzles - Easy, F#, Encoding, Strings, Codingame Contest|
 |[Day 61](#day-61) **03/03/18**|Codingame Contest, F#|[Day 62](#day-62) **03/04/18**|Codingame Contest, F#|
-|[Day 63](#day-63) **03/05/18**|Codingame Contest, F#|[Day 64](#day-64) **03/06/18**|
+|[Day 63](#day-63) **03/05/18**|Codingame Contest, F#|[Day 64](#day-64) **03/06/18**|Codingame Contest, F#|
 
 ----------
 <a name="day-1"></a>
