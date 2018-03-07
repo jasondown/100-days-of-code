@@ -35,7 +35,7 @@
 |[Day 57](#day-57) **02/27/18**|Codingame Challenges, Classic Puzzles - Medium, F#, Medians, Manhattan Distance|[Day 58](#day-58) **02/28/18**|Codingame Challenges, Classic Puzzles - Medium, F#, Map/Dictionary|
 |[Day 59](#day-59) **03/01/18**|Codingame Challenges, Classic Puzzles - Easy, F#, Haversine Formula|[Day 60](#day-60) **03/02/18**|Codingame Challenges, Classic Puzzles - Easy, F#, Encoding, Strings, Codingame Contest|
 |[Day 61](#day-61) **03/03/18**|Codingame Contest, F#|[Day 62](#day-62) **03/04/18**|Codingame Contest, F#|
-|[Day 63](#day-63) **03/05/18**|Codingame Contest, F#|
+|[Day 63](#day-63) **03/05/18**|Codingame Contest, F#|[Day 64](#day-64) **03/06/18**|
 
 ----------
 <a name="day-1"></a>
@@ -1417,6 +1417,30 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 - Continued the Botters of the Galaxy contest.
 - Added strategy to provoke closest Groot to enemy hero(es) (while being further from my hero(es)) via a fireball.
 - Moved up to ~460 overall (and ~60th in Bronze League). 
+- Moved to 2nd in F#.
+- There are about 400 people in the newly unlocked Silver League. Need to really step up my game tomorrow and start adding MoveAttack rather than AttackNearest.
+
+**Links to work**:
+
+ - [Botters of the Galaxy Notes](https://github.com/jasondown/codingame/blob/master/BottersOfTheGalaxyNotes.md) (can't push code publically during contest, but can talk strategy etc.).
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-64"></a>
+### Day 64: March 6, 2018
+
+**Today's Focus**: Codingame Contest (Day 2)
+
+**Details**:
+
+- Continued the Botters of the Galaxy contest.
+- Refactored and fixed a bug in the strategy to provoke closest Groot to enemy hero(es) (while being further from my hero(es)) via a fireball.
+- Added code for MoveAttack and tweaked skills code.
+- Changed low health code strategy (hide in bush near tower instead of standing next to tower).
+- Moved up to Silver League (before Gold has been unlocked, yay!).
+- Moved into ~150 overall for a time, but sitting around ~220 now. Still happy with this at the moment (highest finish ever was 256th).
+- Back to 1st overall in F#
 - There are about 400 people in the newly unlocked Silver League. Need to really step up my game tomorrow and start adding MoveAttack rather than AttackNearest.
 
 **Links to work**:
