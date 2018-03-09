@@ -36,6 +36,8 @@
 |[Day 59](#day-59) **03/01/18**|Codingame Challenges, Classic Puzzles - Easy, F#, Haversine Formula|[Day 60](#day-60) **03/02/18**|Codingame Challenges, Classic Puzzles - Easy, F#, Encoding, Strings, Codingame Contest|
 |[Day 61](#day-61) **03/03/18**|Codingame Contest, F#|[Day 62](#day-62) **03/04/18**|Codingame Contest, F#|
 |[Day 63](#day-63) **03/05/18**|Codingame Contest, F#|[Day 64](#day-64) **03/06/18**|Codingame Contest, F#|
+|[Day 65](#day-65) **03/07/18**|Codingame Contest, F#|[Day 66](#day-66) **03/08/18**|Codingame Contest, F#|
+|[Day 66](#day-66) **03/09/18**|Codingame Contest, F#|
 
 ----------
 <a name="day-1"></a>
@@ -1391,7 +1393,7 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 <a name="day-62"></a>
 ### Day 62: March 4, 2018
 
-**Today's Focus**: Codingame Contest (Day 2)
+**Today's Focus**: Codingame Contest (Day 3)
 
 **Details**:
 
@@ -1410,7 +1412,7 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 <a name="day-63"></a>
 ### Day 63: March 5, 2018
 
-**Today's Focus**: Codingame Contest (Day 2)
+**Today's Focus**: Codingame Contest (Day 4)
 
 **Details**:
 
@@ -1430,7 +1432,7 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 <a name="day-64"></a>
 ### Day 64: March 6, 2018
 
-**Today's Focus**: Codingame Contest (Day 2)
+**Today's Focus**: Codingame Contest (Day 5)
 
 **Details**:
 
@@ -1442,6 +1444,65 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 - Moved into ~150 overall for a time, but sitting around ~220 now. Still happy with this at the moment (highest finish ever was 256th).
 - Back to 1st overall in F#
 - There are about 400 people in the newly unlocked Silver League. Need to really step up my game tomorrow and start adding MoveAttack rather than AttackNearest.
+
+**Links to work**:
+
+ - [Botters of the Galaxy Notes](https://github.com/jasondown/codingame/blob/master/BottersOfTheGalaxyNotes.md) (can't push code publically during contest, but can talk strategy etc.).
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-65"></a>
+### Day 65: March 7, 2018
+
+**Today's Focus**: Codingame Contest (Day 6)
+
+**Details**:
+
+- Continued the Botters of the Galaxy contest.
+- Tweaked some distances for MoveAttack.
+- If Groot is attacking me (likely from me trying to provoke him to attack the enemy heroes), run away.
+- Stayed in Silver league and had dropped to about 360th overall. Boourns.
+
+**Links to work**:
+
+ - [Botters of the Galaxy Notes](https://github.com/jasondown/codingame/blob/master/BottersOfTheGalaxyNotes.md) (can't push code publically during contest, but can talk strategy etc.).
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-66"></a>
+### Day 66: March 8, 2018
+
+**Today's Focus**: Codingame Contest (Day 6)
+
+**Details**:
+
+- Continued the Botters of the Galaxy contest.
+- Tweaked some distances for MoveAttack... again.
+- If Groot is attacking me, fight him instead of running away. He's easy to kill and gives you lots of gold.
+- Was getting some random timeouts, that eventually went away when I got rid of all my debug messages to the error console (used mostly to trace which path my code took each turn for each hero).
+- Completely removed my low health strategy code (well didn't remove it, but removed the pattern match path to it). This ended up making a big difference in a good way.
+- Stayed in Silver league, but hovered around 5th (~295th overall).
+
+**Links to work**:
+
+ - [Botters of the Galaxy Notes](https://github.com/jasondown/codingame/blob/master/BottersOfTheGalaxyNotes.md) (can't push code publically during contest, but can talk strategy etc.).
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-66"></a>
+### Day 67: March 9, 2018
+
+**Today's Focus**: Codingame Contest (Day 7)
+
+**Details**:
+
+- Continued the Botters of the Galaxy contest.
+- Moved into Gold league about 1 hour before Legend league was unlocked. Yaaaaaaaaas!
+- Haven't made any code changes yet at this point. Just watched as I finally got bumped up from other people's submits. I'll code later tonight to try to move towards Legend.
+- Currently ~235 in gold (255 overall). NOTE: My best finish ever is 256th overall (made Gold league).
 
 **Links to work**:
 
