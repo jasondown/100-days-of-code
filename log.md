@@ -37,7 +37,8 @@
 |[Day 61](#day-61) **03/03/18**|Codingame Contest, F#|[Day 62](#day-62) **03/04/18**|Codingame Contest, F#|
 |[Day 63](#day-63) **03/05/18**|Codingame Contest, F#|[Day 64](#day-64) **03/06/18**|Codingame Contest, F#|
 |[Day 65](#day-65) **03/07/18**|Codingame Contest, F#|[Day 66](#day-66) **03/08/18**|Codingame Contest, F#|
-|[Day 66](#day-66) **03/09/18**|Codingame Contest, F#|
+|[Day 67](#day-67) **03/09/18**|Codingame Contest, F#|[Day 68](#day-68) **03/10/18**|Codingame Contest, F#|
+|[Day 69](#day-69) **03/11/18**|Codingame Contest, F#|
 
 ----------
 <a name="day-1"></a>
@@ -1474,7 +1475,7 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 <a name="day-66"></a>
 ### Day 66: March 8, 2018
 
-**Today's Focus**: Codingame Contest (Day 6)
+**Today's Focus**: Codingame Contest (Day 7)
 
 **Details**:
 
@@ -1492,17 +1493,67 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 [Table of Contents](#toc)
 
 ----------
-<a name="day-66"></a>
+<a name="day-67"></a>
 ### Day 67: March 9, 2018
 
-**Today's Focus**: Codingame Contest (Day 7)
+**Today's Focus**: Codingame Contest (Day 8)
 
 **Details**:
 
 - Continued the Botters of the Galaxy contest.
 - Moved into Gold league about 1 hour before Legend league was unlocked. Yaaaaaaaaas!
-- Haven't made any code changes yet at this point. Just watched as I finally got bumped up from other people's submits. I'll code later tonight to try to move towards Legend.
-- Currently ~235 in gold (255 overall). NOTE: My best finish ever is 256th overall (made Gold league).
+- Very little time to code other than minor tweaks (even forgot to commit and broke my 100 days of code streak at 61 (day 5 I did the same).
+- Was ~235 in gold (255 overall). NOTE: My best finish ever is 256th overall (made Gold league).
+- Ended day closer to 260 in Gold.
+
+**Links to work**:
+
+ - [Botters of the Galaxy Notes](https://github.com/jasondown/codingame/blob/master/BottersOfTheGalaxyNotes.md) (can't push code publically during contest, but can talk strategy etc.).
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-68"></a>
+### Day 68: March 10, 2018
+
+**Today's Focus**: Codingame Contest (Day 9)
+
+**Details**:
+
+- Continued the Botters of the Galaxy contest.
+- Discovered there was a dual Hulk bug (you could choose Hulk and wait on your second pick to autopick...Hulk!).
+	- People took advantage of this by storming the enemy heroes with the 2 Hulks (highest damage and health).
+	- This was enough to get past the gold boss.
+	- By the time I found out, most people had coded to protect against this.
+	- I found I had dropped all the way to approx ~520th overall (~485th in gold)!
+- Tried the Hulk strategy, but it was too late to be effective. Moved to ~500th overall.
+
+**Links to work**:
+
+ - [Botters of the Galaxy Notes](https://github.com/jasondown/codingame/blob/master/BottersOfTheGalaxyNotes.md) (can't push code publically during contest, but can talk strategy etc.).
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-69"></a>
+### Day 69: March 11, 2018
+
+**Today's Focus**: Codingame Contest (Day 10)
+
+**Details**:
+
+- Final day of the Botters of the Galaxy contest (it ended the next day: Monday at 5 am, but Sunday night was the end for me).
+- Finally decided to do the Ironman + Dr. Strange approach. This was the most popular.
+- It was enough to move up a little more, but too many people had tweaked this over the week for me to find anything new.
+- Started to notice lots of people using the Groot strategy I had been using since day 2.
+- Discovered a sniper strategy for Ironman hiding in a bush near the enemy tower:
+	- Hide in a bush just out of range (had to just be in the edge to be close enough...took some math for that one).
+	- Jump out of bush, move towards tower and attack.
+	- Blink skill back to bush to move fast enough from being hit from Tower attack.
+	- This moved me up a bit more in the rankings. However, not all maps had a bush in the right range.
+	- Changed to check for such a bush. If found, do Ironman + Valkyrie (she was more effective at staying alive along than Dr. Strange while Ironman sniped and slowly took the enemy tower down).
+	- If no bush found, revert to Ironman + Dr. Strange and play conservative (aggressive seemed less effective).
+- **Finished 296th in Gold, 416th overall (out of 1713) and 2nd in F#.**
 
 **Links to work**:
 
