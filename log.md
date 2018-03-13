@@ -38,7 +38,7 @@
 |[Day 63](#day-63) **03/05/18**|Codingame Contest, F#|[Day 64](#day-64) **03/06/18**|Codingame Contest, F#|
 |[Day 65](#day-65) **03/07/18**|Codingame Contest, F#|[Day 66](#day-66) **03/08/18**|Codingame Contest, F#|
 |[Day 67](#day-67) **03/09/18**|Codingame Contest, F#|[Day 68](#day-68) **03/10/18**|Codingame Contest, F#|
-|[Day 69](#day-69) **03/11/18**|Codingame Contest, F#|
+|[Day 69](#day-69) **03/11/18**|Codingame Contest, F#|[Day 69](#day-69) **03/12/18**|Pluralsight, C#, Functional Programming|
 
 ----------
 <a name="day-1"></a>
@@ -1554,6 +1554,23 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 	- Changed to check for such a bush. If found, do Ironman + Valkyrie (she was more effective at staying alive along than Dr. Strange while Ironman sniped and slowly took the enemy tower down).
 	- If no bush found, revert to Ironman + Dr. Strange and play conservative (aggressive seemed less effective).
 - **Finished 296th in Gold, 416th overall (out of 1713) and 2nd in F#.**
+
+**Links to work**:
+
+ - [Botters of the Galaxy Notes](https://github.com/jasondown/codingame/blob/master/BottersOfTheGalaxyNotes.md) (can't push code publically during contest, but can talk strategy etc.).
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-70"></a>
+### Day 70: March 12, 2018
+
+**Today's Focus**: Finish notes on Codingame contest. Finish Pluralsight course on functional programming in C#.
+
+**Details**:
+
+- Finished off my notes for the Codingame contest. I haven't published my code (multiple branches). Not sure if I will since it will likely become a multiplayer game. Probably ok to do so.
+- I've been watching [Making Your C# Code More Functional](https://app.pluralsight.com/library/courses/making-functional-csharp/table-of-contents) on Pluralsight the past couple of weeks. Great course by Zoran Horvat (I recommend all of his courses actually).
 
 **Links to work**:
 
