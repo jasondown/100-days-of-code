@@ -38,7 +38,7 @@
 |[Day 63](#day-63) **03/05/18**|Codingame Contest, F#|[Day 64](#day-64) **03/06/18**|Codingame Contest, F#|
 |[Day 65](#day-65) **03/07/18**|Codingame Contest, F#|[Day 66](#day-66) **03/08/18**|Codingame Contest, F#|
 |[Day 67](#day-67) **03/09/18**|Codingame Contest, F#|[Day 68](#day-68) **03/10/18**|Codingame Contest, F#|
-|[Day 69](#day-69) **03/11/18**|Codingame Contest, F#|[Day 69](#day-69) **03/12/18**|Pluralsight, C#, Functional Programming|
+|[Day 69](#day-69) **03/11/18**|Codingame Contest, F#|[Day 70](#day-70) **03/12/18**|Pluralsight, C#, Functional Programming|
 
 ----------
 <a name="day-1"></a>
