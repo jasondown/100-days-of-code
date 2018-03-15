@@ -39,6 +39,7 @@
 |[Day 65](#day-65) **03/07/18**|Codingame Contest, F#|[Day 66](#day-66) **03/08/18**|Codingame Contest, F#|
 |[Day 67](#day-67) **03/09/18**|Codingame Contest, F#|[Day 68](#day-68) **03/10/18**|Codingame Contest, F#|
 |[Day 69](#day-69) **03/11/18**|Codingame Contest, F#|[Day 70](#day-70) **03/12/18**|Pluralsight, C#, Functional Programming|
+|[Day 71](#day-71) **03/13/18**|Pluralsight, Go, Development Environment Setup, Variables, Constants|[Day 72](#day-72) **03/14/18**|Pluralsight, Go, Functions|
 
 ----------
 <a name="day-1"></a>
@@ -1575,5 +1576,42 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 **Links to work**:
 
  - [Botters of the Galaxy Notes](https://github.com/jasondown/codingame/blob/master/BottersOfTheGalaxyNotes.md) (can't push code publically during contest, but can talk strategy etc.).
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-71"></a>
+### Day 71: March 13, 2018
+
+**Today's Focus**: Go programming language.
+
+**Details**:
+
+- Shifting focus to learn the [Go](https://golang.org/) programming language.
+- Setup Visual Studio Code and Go extenstion plugins.
+- Started Pluralsight course [Go Fundamentals](https://app.pluralsight.com/library/courses/go-fundamentals/table-of-contents) by Nigel Poulton.
+- Did first 4 modules, which included a basic introduction, hello world and variables & constants.
+
+**Links to work**:
+
+ - [GitHub](https://github.com/jasondown/GoFundamentals)
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-72"></a>
+### Day 72: March 14, 2018
+
+**Today's Focus**: Go programming language.
+
+**Details**:
+
+- Continuing to learn the [Go](https://golang.org/) programming language.
+- Did module 5 of Pluralsight course [Go Fundamentals](https://app.pluralsight.com/library/courses/go-fundamentals/table-of-contents) by Nigel Poulton.
+- Focus was on functions (including variadic functions)
+
+**Links to work**:
+
+ - [GitHub](https://github.com/jasondown/GoFundamentals)
 
 [Table of Contents](#toc)
