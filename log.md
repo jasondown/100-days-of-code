@@ -1724,7 +1724,7 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 	- Sync and go routines
 	- runtime for parallelism
 	- channels
-
+- Also explored some of the source code from [Docker](https://github.com/docker) and [Moby](https://github.com/moby).
 **Links to work**:
 
  - [GitHub](https://github.com/jasondown/GoFundamentals)
