@@ -40,6 +40,9 @@
 |[Day 67](#day-67) **03/09/18**|Codingame Contest, F#|[Day 68](#day-68) **03/10/18**|Codingame Contest, F#|
 |[Day 69](#day-69) **03/11/18**|Codingame Contest, F#|[Day 70](#day-70) **03/12/18**|Pluralsight, C#, Functional Programming|
 |[Day 71](#day-71) **03/13/18**|Pluralsight, Go, Development Environment Setup, Variables, Constants|[Day 72](#day-72) **03/14/18**|Pluralsight, Go, Functions|
+|[Day 73](#day-73) **03/15/18**|Pluralsight, Go, Conditionals|[Day-74](#day-74) **03/16/18**|Pluralsight, Go, Loops|
+|[Day-75](#day-75) **03/17/18**|Pluralsight, Go, Arrays, Slices|[Day-76](#day-76) **03/18/18**|Pluralsight, Go, Maps, Structs|
+|[Day-77](#day-77) **03/19/19**|Pluralsight, Go, Concurrency|
 
 ----------
 <a name="day-1"></a>
@@ -1609,6 +1612,118 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 - Continuing to learn the [Go](https://golang.org/) programming language.
 - Did module 5 of Pluralsight course [Go Fundamentals](https://app.pluralsight.com/library/courses/go-fundamentals/table-of-contents) by Nigel Poulton.
 - Focus was on functions (including variadic functions)
+
+**Links to work**:
+
+ - [GitHub](https://github.com/jasondown/GoFundamentals)
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-73"></a>
+### Day 73: March 15, 2018
+
+**Today's Focus**: Go programming language.
+
+**Details**:
+
+- Continuing to learn the [Go](https://golang.org/) programming language.
+- Did module 6 of Pluralsight course [Go Fundamentals](https://app.pluralsight.com/library/courses/go-fundamentals/table-of-contents) by Nigel Poulton.
+- Focus was on conditionals:
+	- if/else
+	- switch
+	- breaking
+	- fallthrough
+	- idiomatic error checking
+
+**Links to work**:
+
+ - [GitHub](https://github.com/jasondown/GoFundamentals)
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-74"></a>
+### Day 74: March 16, 2018
+
+**Today's Focus**: Go programming language.
+
+**Details**:
+
+- Continuing to learn the [Go](https://golang.org/) programming language.
+- Did module 7 of Pluralsight course [Go Fundamentals](https://app.pluralsight.com/library/courses/go-fundamentals/table-of-contents) by Nigel Poulton.
+- Focus was on loops:
+	- for loops
+	- for expressions
+	- for ranges
+	- break and continue
+
+**Links to work**:
+
+ - [GitHub](https://github.com/jasondown/GoFundamentals)
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-75"></a>
+### Day 75: March 17, 2018
+
+**Today's Focus**: Go programming language.
+
+**Details**:
+
+- Continuing to learn the [Go](https://golang.org/) programming language.
+- Did module 8 of Pluralsight course [Go Fundamentals](https://app.pluralsight.com/library/courses/go-fundamentals/table-of-contents) by Nigel Poulton.
+- Focus was on arrays and slices:
+	- arrays vs slices
+	- index operators
+	- append
+
+**Links to work**:
+
+ - [GitHub](https://github.com/jasondown/GoFundamentals)
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-76"></a>
+### Day 76: March 18, 2018
+
+**Today's Focus**: Go programming language.
+
+**Details**:
+
+- Continuing to learn the [Go](https://golang.org/) programming language.
+- Did module 9 and 10 of Pluralsight course [Go Fundamentals](https://app.pluralsight.com/library/courses/go-fundamentals/table-of-contents) by Nigel Poulton.
+- Module 9 focus was on maps:
+	- creating
+	- iterating
+	- CRUD operations
+- Module 10 focus was on structs:
+	- creating
+	- accessing
+	- manipulating
+
+**Links to work**:
+
+ - [GitHub](https://github.com/jasondown/GoFundamentals)
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-77"></a>
+### Day 77: March 19, 2018
+
+**Today's Focus**: Go programming language.
+
+**Details**:
+
+- Continuing to learn the [Go](https://golang.org/) programming language.
+- Did module 11 of Pluralsight course [Go Fundamentals](https://app.pluralsight.com/library/courses/go-fundamentals/table-of-contents) by Nigel Poulton.
+- Focus was on concurrency:
+	- Sync and go routines
+	- runtime for parallelism
+	- channels
 
 **Links to work**:
 
