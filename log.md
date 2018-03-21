@@ -42,7 +42,7 @@
 |[Day 71](#day-71) **03/13/18**|Pluralsight, Go, Development Environment Setup, Variables, Constants|[Day 72](#day-72) **03/14/18**|Pluralsight, Go, Functions|
 |[Day 73](#day-73) **03/15/18**|Pluralsight, Go, Conditionals|[Day-74](#day-74) **03/16/18**|Pluralsight, Go, Loops|
 |[Day-75](#day-75) **03/17/18**|Pluralsight, Go, Arrays, Slices|[Day-76](#day-76) **03/18/18**|Pluralsight, Go, Maps, Structs|
-|[Day-77](#day-77) **03/19/19**|Pluralsight, Go, Concurrency|
+|[Day-77](#day-77) **03/19/18**|Pluralsight, Go, Concurrency|[Day 78](#day-78) **03/20/18**|Codingame Challenges, Classic Puzzles - Easy, Go|
 
 ----------
 <a name="day-1"></a>
@@ -1719,7 +1719,7 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 **Details**:
 
 - Continuing to learn the [Go](https://golang.org/) programming language.
-- Did module 11 of Pluralsight course [Go Fundamentals](https://app.pluralsight.com/library/courses/go-fundamentals/table-of-contents) by Nigel Poulton.
+- Did module 11 of Pluralsight course [Go Fundamentals](https://app.pluralsight.com/library/courses/go-fundamentals/table-of-contents) by Nigel Poulton. This completed the course.
 - Focus was on concurrency:
 	- Sync and go routines
 	- runtime for parallelism
@@ -1728,5 +1728,20 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 **Links to work**:
 
  - [GitHub](https://github.com/jasondown/GoFundamentals)
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-78"></a>
+### Day 78: March 20, 2018
+
+**Today's Focus**: Decided to strengthen Go fundamentals with some [Codingame](https://codingame.com/) puzzles.
+
+**Details**:
+
+ - I decided to do three *Classic Puzzle - Easy* solutions in Go to get comfortable with the syntax and what I had learned in the Go Fundamentals course from the previous week.
+
+**Link to work**: [GitHub](https://github.com/jasondown/codingame)
+
 
 [Table of Contents](#toc)
