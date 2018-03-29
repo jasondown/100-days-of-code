@@ -46,6 +46,7 @@
 |[Day 79](#day-79) **03/21/18**|Pluralsight, Go, Concurrency|[Day 80](#day-80) **03/22/18**|Codingame Multiplayer Arena, Bot Programming, F#, Multiagent|
 |[Day 81](#day-81) **03/23/18**|Pluralsight, Go, Concurrency, Parallelism, Go Routines|[Day 82](#day-82) **03/24/18**|Pluralsight, Go, Concurrency, Webservices, Parallelism, Go Routines|
 |[Day 83](#day-83) **03/25/18**|Pluralsight, Go, Concurrency, Go Routines, Parallelism, Encoding, File System, Structs|[Day 84](#day-84) **03/26/18**|Pluralsight, Go, Concurrency, Go Routines, Channels, Structs|
+[Day 85](#day-85) **03/27/18**|Codingame Multiplayer Arena, Bot Programming, F#, Multiagent|
 
 ----------
 <a name="day-1"></a>
@@ -1746,7 +1747,6 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 
 **Link to work**: [GitHub](https://github.com/jasondown/codingame)
 
-
 [Table of Contents](#toc)
 
 ----------
@@ -1769,7 +1769,6 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 
 **Link to work**: [GitHub](https://github.com/jasondown/ConcurrentProgrammingWithGo)
 
-
 [Table of Contents](#toc)
 
 ----------
@@ -1782,10 +1781,15 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 
  - The multiplayer version of the recent BOTG contest was released. It has 6 wood leagues now so that it can start even more basic (one hero, no units, no groots) and add extra elements at a slower pace. Also, any bugs found in the contest after the single bug patch were addressed. No more dual Hulks to worry about.
  - Wood 6 was actually difficult to get past because everyone had the same strategy: Hang back by your tower and attack the enemy hero only when they are in range to take damage from the tower. This results in a lot of tie games that don't move players up or down the ranking ladder.
- - I managed to finally sneak by wood 6 and then spent the next two hours moving through all the wood leagues and into Bronze league. The Silver league is not opened for 6 more days.
+ - I managed to finally sneak by wood 6 and then spent the next two hours moving through all the wood leagues and into Bronze league.
+ 	- Added logic for units.
+	- Added logic for safe distances (don't go to close to enemy tower, taking into account my hero movement speed and attack target etc.).
+	- Added logic for moving and attacking in parallel.
+	- Added logic for controlling 2 heroes.
+	- Added some messaging logic.
+- The Silver league is not opened for 6 more days, so I stopped there (didn't code any Bronze logic that was unlocked).
 
 **Link to work**: [GitHub](https://github.com/jasondown/codingame/tree/master/BottersOfTheGalaxy)
-
 
 [Table of Contents](#toc)
 
@@ -1804,7 +1808,6 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 
 **Link to work**: [GitHub](https://github.com/jasondown/ConcurrentProgrammingWithGo)
 
-
 [Table of Contents](#toc)
 
 ----------
@@ -1820,7 +1823,6 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
  - Added parallelism via the "runtime" package (GOMAXPROCS).
 
 **Link to work**: [GitHub](https://github.com/jasondown/ConcurrentProgrammingWithGo)
-
 
 [Table of Contents](#toc)
 
@@ -1839,7 +1841,6 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 
 **Link to work**: [GitHub](https://github.com/jasondown/ConcurrentProgrammingWithGo)
 
-
 [Table of Contents](#toc)
 
 ----------
@@ -1857,5 +1858,21 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 
 **Link to work**: [GitHub](https://github.com/jasondown/ConcurrentProgrammingWithGo)
 
+[Table of Contents](#toc)
+
+----------
+<a name="day-85"></a>
+### Day 85: March 27, 2018
+
+**Today's Focus**: Went back to [Botters of the Galaxy](https://www.codingame.com/multiplayer/bot-programming/botters-of-the-galaxy) multiplayer arena game on Codingame.
+
+**Details**:
+
+ - With the Silver league about to unlock, I decided to start adding some of the Bronze features that I hadn't gotten around to yet:
+ 	- Added potion buying logic for health and mana potions.
+	- Added messages.
+	- Added Skills for Ironman (didn't add them for second hero yet (currently using Valkyrie)).
+
+**Link to work**: [GitHub](https://github.com/jasondown/codingame/tree/master/BottersOfTheGalaxy)
 
 [Table of Contents](#toc)
