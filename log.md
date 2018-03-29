@@ -44,6 +44,7 @@
 |[Day-75](#day-75) **03/17/18**|Pluralsight, Go, Arrays, Slices|[Day-76](#day-76) **03/18/18**|Pluralsight, Go, Maps, Structs|
 |[Day-77](#day-77) **03/19/18**|Pluralsight, Go, Concurrency|[Day 78](#day-78) **03/20/18**|Codingame Challenges, Classic Puzzles - Easy, Go|
 |[Day 79](#day-79) **03/21/18**|Pluralsight, Go, Concurrency|[Day 80](#day-80) **03/22/18**|Codingame Multiplayer Arena, Bot Programming, F#, Multiagent|
+|[Day 81](#day-81) **03/23/18**|Pluralsight, Go, Concurrency, Parallelism, Go Routines|[Day 82](#day-82) **03/24/18**|Pluralsight, Go, Concurrency, Webservices, Parallelism, Go Routines|
 
 ----------
 <a name="day-1"></a>
@@ -1756,6 +1757,14 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 **Details**:
 
  - Just watched the introduction module and set up the repository. Not much in the way of coding was done.
+ - Overview of:
+ 	- Concurrency vs. Parallelism
+	- Concurrency Models:
+		- Processor Threads (mutexes/locks)
+		- Events
+		- Callbacks and Promises
+		- Communication Sequential Processes (actor model)
+		- Go Concurrency
 
 **Link to work**: [GitHub](https://github.com/jasondown/ConcurrentProgrammingWithGo)
 
@@ -1775,6 +1784,41 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
  - I managed to finally sneak by wood 6 and then spent the next two hours moving through all the wood leagues and into Bronze league. The Silver league is not opened for 6 more days.
 
 **Link to work**: [GitHub](https://github.com/jasondown/codingame/tree/master/BottersOfTheGalaxy)
+
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-81"></a>
+### Day 81: March 23, 2018
+
+**Today's Focus**: Continued [Concurrent Programming With Go](https://app.pluralsight.com/library/courses/go-concurrent-programming/table-of-contents) course on Pluralsight.
+
+**Details**:
+
+ - Used anonymous functions in a hello world application.
+ - Made the functions Go routines.
+ - Played with the "time" package to add sleeping etc.
+ - Added naive parallelism via the "runtime" package (GOMAXPROCS).
+
+**Link to work**: [GitHub](https://github.com/jasondown/ConcurrentProgrammingWithGo)
+
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-82"></a>
+### Day 82: March 24, 2018
+
+**Today's Focus**: Continued [Concurrent Programming With Go](https://app.pluralsight.com/library/courses/go-concurrent-programming/table-of-contents) course on Pluralsight.
+
+**Details**:
+
+ - Explored webservice calls for multiple stock prices (e.g. [Google Stock Price](http://dev.markitondemand.com/MODApis/Api/v2/Quote?symbol=googl).
+ - Used Go routines to add asynchronous calling.
+ - Added naive parallelism via the "runtime" package (GOMAXPROCS).
+
+**Link to work**: [GitHub](https://github.com/jasondown/ConcurrentProgrammingWithGo)
 
 
 [Table of Contents](#toc)
