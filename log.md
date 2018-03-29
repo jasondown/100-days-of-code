@@ -43,6 +43,7 @@
 |[Day 73](#day-73) **03/15/18**|Pluralsight, Go, Conditionals|[Day-74](#day-74) **03/16/18**|Pluralsight, Go, Loops|
 |[Day-75](#day-75) **03/17/18**|Pluralsight, Go, Arrays, Slices|[Day-76](#day-76) **03/18/18**|Pluralsight, Go, Maps, Structs|
 |[Day-77](#day-77) **03/19/18**|Pluralsight, Go, Concurrency|[Day 78](#day-78) **03/20/18**|Codingame Challenges, Classic Puzzles - Easy, Go|
+|[Day 79](#day-79) **03/21/18**|Pluralsight, Go, Concurrency|[Day 80](#day-80) **03/22/18**|Codingame Multiplayer Arena, Bot Programming, F#, Multiagent|
 
 ----------
 <a name="day-1"></a>
@@ -1742,6 +1743,38 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
  - I decided to do three *Classic Puzzle - Easy* solutions in Go to get comfortable with the syntax and what I had learned in the Go Fundamentals course from the previous week.
 
 **Link to work**: [GitHub](https://github.com/jasondown/codingame)
+
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-79"></a>
+### Day 79: March 21, 2018
+
+**Today's Focus**: Began [Concurrent Programming With Go](https://app.pluralsight.com/library/courses/go-concurrent-programming/table-of-contents) course on Pluralsight.
+
+**Details**:
+
+ - Just watched the introduction module and set up the repository. Not much in the way of coding was done.
+
+**Link to work**: [GitHub](https://github.com/jasondown/ConcurrentProgrammingWithGo)
+
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-80"></a>
+### Day 80: March 22, 2018
+
+**Today's Focus**: The [Botters of the Galaxy](https://www.codingame.com/multiplayer/bot-programming/botters-of-the-galaxy) multiplayer arena game was released on Codingame.
+
+**Details**:
+
+ - The multiplayer version of the recent BOTG contest was released. It has 6 wood leagues now so that it can start even more basic (one hero, no units, no groots) and add extra elements at a slower pace. Also, any bugs found in the contest after the single bug patch were addressed. No more dual Hulks to worry about.
+ - Wood 6 was actually difficult to get past because everyone had the same strategy: Hang back by your tower and attack the enemy hero only when they are in range to take damage from the tower. This results in a lot of tie games that don't move players up or down the ranking ladder.
+ - I managed to finally sneak by wood 6 and then spent the next two hours moving through all the wood leagues and into Bronze league. The Silver league is not opened for 6 more days.
+
+**Link to work**: [GitHub](https://github.com/jasondown/codingame/tree/master/BottersOfTheGalaxy)
 
 
 [Table of Contents](#toc)
