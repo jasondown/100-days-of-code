@@ -45,6 +45,7 @@
 |[Day-77](#day-77) **03/19/18**|Pluralsight, Go, Concurrency|[Day 78](#day-78) **03/20/18**|Codingame Challenges, Classic Puzzles - Easy, Go|
 |[Day 79](#day-79) **03/21/18**|Pluralsight, Go, Concurrency|[Day 80](#day-80) **03/22/18**|Codingame Multiplayer Arena, Bot Programming, F#, Multiagent|
 |[Day 81](#day-81) **03/23/18**|Pluralsight, Go, Concurrency, Parallelism, Go Routines|[Day 82](#day-82) **03/24/18**|Pluralsight, Go, Concurrency, Webservices, Parallelism, Go Routines|
+|[Day 83](#day-83) **03/25/18**|Pluralsight, Go, Concurrency, Go Routines, Parallelism, Encoding, File System, Structs|[Day 84](#day-84) **03/26/18**|Pluralsight, Go, Concurrency, Go Routines, Channels, Structs|
 
 ----------
 <a name="day-1"></a>
@@ -1816,7 +1817,43 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 
  - Explored webservice calls for multiple stock prices (e.g. [Google Stock Price](http://dev.markitondemand.com/MODApis/Api/v2/Quote?symbol=googl).
  - Used Go routines to add asynchronous calling.
- - Added naive parallelism via the "runtime" package (GOMAXPROCS).
+ - Added parallelism via the "runtime" package (GOMAXPROCS).
+
+**Link to work**: [GitHub](https://github.com/jasondown/ConcurrentProgrammingWithGo)
+
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-83"></a>
+### Day 83: March 25, 2018
+
+**Today's Focus**: Continued [Concurrent Programming With Go](https://app.pluralsight.com/library/courses/go-concurrent-programming/table-of-contents) course on Pluralsight.
+
+**Details**:
+
+ - Explored the file system by creating a file watcher to process invoices (csv files).
+ - Looked into encoding for the csv processing.
+ - Explored structs to hold invoice information as an object.
+ - Added parallelism via the "runtime" package (GOMAXPROCS).
+
+**Link to work**: [GitHub](https://github.com/jasondown/ConcurrentProgrammingWithGo)
+
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-84"></a>
+### Day 84: March 26, 2018
+
+**Today's Focus**: Continued [Concurrent Programming With Go](https://app.pluralsight.com/library/courses/go-concurrent-programming/table-of-contents) course on Pluralsight.
+
+**Details**:
+
+ - Began looking into channels and memory isolation.
+ - Looked at basic isolated channels.
+ - Played with buffered channels and ranging over them.
+ - Explored multiple channels and channel selection.
 
 **Link to work**: [GitHub](https://github.com/jasondown/ConcurrentProgrammingWithGo)
 
