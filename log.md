@@ -48,6 +48,7 @@
 |[Day 83](#day-83) **03/25/18**|Pluralsight, Go, Concurrency, Go Routines, Parallelism, Encoding, File System, Structs|[Day 84](#day-84) **03/26/18**|Pluralsight, Go, Concurrency, Go Routines, Channels, Structs|
 [Day 85](#day-85) **03/27/18**|Codingame Multiplayer Arena, Bot Programming, F#, Multiagent|[Day 86](#day-86) **03/28/18**|Pluralsight, Go, Concurrency, Go Routines, Channels, Event Listeners, Async Logging, Mutex|
 |[Day 87](#day-87) **03/29/18**|Pluralsight, Go, Concurrency, Go Routines, Channels, Promises|[Day 88](#day-88) **03/30/18**|Pluralsight, Go Concurrency, Go Routines, Channels, ETL, Pipes & Filters, Atomic Operators|
+|[Day 89](#day-89) **03/31/18**|Pluralsight, Go, Slices, Formatting|
 
 ----------
 <a name="day-1"></a>
@@ -1927,5 +1928,21 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 	- Used atomic operators and nested go routines + parallelism to dramatically reduce ETL operation times.
 
 **Link to work**: [GitHub](https://github.com/jasondown/ConcurrentProgrammingWithGo)
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-89"></a>
+### Day 89: March 31, 2018
+
+**Today's Focus**: Began [Go: Getting Started](https://app.pluralsight.com/library/courses/go-getting-started/table-of-contents) course on Pluralsight.
+
+**Details**:
+
+ - I decided I wanted to reinforce some of the Go fundamentals I learned, so I took another introductory course on Go (this one by Michael Van Sickle, the same author who did the Concurrent Programming With Go course).
+ - Began a console application for printing out power plant reports.
+ - Very basic introduction to data types, operators and output formatting.
+
+**Link to work**: [GitHub](https://github.com/jasondown/GoGettingStarted)
 
 [Table of Contents](#toc)
