@@ -51,6 +51,7 @@
 |[Day 89](#day-89) **03/31/18**|Pluralsight, Go, Data Types, Operators, Formatting|[Day 90](#day-90) **04/01/18**|Pluralsight, Go, Branching, Looping, Functions|
 |[Day 91](#day-91) **04/03/18**|Pluralsight, Go, Object-Oriented Programming, Structs, Channels, Go Routines, Asynchronous Programming, Parallelism|[Day 92](#day-92) **04/04/18**|Pluralsight, Go, Web Programming, MVC, C#, Clean Architecture, Domain-Centric Architecture|
 |[Day 93](#day-93) **04/05/18**|Pluralsight, Go, Web Programming, Basic HTTP Request Handlers, C#, Application Layer|[Day 94](#day-94) **04/06/18**|Pluralsight, Go, Web Programming, Basic HTTP Request Handlers, C#, CQRS, Functional Organization|
+|[Day 95](#day-95) **04/07/18**|Pluralsight, Go, Web Programming, Basic HTTP Requests, Templates, C#, Functional Organization, Screaming Architecture, Microservices|
 
 ----------
 <a name="day-1"></a>
@@ -2057,6 +2058,36 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 			- Great for load testing and debugging.
 			- Can project current state of entities into more than one type of read optimized datastore (graph databases, OLAP cubes, in-memory db, lucene or any fast indexing service etc.).
 			- Can rebuild production database by replaying events.
+	- Again, C# example application was used, but I was only following along without coding for this one.
+
+**Link to work**: [GitHub](https://github.com/jasondown/CreatingWebApplicationsWithGo)
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-95"></a>
+### Day 95: April 7, 2018
+
+**Today's Focus**: Continued two pluralsight courses: [Creating Web Applications With Go](https://app.pluralsight.com/library/courses/creating-web-applications-go-update/table-of-contents) and [Clean Architecture: Patterns, Practices and Principles](https://app.pluralsight.com/library/courses/clean-architecture-patterns-practices-principles/table-of-contents).
+
+**Details**:
+	
+ - Creating Web Applications With Go
+ 	- Continued with creating custom file server using http.HandleFunc and manually handling different types of page types (html, css, png etc.).
+	- Removed all custom code and used built-in http.ServerFile to serve up pages.
+	- Added basic html template and parsing logic.
+	
+ - Clean Architecture: Patterns, Practices and Principles
+ 	- Looked at functional organization and screaming architecture (i.e. organize code by use cases instead of by architectural pattern like MVC (categorical)).
+		- Easy to navigate (spatial locality).
+		- Avoids vendor lock-in (based on conventions of MVC etc. for Rails or ASP.NET etc.)
+		- However, you lose automatic scaffolding and framework conventions.
+		- It is also easier to use categorical organization at first (e.g. following MVC conventions), but becomes more difficult as the product gets bigger.
+	- Looked at mircroservices.
+		- Subdivides monolithic applications into small independent domains that communicate through clearly defined interfaces.
+		- Uses bounded context (recognition of a specific contextual scope within which a specific model is valid) to constrain domain models and subdivide them.
+		- Communicate state transitions across boundaries from one domain to another using well defined interfaces and coordinated transactions or eventual consistency.
+		- Spaghetti -> Lasagna -> Ravioli :)
 	- Again, C# example application was used, but I was only following along without coding for this one.
 
 **Link to work**: [GitHub](https://github.com/jasondown/CreatingWebApplicationsWithGo)
