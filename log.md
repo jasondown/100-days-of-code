@@ -47,7 +47,7 @@
 |[Day 81](#day-81) **03/23/18**|Pluralsight, Go, Concurrency, Parallelism, Go Routines|[Day 82](#day-82) **03/24/18**|Pluralsight, Go, Concurrency, Webservices, Parallelism, Go Routines|
 |[Day 83](#day-83) **03/25/18**|Pluralsight, Go, Concurrency, Go Routines, Parallelism, Encoding, File System, Structs|[Day 84](#day-84) **03/26/18**|Pluralsight, Go, Concurrency, Go Routines, Channels, Structs|
 [Day 85](#day-85) **03/27/18**|Codingame Multiplayer Arena, Bot Programming, F#, Multiagent|[Day 86](#day-86) **03/28/18**|Pluralsight, Go, Concurrency, Go Routines, Channels, Event Listeners, Async Logging, Mutex|
-|[Day 87](#day-87)|Pluralsight, Go, Concurrency, Go Routines, Channels, Promises|
+|[Day 87](#day-87) **03/29/18**|Pluralsight, Go, Concurrency, Go Routines, Channels, Promises|[Day 88](#day-88) **03/30/18**|Pluralsight, Go Concurrency, Go Routines, Channels, ETL, Pipes & Filters, Atomic Operators|
 
 ----------
 <a name="day-1"></a>
@@ -1909,6 +1909,22 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 	- Multiple promises (happy paths).
 	- Multiple promises (happy paths and error paths).
 	- Timeout handling in promises.
+
+**Link to work**: [GitHub](https://github.com/jasondown/ConcurrentProgrammingWithGo)
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-88"></a>
+### Day 88: March 30, 2018
+
+**Today's Focus**: Continued [Concurrent Programming With Go](https://app.pluralsight.com/library/courses/go-concurrent-programming/table-of-contents) course on Pluralsight.
+
+**Details**:
+
+ - Itegrated Go routines and channels:
+ 	- For ETL using pipes and filters.
+	- Used atomic operators and nested go routines + parallelism to dramatically reduce ETL operation times.
 
 **Link to work**: [GitHub](https://github.com/jasondown/ConcurrentProgrammingWithGo)
 
