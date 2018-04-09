@@ -2040,8 +2040,8 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
  - Clean Architecture: Patterns, Practices and Principles
  	- Looked at Command-Query Separation and pros/cons.
 		- Single-database CQRS
-			- Commands use domain
-			- Queries use database
+			- Commands use domain.
+			- Queries use database.
 		- Two-database CQRS
 			- Read and write databases.
 			- Commands use write db.
