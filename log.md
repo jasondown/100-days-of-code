@@ -2115,6 +2115,8 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 		- Implementations details left to "Last Responsible Moment".
 	- Again, C# example application was used, but I was only following along without coding for this one.
 
+![Last Responsible Moment](https://raw.githubusercontent.com/jasondown/100-days-of-code/master/images/last-responsible-moment.PNG)
+
 **Link to work**: [GitHub](https://github.com/jasondown/CreatingWebApplicationsWithGo)
 
 [Table of Contents](#toc)
