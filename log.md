@@ -50,6 +50,7 @@
 |[Day 87](#day-87) **03/29/18**|Pluralsight, Go, Concurrency, Go Routines, Channels, Promises|[Day 88](#day-88) **03/30/18**|Pluralsight, Go Concurrency, Go Routines, Channels, ETL, Pipes & Filters, Atomic Operators|
 |[Day 89](#day-89) **03/31/18**|Pluralsight, Go, Data Types, Operators, Formatting|[Day 90](#day-90) **04/01/18**|Pluralsight, Go, Branching, Looping, Functions|
 |[Day 91](#day-91) **04/03/18**|Pluralsight, Go, Object-Oriented Programming, Structs, Channels, Go Routines, Asynchronous Programming, Parallelism|[Day 92](#day-92) **04/04/18**|Pluralsight, Go, Web Programming, MVC, C#, Clean Architecture, Domain-Centric Architecture|
+|[Day 92](#day-93) **04/05/18**|Pluralsight, Go, Web Programming, Basic HTTP Request Handlers, C#, Application Layer|
 
 ----------
 <a name="day-1"></a>
@@ -1988,9 +1989,37 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 
 **Details**:
 	
- - Created a very small Hello World style web application in Go.
- - Reviewed MVC pattern for use in Go web programming application.
- - Began learning about domain-centric archictecture, following along a sample C# application (didn't do any coding myself).
+ - Creating Web Applications With Go
+ 	- Created a very small Hello World style web application in Go.
+ 	- Reviewed MVC pattern for use in Go web programming application.
+ 
+ - Clean Architecture: Patterns, Practices and Principles
+ 	- Began learning about domain-centric archictecture, following along a sample C# application (didn't do any coding myself).
+	- Basic overview of onion architecture, hexagonal architecture, BCE architecture and clean architecture (also known as screaming architecture).
+	- Compared the above architectures with traditional three-layer database-centric architecture.
+
+**Link to work**: [GitHub](https://github.com/jasondown/CreatingWebApplicationsWithGo)
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-92"></a>
+### Day 92: April 4, 2018
+
+**Today's Focus**: Continued two pluralsight courses: [Creating Web Applications With Go](https://app.pluralsight.com/library/courses/creating-web-applications-go-update/table-of-contents) and [Clean Architecture: Patterns, Practices and Principles](https://app.pluralsight.com/library/courses/clean-architecture-patterns-practices-principles/table-of-contents).
+
+**Details**:
+	
+ - Creating Web Applications With Go
+ 	- Imported a demo application (with massive amounts of Node package dependencies) as a starting point.
+ 	- Initial application is serving up static web pages and css.
+ 	- Added basic HTTP request handling, first with a struct and then using handlefunc.
+	
+ - Clean Architecture: Patterns, Practices and Principles
+ 	- Began learning about the application layer (and the differences between it and the domain layer).
+	- Looked at inversion of control, dependency inversion principle, dependency injection etc.
+	- Explored using interfaces to be implemented by the outer layers of the architecture (of which the application layer has no knowledge).
+	- Again, C# example application was used, but I was only following along without coding for this one.
 
 **Link to work**: [GitHub](https://github.com/jasondown/CreatingWebApplicationsWithGo)
 
