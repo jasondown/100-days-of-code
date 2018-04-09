@@ -49,7 +49,7 @@
 [Day 85](#day-85) **03/27/18**|Codingame Multiplayer Arena, Bot Programming, F#, Multiagent|[Day 86](#day-86) **03/28/18**|Pluralsight, Go, Concurrency, Go Routines, Channels, Event Listeners, Async Logging, Mutex|
 |[Day 87](#day-87) **03/29/18**|Pluralsight, Go, Concurrency, Go Routines, Channels, Promises|[Day 88](#day-88) **03/30/18**|Pluralsight, Go Concurrency, Go Routines, Channels, ETL, Pipes & Filters, Atomic Operators|
 |[Day 89](#day-89) **03/31/18**|Pluralsight, Go, Data Types, Operators, Formatting|[Day 90](#day-90) **04/01/18**|Pluralsight, Go, Branching, Looping, Functions|
-|[Day 91](#day-91) **04/03/18**|Pluralsight, Go, Object-Oriented Programming, Structs, Channels, Go Routines, Asynchronous Programming, Parallelism|
+|[Day 91](#day-91) **04/03/18**|Pluralsight, Go, Object-Oriented Programming, Structs, Channels, Go Routines, Asynchronous Programming, Parallelism|[Day 92](#day-92) **04/04/18**|Pluralsight, Go, Web Programming, MVC, C#, Clean Architecture, Domain-Centric Architecture|
 
 ----------
 <a name="day-1"></a>
@@ -1967,7 +1967,7 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 <a name="day-91"></a>
 ### Day 91: April 3, 2018 (Missed April 2 while on vacation w/ family)
 
-**Today's Focus**: Continued [Go: Getting Started](https://app.pluralsight.com/library/courses/go-getting-started/table-of-contents) course on Pluralsight.
+**Today's Focus**: Finished [Go: Getting Started](https://app.pluralsight.com/library/courses/go-getting-started/table-of-contents) course on Pluralsight.
 
 **Details**:
 	
@@ -1977,5 +1977,21 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
  - Added parallelism.
 
 **Link to work**: [GitHub](https://github.com/jasondown/GoGettingStarted)
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-92"></a>
+### Day 92: April 4, 2018
+
+**Today's Focus**: Began two pluralsight courses: [Creating Web Applications With Go](https://app.pluralsight.com/library/courses/creating-web-applications-go-update/table-of-contents) and [Clean Architecture: Patterns, Practices and Principles](https://app.pluralsight.com/library/courses/clean-architecture-patterns-practices-principles/table-of-contents).
+
+**Details**:
+	
+ - Created a very small Hello World style web application in Go.
+ - Reviewed MVC pattern for use in Go web programming application.
+ - Began learning about domain-centric archictecture, following along a sample C# application (didn't do any coding myself).
+
+**Link to work**: [GitHub](https://github.com/jasondown/CreatingWebApplicationsWithGo)
 
 [Table of Contents](#toc)
