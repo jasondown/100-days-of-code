@@ -49,6 +49,7 @@
 [Day 85](#day-85) **03/27/18**|Codingame Multiplayer Arena, Bot Programming, F#, Multiagent|[Day 86](#day-86) **03/28/18**|Pluralsight, Go, Concurrency, Go Routines, Channels, Event Listeners, Async Logging, Mutex|
 |[Day 87](#day-87) **03/29/18**|Pluralsight, Go, Concurrency, Go Routines, Channels, Promises|[Day 88](#day-88) **03/30/18**|Pluralsight, Go Concurrency, Go Routines, Channels, ETL, Pipes & Filters, Atomic Operators|
 |[Day 89](#day-89) **03/31/18**|Pluralsight, Go, Data Types, Operators, Formatting|[Day 90](#day-90) **04/01/18**|Pluralsight, Go, Branching, Looping, Functions|
+|[Day 91](#day-91) **04/03/18**|Pluralsight, Go, Object-Oriented Programming, Structs, Channels, Go Routines, Asynchronous Programming, Parallelism|
 
 ----------
 <a name="day-1"></a>
@@ -1957,6 +1958,23 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 
  - Added branching and looping to improve the power plant reporting console application.
  - Added functions to refactor the code into a better design.
+
+**Link to work**: [GitHub](https://github.com/jasondown/GoGettingStarted)
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-91"></a>
+### Day 91: April 3, 2018 (Missed April 2 while on vacation w/ family)
+
+**Today's Focus**: Continued [Go: Getting Started](https://app.pluralsight.com/library/courses/go-getting-started/table-of-contents) course on Pluralsight.
+
+**Details**:
+	
+ - Explored Go's way of doing object-oriented programming, using structs.
+ - Looked into adding methods to structs instead of detached functions (different than how you'd do it in C#, Java etc.).
+ - Looked into Go routines and Channels to add async abilities.
+ - Added parallelism.
 
 **Link to work**: [GitHub](https://github.com/jasondown/GoGettingStarted)
 
