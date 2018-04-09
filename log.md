@@ -51,7 +51,7 @@
 |[Day 89](#day-89) **03/31/18**|Pluralsight, Go, Data Types, Operators, Formatting|[Day 90](#day-90) **04/01/18**|Pluralsight, Go, Branching, Looping, Functions|
 |[Day 91](#day-91) **04/03/18**|Pluralsight, Go, Object-Oriented Programming, Structs, Channels, Go Routines, Asynchronous Programming, Parallelism|[Day 92](#day-92) **04/04/18**|Pluralsight, Go, Web Programming, MVC, C#, Clean Architecture, Domain-Centric Architecture|
 |[Day 93](#day-93) **04/05/18**|Pluralsight, Go, Web Programming, Basic HTTP Request Handlers, C#, Application Layer|[Day 94](#day-94) **04/06/18**|Pluralsight, Go, Web Programming, Basic HTTP Request Handlers, C#, CQRS, Functional Organization|
-|[Day 95](#day-95) **04/07/18**|Pluralsight, Go, Web Programming, Basic HTTP Requests, Templates, C#, Functional Organization, Screaming Architecture, Microservices|
+|[Day 95](#day-95) **04/07/18**|Pluralsight, Go, Web Programming, Basic HTTP Requests, Templates, C#, Functional Organization, Screaming Architecture, Microservices|[Day 96](#day-96) **04/08/18**|Pluralsight, Go, Web Programming, Templates, C#, Testable Architecture, Evolving the Architecture|
 
 ----------
 <a name="day-1"></a>
@@ -2088,6 +2088,31 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 		- Uses bounded context (recognition of a specific contextual scope within which a specific model is valid) to constrain domain models and subdivide them.
 		- Communicate state transitions across boundaries from one domain to another using well defined interfaces and coordinated transactions or eventual consistency.
 		- Spaghetti -> Lasagna -> Ravioli :)
+	- Again, C# example application was used, but I was only following along without coding for this one.
+
+**Link to work**: [GitHub](https://github.com/jasondown/CreatingWebApplicationsWithGo)
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-96"></a>
+### Day 96: April 8, 2018
+
+**Today's Focus**: Continued two pluralsight courses: [Creating Web Applications With Go](https://app.pluralsight.com/library/courses/creating-web-applications-go-update/table-of-contents) and [Clean Architecture: Patterns, Practices and Principles](https://app.pluralsight.com/library/courses/clean-architecture-patterns-practices-principles/table-of-contents).
+
+**Details**:
+	
+ - Creating Web Applications With Go
+ 	- Looked at restructuring static html pages to using templates.
+	- Used html template ParseGlob and replaced all links in the static html pages.
+	
+ - Clean Architecture: Patterns, Practices and Principles
+ 	- Looked at testable architecture.
+		- Overview of many test types and how to test the various layers of a domain-centric design.
+		- Looked at the Test Automation Pyramid.
+	- Evolving the architecture.
+		- Clean architecture: Focus on key abstractions of the domain and application logic at the center of the architecture, defer user interface, persistence, third party dependencies and cross cutting concerns to implementation details. This allows evolution to be done more easily over time.
+		- Implementations details left to "Last Responsible Moment".
 	- Again, C# example application was used, but I was only following along without coding for this one.
 
 **Link to work**: [GitHub](https://github.com/jasondown/CreatingWebApplicationsWithGo)
