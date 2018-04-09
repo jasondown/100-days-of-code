@@ -50,7 +50,7 @@
 |[Day 87](#day-87) **03/29/18**|Pluralsight, Go, Concurrency, Go Routines, Channels, Promises|[Day 88](#day-88) **03/30/18**|Pluralsight, Go Concurrency, Go Routines, Channels, ETL, Pipes & Filters, Atomic Operators|
 |[Day 89](#day-89) **03/31/18**|Pluralsight, Go, Data Types, Operators, Formatting|[Day 90](#day-90) **04/01/18**|Pluralsight, Go, Branching, Looping, Functions|
 |[Day 91](#day-91) **04/03/18**|Pluralsight, Go, Object-Oriented Programming, Structs, Channels, Go Routines, Asynchronous Programming, Parallelism|[Day 92](#day-92) **04/04/18**|Pluralsight, Go, Web Programming, MVC, C#, Clean Architecture, Domain-Centric Architecture|
-|[Day 92](#day-93) **04/05/18**|Pluralsight, Go, Web Programming, Basic HTTP Request Handlers, C#, Application Layer|
+|[Day 93](#day-93) **04/05/18**|Pluralsight, Go, Web Programming, Basic HTTP Request Handlers, C#, Application Layer|[Day 94](#day-94) **04/06/18**|Pluralsight, Go, Web Programming, Basic HTTP Request Handlers, C#, CQRS, Functional Organization|
 
 ----------
 <a name="day-1"></a>
@@ -2003,8 +2003,8 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 [Table of Contents](#toc)
 
 ----------
-<a name="day-92"></a>
-### Day 92: April 4, 2018
+<a name="day-93"></a>
+### Day 93: April 5, 2018
 
 **Today's Focus**: Continued two pluralsight courses: [Creating Web Applications With Go](https://app.pluralsight.com/library/courses/creating-web-applications-go-update/table-of-contents) and [Clean Architecture: Patterns, Practices and Principles](https://app.pluralsight.com/library/courses/clean-architecture-patterns-practices-principles/table-of-contents).
 
@@ -2019,6 +2019,44 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
  	- Began learning about the application layer (and the differences between it and the domain layer).
 	- Looked at inversion of control, dependency inversion principle, dependency injection etc.
 	- Explored using interfaces to be implemented by the outer layers of the architecture (of which the application layer has no knowledge).
+	- Again, C# example application was used, but I was only following along without coding for this one.
+
+**Link to work**: [GitHub](https://github.com/jasondown/CreatingWebApplicationsWithGo)
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-94"></a>
+### Day 94: April 6, 2018
+
+**Today's Focus**: Continued two pluralsight courses: [Creating Web Applications With Go](https://app.pluralsight.com/library/courses/creating-web-applications-go-update/table-of-contents) and [Clean Architecture: Patterns, Practices and Principles](https://app.pluralsight.com/library/courses/clean-architecture-patterns-practices-principles/table-of-contents).
+
+**Details**:
+	
+ - Creating Web Applications With Go
+ 	- Looked at creating custom file server using http.HandleFunc.
+	
+ - Clean Architecture: Patterns, Practices and Principles
+ 	- Looked at Command-Query Separation and pros/cons.
+		- Single-database CQRS
+			- Commands use domain
+			- Queries use database
+		- Two-database CQRS
+			- Read and write databases.
+			- Commands use write db.
+			- Queries use read db.
+			- Eventual consistency (lag between the two).
+			- Huge performance improvements possible, although more complex.
+		- Event Sourcing CQRS
+			- Stores events (changes over time, rather than normalized storage of objects).
+			- Allows replay events (to get to any previous, or current state).
+			- Updates read database so read queries will be extremely fast.
+			- Most complex (eventual consistency, higher cost to create and maintain the event sourcing features), but has most benefits.
+			- Complete audit trail.
+			- Any point-in-time entity reconstruction.
+			- Great for load testing and debugging.
+			- Can project current state of entities into more than one type of read optimized datastore (graph databases, OLAP cubes, in-memory db, lucene or any fast indexing service etc.).
+			- Can rebuild production database by replaying events.
 	- Again, C# example application was used, but I was only following along without coding for this one.
 
 **Link to work**: [GitHub](https://github.com/jasondown/CreatingWebApplicationsWithGo)
