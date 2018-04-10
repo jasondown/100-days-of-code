@@ -1891,7 +1891,7 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 
 **Details**:
 
- - Itegrated Go routines and channels:
+ - Integrated Go routines and channels:
  	- With mutex lock.
 	- To simulate events and event listeners.
 	- To simluate callbacks.
