@@ -2200,7 +2200,7 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 		- Inlinie Fragments
 		- Mutations
 	
-![GraphQL Hub](https://raw.githubusercontent.com/jasondown/100-days-of-code/master/images/GraphQLHub.gif)
+![GraphQL Hub](https://raw.githubusercontent.com/jasondown/100-days-of-code/master/images/graph-ql-hub.gif)
 	
 **Link to work**: [GitHub](https://github.com/jasondown/CreatingWebApplicationsWithGo)
 
