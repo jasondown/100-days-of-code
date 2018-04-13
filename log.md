@@ -51,7 +51,9 @@
 |[Day 89](#day-89) **03/31/18**|Pluralsight, Go, Data Types, Operators, Formatting|[Day 90](#day-90) **04/01/18**|Pluralsight, Go, Branching, Looping, Functions|
 |[Day 91](#day-91) **04/03/18**|Pluralsight, Go, Object-Oriented Programming, Structs, Channels, Go Routines, Asynchronous Programming, Parallelism|[Day 92](#day-92) **04/04/18**|Pluralsight, Go, Web Programming, MVC, C#, Clean Architecture, Domain-Centric Architecture|
 |[Day 93](#day-93) **04/05/18**|Pluralsight, Go, Web Programming, Basic HTTP Request Handlers, C#, Application Layer|[Day 94](#day-94) **04/06/18**|Pluralsight, Go, Web Programming, Basic HTTP Request Handlers, C#, CQRS, Functional Organization|
-|[Day 95](#day-95) **04/07/18**|Pluralsight, Go, Web Programming, Basic HTTP Requests, Templates, C#, Functional Organization, Screaming Architecture, Microservices|[Day 96](#day-96) **04/08/18**|Pluralsight, Go, Web Programming, Templates, C#, Testable Architecture, Evolving the Architecture|
+|[Day 95](#day-95) **04/07/18**|Pluralsight, Go, Web Programming, Basic HTTP Requests, Templates, C#, Functional Organization, Screaming Architecture, Microservices|[Day 96](#day-96) **04/08/18**|Pluralsight, Go, Web Programming, Templates, C#, Testable Architecture, Evolving Architecture|
+[Day 97](#day-97) **04/09/18**|Pluralsight, Go, Web Programming, Templates|[Day 98](#day-98) **04/10/18**|Pluralsight, Go, Web Programming, Templates|
+[Day 99](#day-99) **04/11/18**|Pluralsight, Go, Web Programming, Templates, GraphQL|[Day 100](#day-100) **04/12/18**|Pluralsight, Go Web Programming, Templates, GraphQL|
 
 ----------
 <a name="day-1"></a>
@@ -1986,7 +1988,7 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 <a name="day-92"></a>
 ### Day 92: April 4, 2018
 
-**Today's Focus**: Began two pluralsight courses: [Creating Web Applications With Go](https://app.pluralsight.com/library/courses/creating-web-applications-go-update/table-of-contents) and [Clean Architecture: Patterns, Practices and Principles](https://app.pluralsight.com/library/courses/clean-architecture-patterns-practices-principles/table-of-contents).
+**Today's Focus**: Began two Pluralsight courses: [Creating Web Applications With Go](https://app.pluralsight.com/library/courses/creating-web-applications-go-update/table-of-contents) and [Clean Architecture: Patterns, Practices and Principles](https://app.pluralsight.com/library/courses/clean-architecture-patterns-practices-principles/table-of-contents).
 
 **Details**:
 	
@@ -2007,7 +2009,7 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 <a name="day-93"></a>
 ### Day 93: April 5, 2018
 
-**Today's Focus**: Continued two pluralsight courses: [Creating Web Applications With Go](https://app.pluralsight.com/library/courses/creating-web-applications-go-update/table-of-contents) and [Clean Architecture: Patterns, Practices and Principles](https://app.pluralsight.com/library/courses/clean-architecture-patterns-practices-principles/table-of-contents).
+**Today's Focus**: Continued two Pluralsight courses: [Creating Web Applications With Go](https://app.pluralsight.com/library/courses/creating-web-applications-go-update/table-of-contents) and [Clean Architecture: Patterns, Practices and Principles](https://app.pluralsight.com/library/courses/clean-architecture-patterns-practices-principles/table-of-contents).
 
 **Details**:
 	
@@ -2030,7 +2032,7 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 <a name="day-94"></a>
 ### Day 94: April 6, 2018
 
-**Today's Focus**: Continued two pluralsight courses: [Creating Web Applications With Go](https://app.pluralsight.com/library/courses/creating-web-applications-go-update/table-of-contents) and [Clean Architecture: Patterns, Practices and Principles](https://app.pluralsight.com/library/courses/clean-architecture-patterns-practices-principles/table-of-contents).
+**Today's Focus**: Continued two Pluralsight courses: [Creating Web Applications With Go](https://app.pluralsight.com/library/courses/creating-web-applications-go-update/table-of-contents) and [Clean Architecture: Patterns, Practices and Principles](https://app.pluralsight.com/library/courses/clean-architecture-patterns-practices-principles/table-of-contents).
 
 **Details**:
 	
@@ -2068,7 +2070,7 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 <a name="day-95"></a>
 ### Day 95: April 7, 2018
 
-**Today's Focus**: Continued two pluralsight courses: [Creating Web Applications With Go](https://app.pluralsight.com/library/courses/creating-web-applications-go-update/table-of-contents) and [Clean Architecture: Patterns, Practices and Principles](https://app.pluralsight.com/library/courses/clean-architecture-patterns-practices-principles/table-of-contents).
+**Today's Focus**: Continued two Pluralsight courses: [Creating Web Applications With Go](https://app.pluralsight.com/library/courses/creating-web-applications-go-update/table-of-contents) and [Clean Architecture: Patterns, Practices and Principles](https://app.pluralsight.com/library/courses/clean-architecture-patterns-practices-principles/table-of-contents).
 
 **Details**:
 	
@@ -2098,7 +2100,7 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 <a name="day-96"></a>
 ### Day 96: April 8, 2018
 
-**Today's Focus**: Continued two pluralsight courses: [Creating Web Applications With Go](https://app.pluralsight.com/library/courses/creating-web-applications-go-update/table-of-contents) and [Clean Architecture: Patterns, Practices and Principles](https://app.pluralsight.com/library/courses/clean-architecture-patterns-practices-principles/table-of-contents).
+**Today's Focus**: Continued two Pluralsight courses: [Creating Web Applications With Go](https://app.pluralsight.com/library/courses/creating-web-applications-go-update/table-of-contents) and [Clean Architecture: Patterns, Practices and Principles](https://app.pluralsight.com/library/courses/clean-architecture-patterns-practices-principles/table-of-contents).
 
 **Details**:
 	
@@ -2117,6 +2119,89 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 
 ![Last Responsible Moment](https://raw.githubusercontent.com/jasondown/100-days-of-code/master/images/last-responsible-moment.PNG)
 
+**Link to work**: [GitHub](https://github.com/jasondown/CreatingWebApplicationsWithGo)
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-97"></a>
+### Day 97: April 9, 2018
+
+**Today's Focus**: Continued Pluralsight course [Creating Web Applications With Go](https://app.pluralsight.com/library/courses/creating-web-applications-go-update/table-of-contents).
+
+**Details**:
+	
+ - Creating Web Applications With Go
+ 	- Crated a header template to be used by multiple pages.
+	- Created a footer template to be used by multiple pages.
+	- Pulled header and footer out of the pages and used the templates.
+	
+**Link to work**: [GitHub](https://github.com/jasondown/CreatingWebApplicationsWithGo)
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-98"></a>
+### Day 98: April 10, 2018
+
+**Today's Focus**: Continued Pluralsight course [Creating Web Applications With Go](https://app.pluralsight.com/library/courses/creating-web-applications-go-update/table-of-contents).
+
+**Details**:
+	
+ - Creating Web Applications With Go
+ 	- Created a layout template to be reused by multiple pages and set up template compisition.
+	- Created a content folder and moved all pages into the folder.
+	- Added ability to pass in css and scripts to the layout template.
+	- Created content templates and used template compisition and cloning.
+	
+**Link to work**: [GitHub](https://github.com/jasondown/CreatingWebApplicationsWithGo)
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-99"></a>
+### Day 99: April 11, 2018
+
+**Today's Focus**: Continued Pluralsight course [Creating Web Applications With Go](https://app.pluralsight.com/library/courses/creating-web-applications-go-update/table-of-contents). Also started another Pluralsight course called [Building Scalable APIs with GraphQL](https://app.pluralsight.com/library/courses/graphql-scalable-apis/table-of-contents). 
+
+**Details**:
+	
+ - Creating Web Applications With Go
+ 	- Added viewmodel data-driven template for the title in layout template.
+	- Expanded data-driven template for entire shop page.
+	
+- Building Scalable APIs with GraphQL
+	- Introduction to GraphQL language and runtime.
+	- Learned GraphQL language basics.
+	
+**Link to work**: [GitHub](https://github.com/jasondown/CreatingWebApplicationsWithGo)
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-100"></a>
+### Day 100: April 12, 2018
+
+**Today's Focus**: Continued Pluralsight course [Creating Web Applications With Go](https://app.pluralsight.com/library/courses/creating-web-applications-go-update/table-of-contents). Also started another Pluralsight course called [Building Scalable APIs with GraphQL](https://app.pluralsight.com/library/courses/graphql-scalable-apis/table-of-contents). 
+
+**Details**:
+	
+ - Creating Web Applications With Go
+ 	- Added template pipelines to display content.
+	- Looked at FuncMap to add custom functions to be used in template pipelines.
+	
+- Building Scalable APIs with GraphQL
+	- Worked in [GraphQL Hub](https://www.graphqlhub.com/) to explore language feature of GraphQL using GitHub and Twitter APIs.
+		- Fields
+		- Variables
+		- Directives
+		- Aliases
+		- Fragments
+		- Inlinie Fragments
+		- Mutations
+	
+![GraphQL Hub](https://raw.githubusercontent.com/jasondown/100-days-of-code/master/images/GraphQLHub.gif)
+	
 **Link to work**: [GitHub](https://github.com/jasondown/CreatingWebApplicationsWithGo)
 
 [Table of Contents](#toc)
