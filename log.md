@@ -2149,7 +2149,7 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 **Details**:
 	
  - Creating Web Applications With Go
- 	- Created a layout template to be reused by multiple pages and set up template compisition.
+ 	- Created a layout template to be reused by multiple pages and set up template composition.
 	- Created a content folder and moved all pages into the folder.
 	- Added ability to pass in css and scripts to the layout template.
 	- Created content templates and used template compisition and cloning.
