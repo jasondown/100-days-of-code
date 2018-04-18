@@ -917,7 +917,7 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 - Continued chapter 5: You Are Not a Unique Snowflake
 - Looked into covariance via correlation matrices.
 - Learned about Principal Component Analysis (PCA).
-- Had a bried introduction to eigenvectors and eigenvalues.
+- Had a brief introduction to eigenvectors and eigenvalues.
 - Quote of the day: *"Principal Component Analysis relies on the eigen decomposition of the dataset covariance matrix."*
 
 **Link to work**: [GitHub](https://github.com/jasondown/MachineLearningDotNet)
