@@ -5,7 +5,7 @@
 |Day|Focus|Day|Focus|
 |:---:|:-----:|:---:|:-----:|
 |[Day 1](#day-1) **01/02/18**|FSharp.Data, Html Type Provider|[Day 2](#day-2) **01/03/18**|FSharp.Data, Html Type Provider, JSON Type Provider, IEX Trading API|
-|[Day 3](#day-3) **01/04/18**|FSharp.Data, XML Type Provider, RSS Feeds, Partial Function Application|[Day 4](#day-4) **01/05/18**|FSharp.Data, async, JSON Type Provider, IEX Trading API
+|[Day 3](#day-3) **01/04/18**|FSharp.Data, XML Type Provider, RSS Feeds, Partial Function Application|[Day 4](#day-4) **01/05/18**|FSharp.Data, async, JSON Type Provider, IEX Trading API|
 |[Day 5](#day-5) **01/06/18**|FSharp.Data, HTML Type Provider, FSharp.Charting, Bar Chart, BoxPlot Chart|[Day 6](#day-6) **01/07/18**|FSharp.Charting, RangeColumn Chart, Column Chart|
 |[Day 7](#day-7) **01/08/18**|FsProjects/Mechanic open source project (F#)|[Day 8](#day-8) **01/09/18**|FSharp.Data, World Bank Type Provider, FSharp.Charting|
 |[Day 9](#day-9) **01/10/18**|FsLab, OpenWeatherMap API, Google GeoChart, FSharp.Data, World Bank Type Provider|[Day 10](#day-10) **01/11/18**|FsLab, Google GeoChart, Deedle, FSharp.Data, Xml Type Provider|
