@@ -259,7 +259,7 @@ I spent most of my time on getting the repository forked and built and then expl
 
  **Details**: The following technologies were used:
 
- - [OpenWeatherMap API](https://www.oreilly.com/ideas/analyzing-and-visualizing-data-with-f-sharp) (I already had an api key when I was reading [Elixir and OTP](https://www.manning.com/books/the-little-elixir-and-otp-guidebook) a while ago. Who knew!?!)
+ - [OpenWeatherMap API](https://www.openweathermap.org/api) (I already had an api key when I was reading [Elixir and OTP](https://www.manning.com/books/the-little-elixir-and-otp-guidebook) a while ago. Who knew!?!)
  - [FsLab](https://fslab.org/)
  - [World Bank Type Provider](http://fsharp.github.io/FSharp.Data/library/WorldBank.html)
  - [Google GeoChart](https://developers.google.com/chart/interactive/docs/gallery/geochart)
