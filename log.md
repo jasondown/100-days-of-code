@@ -547,7 +547,7 @@ Also, I was listening to this cool [Scandroid](https://scandroid.bandcamp.com/al
 <a name="day-21"></a>
 ### Day 21: January 22, 2018
 
-**Today's Focus**: Decided to play around with some machine learning. I've had a copy of Mathias Brandewinder's book [Machine Learning Project for .Net Developers](https://www.apress.com/us/book/9781430267676) for a while and finally started to dig in tonight.
+**Today's Focus**: Decided to play around with some machine learning. I've had a copy of Mathias Brandewinder's book [Machine Learning Projects for .Net Developers](https://www.apress.com/us/book/9781430267676) for a while and finally started to dig in tonight.
 
 **Details**:
 
@@ -573,7 +573,7 @@ archive documents, such as back issues of the New York Times, one word at a time
 <a name="day-22"></a>
 ### Day 22: January 23, 2018
 
-**Today's Focus**: Continued with machine learning with Mathias Brandewinder's book [Machine Learning Project for .Net Developers](https://www.apress.com/us/book/9781430267676).
+**Today's Focus**: Continued with machine learning with Mathias Brandewinder's book [Machine Learning Projects for .Net Developers](https://www.apress.com/us/book/9781430267676).
 
 **Details**:
 
@@ -590,7 +590,7 @@ archive documents, such as back issues of the New York Times, one word at a time
 <a name="day-23"></a>
 ### Day 23: January 24, 2018
 
-**Today's Focus**: Continued with machine learning with Mathias Brandewinder's book [Machine Learning Project for .Net Developers](https://www.apress.com/us/book/9781430267676).
+**Today's Focus**: Continued with machine learning with Mathias Brandewinder's book [Machine Learning Projects for .Net Developers](https://www.apress.com/us/book/9781430267676).
 
 **Details**:
 
@@ -610,7 +610,7 @@ archive documents, such as back issues of the New York Times, one word at a time
 <a name="day-24"></a>
 ### Day 24: January 25, 2018
 
-**Today's Focus**: Continued with machine learning with Mathias Brandewinder's book [Machine Learning Project for .Net Developers](https://www.apress.com/us/book/9781430267676).
+**Today's Focus**: Continued with machine learning with Mathias Brandewinder's book [Machine Learning Projects for .Net Developers](https://www.apress.com/us/book/9781430267676).
 
 **Details**:
 
@@ -631,7 +631,7 @@ archive documents, such as back issues of the New York Times, one word at a time
 <a name="day-25"></a>
 ### Day 25: January 26, 2018
 
-**Today's Focus**: Continued with machine learning with Mathias Brandewinder's book [Machine Learning Project for .Net Developers](https://www.apress.com/us/book/9781430267676).
+**Today's Focus**: Continued with machine learning with Mathias Brandewinder's book [Machine Learning Projects for .Net Developers](https://www.apress.com/us/book/9781430267676).
 
 **Details**:
 
@@ -652,7 +652,7 @@ archive documents, such as back issues of the New York Times, one word at a time
 <a name="day-26"></a>
 ### Day 26: January 27, 2018
 
-**Today's Focus**: Continued with machine learning with Mathias Brandewinder's book [Machine Learning Project for .Net Developers](https://www.apress.com/us/book/9781430267676).
+**Today's Focus**: Continued with machine learning with Mathias Brandewinder's book [Machine Learning Projects for .Net Developers](https://www.apress.com/us/book/9781430267676).
 
 **Details**:
 
@@ -673,7 +673,7 @@ archive documents, such as back issues of the New York Times, one word at a time
 <a name="day-27"></a>
 ### Day 27: January 28, 2018
 
-**Today's Focus**: Continued with machine learning with Mathias Brandewinder's book [Machine Learning Project for .Net Developers](https://www.apress.com/us/book/9781430267676).
+**Today's Focus**: Continued with machine learning with Mathias Brandewinder's book [Machine Learning Projects for .Net Developers](https://www.apress.com/us/book/9781430267676).
 
 **Details**:
 
@@ -701,7 +701,7 @@ archive documents, such as back issues of the New York Times, one word at a time
 <a name="day-28"></a>
 ### Day 28: January 29, 2018
 
-**Today's Focus**: Continued with machine learning with Mathias Brandewinder's book [Machine Learning Project for .Net Developers](https://www.apress.com/us/book/9781430267676).
+**Today's Focus**: Continued with machine learning with Mathias Brandewinder's book [Machine Learning Projects for .Net Developers](https://www.apress.com/us/book/9781430267676).
 
 **Details**:
 
@@ -744,7 +744,7 @@ archive documents, such as back issues of the New York Times, one word at a time
 <a name="day-29"></a>
 ### Day 29: January 30, 2018
 
-**Today's Focus**: Continued with machine learning with Mathias Brandewinder's book [Machine Learning Project for .Net Developers](https://www.apress.com/us/book/9781430267676).
+**Today's Focus**: Continued with machine learning with Mathias Brandewinder's book [Machine Learning Projects for .Net Developers](https://www.apress.com/us/book/9781430267676).
 
 **Details**:
 
@@ -770,7 +770,7 @@ archive documents, such as back issues of the New York Times, one word at a time
 <a name="day-30"></a>
 ### Day 30: January 31, 2018
 
-**Today's Focus**: Continued with machine learning with Mathias Brandewinder's book [Machine Learning Project for .Net Developers](https://www.apress.com/us/book/9781430267676).
+**Today's Focus**: Continued with machine learning with Mathias Brandewinder's book [Machine Learning Projects for .Net Developers](https://www.apress.com/us/book/9781430267676).
 
 **Details**:
 
@@ -808,7 +808,7 @@ Batch Gradient Descent Error Evaluation (Step-by-Step):
 <a name="day-31"></a>
 ### Day 31: February 1, 2018
 
-**Today's Focus**: Continued with machine learning with Mathias Brandewinder's book [Machine Learning Project for .Net Developers](https://www.apress.com/us/book/9781430267676).
+**Today's Focus**: Continued with machine learning with Mathias Brandewinder's book [Machine Learning Projects for .Net Developers](https://www.apress.com/us/book/9781430267676).
 
 **Details**:
 
@@ -843,7 +843,7 @@ Single feature model is definitely not on a nice slope of 1 (or 45 degree angle)
 <a name="day-32"></a>
 ### Day 32: February 2, 2018
 
-**Today's Focus**: Continued with machine learning with Mathias Brandewinder's book [Machine Learning Project for .Net Developers](https://www.apress.com/us/book/9781430267676).
+**Today's Focus**: Continued with machine learning with Mathias Brandewinder's book [Machine Learning Projects for .Net Developers](https://www.apress.com/us/book/9781430267676).
 
 **Details**:
 
@@ -868,7 +868,7 @@ Single feature model is definitely not on a nice slope of 1 (or 45 degree angle)
 <a name="day-33"></a>
 ### Day 33: February 3, 2018
 
-**Today's Focus**: Continued with machine learning with Mathias Brandewinder's book [Machine Learning Project for .Net Developers](https://www.apress.com/us/book/9781430267676).
+**Today's Focus**: Continued with machine learning with Mathias Brandewinder's book [Machine Learning Projects for .Net Developers](https://www.apress.com/us/book/9781430267676).
 
 **Details**:
 
@@ -884,7 +884,7 @@ Single feature model is definitely not on a nice slope of 1 (or 45 degree angle)
 <a name="day-34"></a>
 ### Day 34: February 4, 2018
 
-**Today's Focus**: Continued with machine learning with Mathias Brandewinder's book [Machine Learning Project for .Net Developers](https://www.apress.com/us/book/9781430267676).
+**Today's Focus**: Continued with machine learning with Mathias Brandewinder's book [Machine Learning Projects for .Net Developers](https://www.apress.com/us/book/9781430267676).
 
 **Details**:
 
@@ -910,7 +910,7 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 <a name="day-35"></a>
 ### Day 35: February 5, 2018
 
-**Today's Focus**: Continued with machine learning with Mathias Brandewinder's book [Machine Learning Project for .Net Developers](https://www.apress.com/us/book/9781430267676).
+**Today's Focus**: Continued with machine learning with Mathias Brandewinder's book [Machine Learning Projects for .Net Developers](https://www.apress.com/us/book/9781430267676).
 
 **Details**:
 
@@ -928,7 +928,7 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 <a name="day-36"></a>
 ### Day 36: February 6, 2018
 
-**Today's Focus**: Continued with machine learning with Mathias Brandewinder's book [Machine Learning Project for .Net Developers](https://www.apress.com/us/book/9781430267676).
+**Today's Focus**: Continued with machine learning with Mathias Brandewinder's book [Machine Learning Projects for .Net Developers](https://www.apress.com/us/book/9781430267676).
 
 **Details**:
 
@@ -945,7 +945,7 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 <a name="day-37"></a>
 ### Day 37: February 7, 2018
 
-**Today's Focus**: Continued with machine learning with Mathias Brandewinder's book [Machine Learning Project for .Net Developers](https://www.apress.com/us/book/9781430267676).
+**Today's Focus**: Continued with machine learning with Mathias Brandewinder's book [Machine Learning Projects for .Net Developers](https://www.apress.com/us/book/9781430267676).
 
 **Details**:
 
@@ -965,7 +965,7 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 <a name="day-38"></a>
 ### Day 38: February 8, 2018
 
-**Today's Focus**: Continued with machine learning with Mathias Brandewinder's book [Machine Learning Project for .Net Developers](https://www.apress.com/us/book/9781430267676).
+**Today's Focus**: Continued with machine learning with Mathias Brandewinder's book [Machine Learning Projects for .Net Developers](https://www.apress.com/us/book/9781430267676).
 
 **Details**:
 
@@ -985,7 +985,7 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 <a name="day-39"></a>
 ### Day 39: February 9, 2018
 
-**Today's Focus**: Continued with machine learning with Mathias Brandewinder's book [Machine Learning Project for .Net Developers](https://www.apress.com/us/book/9781430267676).
+**Today's Focus**: Continued with machine learning with Mathias Brandewinder's book [Machine Learning Projects for .Net Developers](https://www.apress.com/us/book/9781430267676).
 
 **Details**:
 
@@ -1004,7 +1004,7 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 <a name="day-40"></a>
 ### Day 40: February 10, 2018
 
-**Today's Focus**: Continued with machine learning with Mathias Brandewinder's book [Machine Learning Project for .Net Developers](https://www.apress.com/us/book/9781430267676).
+**Today's Focus**: Continued with machine learning with Mathias Brandewinder's book [Machine Learning Projects for .Net Developers](https://www.apress.com/us/book/9781430267676).
 
 **Details**:
 
@@ -1023,7 +1023,7 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 <a name="day-41"></a>
 ### Day 41: February 11, 2018
 
-**Today's Focus**: Continued with machine learning with Mathias Brandewinder's book [Machine Learning Project for .Net Developers](https://www.apress.com/us/book/9781430267676).
+**Today's Focus**: Continued with machine learning with Mathias Brandewinder's book [Machine Learning Projects for .Net Developers](https://www.apress.com/us/book/9781430267676).
 
 **Details**:
 
