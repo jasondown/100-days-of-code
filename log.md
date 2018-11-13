@@ -46,14 +46,14 @@
 |[Day 79](#day-79) **03/21/18**|Pluralsight, Go, Concurrency|[Day 80](#day-80) **03/22/18**|Codingame Multiplayer Arena, Bot Programming, F#, Multiagent|
 |[Day 81](#day-81) **03/23/18**|Pluralsight, Go, Concurrency, Parallelism, Go Routines|[Day 82](#day-82) **03/24/18**|Pluralsight, Go, Concurrency, Webservices, Parallelism, Go Routines|
 |[Day 83](#day-83) **03/25/18**|Pluralsight, Go, Concurrency, Go Routines, Parallelism, Encoding, File System, Structs|[Day 84](#day-84) **03/26/18**|Pluralsight, Go, Concurrency, Go Routines, Channels, Structs|
-[Day 85](#day-85) **03/27/18**|Codingame Multiplayer Arena, Bot Programming, F#, Multiagent|[Day 86](#day-86) **03/28/18**|Pluralsight, Go, Concurrency, Go Routines, Channels, Event Listeners, Async Logging, Mutex|
+|[Day 85](#day-85) **03/27/18**|Codingame Multiplayer Arena, Bot Programming, F#, Multiagent|[Day 86](#day-86) **03/28/18**|Pluralsight, Go, Concurrency, Go Routines, Channels, Event Listeners, Async Logging, Mutex|
 |[Day 87](#day-87) **03/29/18**|Pluralsight, Go, Concurrency, Go Routines, Channels, Promises|[Day 88](#day-88) **03/30/18**|Pluralsight, Go Concurrency, Go Routines, Channels, ETL, Pipes & Filters, Atomic Operators|
 |[Day 89](#day-89) **03/31/18**|Pluralsight, Go, Data Types, Operators, Formatting|[Day 90](#day-90) **04/01/18**|Pluralsight, Go, Branching, Looping, Functions|
 |[Day 91](#day-91) **04/03/18**|Pluralsight, Go, Object-Oriented Programming, Structs, Channels, Go Routines, Asynchronous Programming, Parallelism|[Day 92](#day-92) **04/04/18**|Pluralsight, Go, Web Programming, MVC, C#, Clean Architecture, Domain-Centric Architecture|
 |[Day 93](#day-93) **04/05/18**|Pluralsight, Go, Web Programming, Basic HTTP Request Handlers, C#, Application Layer|[Day 94](#day-94) **04/06/18**|Pluralsight, Go, Web Programming, Basic HTTP Request Handlers, C#, CQRS, Functional Organization|
 |[Day 95](#day-95) **04/07/18**|Pluralsight, Go, Web Programming, Basic HTTP Requests, Templates, C#, Functional Organization, Screaming Architecture, Microservices|[Day 96](#day-96) **04/08/18**|Pluralsight, Go, Web Programming, Templates, C#, Testable Architecture, Evolving Architecture|
-[Day 97](#day-97) **04/09/18**|Pluralsight, Go, Web Programming, Templates|[Day 98](#day-98) **04/10/18**|Pluralsight, Go, Web Programming, Templates|
-[Day 99](#day-99) **04/11/18**|Pluralsight, Go, Web Programming, Templates, GraphQL|[Day 100](#day-100) **04/12/18**|Pluralsight, Go Web Programming, Templates, GraphQL|
+|[Day 97](#day-97) **04/09/18**|Pluralsight, Go, Web Programming, Templates|[Day 98](#day-98) **04/10/18**|Pluralsight, Go, Web Programming, Templates|
+|[Day 99](#day-99) **04/11/18**|Pluralsight, Go, Web Programming, Templates, GraphQL|[Day 100](#day-100) **04/12/18**|Pluralsight, Go Web Programming, Templates, GraphQL|
 
 ----------
 <a name="day-1"></a>
