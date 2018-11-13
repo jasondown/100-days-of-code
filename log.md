@@ -11,7 +11,7 @@
 |[Day 9](#day-9) **01/10/18**|FsLab, OpenWeatherMap API, Google GeoChart, FSharp.Data, World Bank Type Provider|[Day 10](#day-10) **01/11/18**|FsLab, Google GeoChart, Deedle, FSharp.Data, Xml Type Provider|
 |[Day 11](#day-11) **01/12/18**|F# Web Programming, Suave Framework|[Day 12](#day-12) **01/13/18**|F# Web Programming, Suave Framework|
 |[Day 13](#day-13) **01/14/18**|F# Web Programming, Suave Framework, Star Wars API (SWAPI), F# Swapi, FSharp.Data, JSON Type Provider|[Day 14](#day-14) **01/15/18**|Codingame Challenges, Classic Puzzles - Easy, Code Golf, Optimization, F#, C#|
-[Day 15](#day-15) **01/16/18**|Codingame Challenges, Classic Puzzles - Easy, Scala, GitHub Markdown (this log)|[Day 16](#day-16) **01/17/18**|Codingame Challenges, Classic Puzzles - Medium, F#|
+|[Day 15](#day-15) **01/16/18**|Codingame Challenges, Classic Puzzles - Easy, Scala, GitHub Markdown (this log)|[Day 16](#day-16) **01/17/18**|Codingame Challenges, Classic Puzzles - Medium, F#|
 |[Day 17](#day-17) **01/18/18**|Tidy, Tidy-Html5, TidyHtml5Managed, C#, C|[Day 18](#day-18) **01/19/18**|Codingame Challenges, Classic Puzzles - Easy, Classic Puzzles - Medium, F#, C#|
 |[Day 19](#day-19) **01/20/18**|FSharp.Data, JSON Type Provider, Google APIs|[Day 20](#day-20) **01/21/18**|Codingame Challenges, code golf, F#, Java, JPanel|
 |[Day 21](#day-21) **01/22/18**|Machine Learning, F#, C#|[Day 22](#day-22) **01/23/18**|Machine Learning, C#, Manhattan Distance, Classification|
