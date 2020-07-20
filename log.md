@@ -385,7 +385,7 @@ HTTP DELETE - Not much to see here, other than the 204 status (people/3 was Dart
  **Details**:
 
  - Today I continued working with the [Suave](https://suave.io/) framework to finish [this tutorial](http://blog.tamizhvendan.in/blog/2015/06/11/building-rest-api-in-fsharp-using-suave/). There were a few new commands added making use of HTTP HEAD etc. to see if a record exists.
- - Taking some motivation from the React sessions put on a couple coworkers about 6 months ago, I used the [Star Wars API](https://swapi.co/) (SWAPI) to populate my "database" (dictionary) on start up with characters from Star Wars. 
+ - Taking some motivation from the React sessions put on a couple coworkers about 6 months ago, I used the [Star Wars API](https://swapi.dev/) (SWAPI) to populate my "database" (dictionary) on start up with characters from Star Wars. 
  - I explored the code from Evelina Gabasova's [F# Swapi](https://github.com/evelinag/fsharp-swapi) library to nicely integrate the Star Wars API into the code via the [F# JSON Type Provider](http://fsharp.github.io/FSharp.Data/library/JsonProvider.html).
  - I also modified the original tutorial code a bit to better fit the data types returned by the SWAPI.
  - Lastly, I did some refactoring of the original tutorial code.
