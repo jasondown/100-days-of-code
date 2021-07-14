@@ -1222,7 +1222,7 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 **Links to work**:
 
  - [Main repository](https://github.com/jasondown/Codingame)
- - [C# Solution](https://github.com/jasondown/codingame/blob/master/csharp/class_puzzles_medium/SkynetRevolution_Episode1.cs)
+ - [C# Solution](https://github.com/jasondown/codingame/blob/master/csharp/classic_puzzles_medium/SkynetRevolution_Episode1.cs)
 
 [Table of Contents](#toc)
 
