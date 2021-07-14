@@ -1459,7 +1459,6 @@ Selected the value 10 for K and got meaningful clusters (similar technologies or
 - Moved up to Silver League (before Gold has been unlocked, yay!).
 - Moved into ~150 overall for a time, but sitting around ~220 now. Still happy with this at the moment (highest finish ever was 256th).
 - Back to 1st overall in F#
-- There are about 400 people in the newly unlocked Silver League. Need to really step up my game tomorrow and start adding MoveAttack rather than AttackNearest.
 
 **Links to work**:
 
